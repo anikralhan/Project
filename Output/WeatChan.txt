@@ -1,0 +1,68 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Weather/com.weather.Weather.apk with 46 sources and 122 sinks...
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Weather/com.weather.Weather.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes3.dex' with 1840 classes in '/home/anikralhan2011/Flowroid/Benign/Weather/com.weather.Weather.apk'
+Found dex file 'classes2.dex' with 9277 classes in '/home/anikralhan2011/Flowroid/Benign/Weather/com.weather.Weather.apk'
+Found dex file 'classes.dex' with 7034 classes in '/home/anikralhan2011/Flowroid/Benign/Weather/com.weather.Weather.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 34.6 seconds.
+[Spark] Solution found in 34.6 seconds.
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>($r12, $i1), from the following sources:
+	- $r2 = virtualinvoke $r1.<java.util.Locale: java.lang.String getCountry()>() (in <com.amazon.device.ads.DeviceInfo: void setCountry()>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r2, $r1), from the following sources:
+	- $r2 = virtualinvoke $r1.<java.util.Locale: java.lang.String getCountry()>() (in <com.amazon.device.ads.DeviceInfo: void setCountry()>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r2, $r1), from the following sources:
+	- $r2 = virtualinvoke $r1.<java.util.Locale: java.lang.String getCountry()>() (in <com.amazon.device.ads.DeviceInfo: void setCountry()>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r2, $r1), from the following sources:
+	- $r2 = virtualinvoke $r1.<java.util.Locale: java.lang.String getCountry()>() (in <com.amazon.device.ads.DeviceInfo: void setCountry()>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r2, $r1), from the following sources:
+	- $r2 = virtualinvoke $r1.<java.util.Locale: java.lang.String getCountry()>() (in <com.amazon.device.ads.DeviceInfo: void setCountry()>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r2), from the following sources:
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r1), from the following sources:
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("AppsFlyer_4.7.1", $r0), from the following sources:
+	- $r10 = virtualinvoke $r8.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r9, 0) (in <com.appsflyer.MultipleInstallBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r5.<java.io.OutputStream: void write(byte[])>($r6), from the following sources:
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r2, $r1), from the following sources:
+	- $r2 = virtualinvoke $r1.<java.util.Locale: java.lang.String getCountry()>() (in <com.amazon.device.ads.DeviceInfo: void setCountry()>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>($r12, $z0), from the following sources:
+	- $r2 = virtualinvoke $r1.<java.util.Locale: java.lang.String getCountry()>() (in <com.amazon.device.ads.DeviceInfo: void setCountry()>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r12, $r13), from the following sources:
+	- $r2 = virtualinvoke $r1.<java.util.Locale: java.lang.String getCountry()>() (in <com.amazon.device.ads.DeviceInfo: void setCountry()>)
+Found a flow to sink virtualinvoke $r7.<java.io.OutputStream: void write(byte[],int,int)>($r3, 0, $i2), from the following sources:
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>($r12, $l0), from the following sources:
+	- $r2 = virtualinvoke $r1.<java.util.Locale: java.lang.String getCountry()>() (in <com.amazon.device.ads.DeviceInfo: void setCountry()>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Maximum memory consumption: 644.836048 MB
+Analysis has run for 67.768116533 seconds

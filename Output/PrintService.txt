@@ -1,0 +1,528 @@
+Found dex file 'classes.dex' with 3439 classes in '/home/anikralhan2011/Flowroid/Benign/Productivity/printservice.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 8.5 seconds.
+[Spark] Solution found in 8.5 seconds.
+Callback analysis done.
+Found 0 layout controls in file res/layout-sw600dp-v13/design_layout_snackbar.xml
+Found 1 layout controls in file res/layout-v11/notification_media_action.xml
+Found 2 layout controls in file res/layout-v11/notification_media_cancel_action.xml
+Found 3 layout controls in file res/layout-v11/notification_template_big_media.xml
+Found 4 layout controls in file res/layout-v11/notification_template_big_media_custom.xml
+Found 5 layout controls in file res/layout-v11/notification_template_big_media_narrow.xml
+Found 6 layout controls in file res/layout-v11/notification_template_big_media_narrow_custom.xml
+Found 7 layout controls in file res/layout-v11/preference.xml
+Found 8 layout controls in file res/layout-v11/preference_dropdown.xml
+Found 9 layout controls in file res/layout-v16/notification_template_custom_big.xml
+Found 10 layout controls in file res/layout-v17/abc_alert_dialog_button_bar_material.xml
+Found 11 layout controls in file res/layout-v17/abc_alert_dialog_title_material.xml
+Found 12 layout controls in file res/layout-v17/abc_dialog_title_material.xml
+Found 13 layout controls in file res/layout-v17/abc_popup_menu_header_item_layout.xml
+Found 14 layout controls in file res/layout-v17/abc_popup_menu_item_layout.xml
+Found 15 layout controls in file res/layout-v17/abc_search_view.xml
+Found 15 layout controls in file res/layout-v17/abc_select_dialog_material.xml
+Found 16 layout controls in file res/layout-v17/activity_more_options.xml
+Found 17 layout controls in file res/layout-v17/activity_settings.xml
+Found 18 layout controls in file res/layout-v17/adapter_item_media_ready.xml
+Found 19 layout controls in file res/layout-v17/adapter_item_media_size_preference.xml
+Found 20 layout controls in file res/layout-v17/adapter_item_network_device.xml
+Found 21 layout controls in file res/layout-v17/adapter_item_print_job_status.xml
+Found 22 layout controls in file res/layout-v17/design_layout_snackbar_include.xml
+Found 23 layout controls in file res/layout-v17/dialog_connection_not_trusted.xml
+Found 24 layout controls in file res/layout-v17/dialog_rate_us.xml
+Found 25 layout controls in file res/layout-v17/fragment_aioremote_cross_promote.xml
+Found 26 layout controls in file res/layout-v17/fragment_print_preview.xml
+Found 27 layout controls in file res/layout-v17/fragment_printer_info.xml
+Found 28 layout controls in file res/layout-v17/notification_action.xml
+Found 29 layout controls in file res/layout-v17/notification_action_tombstone.xml
+Found 30 layout controls in file res/layout-v17/notification_template_big_media.xml
+Found 31 layout controls in file res/layout-v17/notification_template_big_media_custom.xml
+Found 32 layout controls in file res/layout-v17/notification_template_big_media_narrow.xml
+Found 33 layout controls in file res/layout-v17/notification_template_big_media_narrow_custom.xml
+Found 34 layout controls in file res/layout-v17/notification_template_custom_big.xml
+Found 35 layout controls in file res/layout-v17/notification_template_lines_media.xml
+Found 36 layout controls in file res/layout-v17/notification_template_media.xml
+Found 37 layout controls in file res/layout-v17/notification_template_media_custom.xml
+Found 38 layout controls in file res/layout-v17/preference.xml
+Found 39 layout controls in file res/layout-v17/preference_category_material.xml
+Found 40 layout controls in file res/layout-v17/preference_dropdown.xml
+Found 41 layout controls in file res/layout-v17/preference_dropdown_material.xml
+Found 42 layout controls in file res/layout-v17/preference_information.xml
+Found 43 layout controls in file res/layout-v17/preference_information_material.xml
+Found 44 layout controls in file res/layout-v17/preference_material.xml
+Found unrecognized XML attribute:  fontFamily
+Found 45 layout controls in file res/layout-v17/preference_widget_seekbar.xml
+Found 46 layout controls in file res/layout-v17/select_dialog_multichoice_material.xml
+Found 47 layout controls in file res/layout-v17/select_dialog_singlechoice_material.xml
+Found 48 layout controls in file res/layout-v17/spinner_dropdown_item_with_icon.xml
+Found 49 layout controls in file res/layout-v17/spinner_dropdown_item_with_two_text_lines.xml
+Found 50 layout controls in file res/layout-v17/sublayout_printer_details.xml
+Found 51 layout controls in file res/layout-v17/sublayout_supply_bar.xml
+Found 52 layout controls in file res/layout-v19/activity_manage_added_printers.xml
+Found 53 layout controls in file res/layout-v19/adapter_item_added_printer.xml
+Found 54 layout controls in file res/layout-v19/adapter_item_connection_mode.xml
+Found 55 layout controls in file res/layout-v19/dialog_add_nfc_printer.xml
+Found unrecognized XML attribute:  name
+Found 56 layout controls in file res/layout-v19/fragment_added_printers_list.xml
+Found 57 layout controls in file res/layout-v19/fragment_auth.xml
+Found 57 layout controls in file res/layout-v21/abc_screen_toolbar.xml
+Found 58 layout controls in file res/layout-v21/adapter_item_added_printer.xml
+Found 59 layout controls in file res/layout-v21/adapter_item_media_size_preference.xml
+Found 60 layout controls in file res/layout-v21/adapter_item_network_device.xml
+Found 61 layout controls in file res/layout-v21/adapter_item_print_job_status.xml
+Found 62 layout controls in file res/layout-v21/notification_action.xml
+Found 63 layout controls in file res/layout-v21/notification_action_tombstone.xml
+Found 64 layout controls in file res/layout-v21/notification_template_custom_big.xml
+Found 65 layout controls in file res/layout-v21/notification_template_icon_group.xml
+Found 66 layout controls in file res/layout-v21/preference_category_material.xml
+Found 67 layout controls in file res/layout-v21/preference_dropdown_material.xml
+Found 68 layout controls in file res/layout-v21/preference_information_material.xml
+Found 69 layout controls in file res/layout-v21/preference_material.xml
+Found 70 layout controls in file res/layout-v22/abc_alert_dialog_button_bar_material.xml
+Found 71 layout controls in file res/layout/abc_action_bar_title_item.xml
+Found 72 layout controls in file res/layout/abc_action_bar_up_container.xml
+Found 73 layout controls in file res/layout/abc_action_bar_view_list_nav_layout.xml
+Found 73 layout controls in file res/layout/abc_action_menu_item_layout.xml
+Found 73 layout controls in file res/layout/abc_action_menu_layout.xml
+Found 73 layout controls in file res/layout/abc_action_mode_bar.xml
+Found 74 layout controls in file res/layout/abc_action_mode_close_item_material.xml
+Found 75 layout controls in file res/layout/abc_activity_chooser_view.xml
+Found 76 layout controls in file res/layout/abc_activity_chooser_view_list_item.xml
+Found 77 layout controls in file res/layout/abc_alert_dialog_button_bar_material.xml
+Found 78 layout controls in file res/layout/abc_alert_dialog_material.xml
+Found 79 layout controls in file res/layout/abc_alert_dialog_title_material.xml
+Found 80 layout controls in file res/layout/abc_dialog_title_material.xml
+Found 80 layout controls in file res/layout/abc_expanded_menu_layout.xml
+Found 81 layout controls in file res/layout/abc_list_menu_item_checkbox.xml
+Found 82 layout controls in file res/layout/abc_list_menu_item_icon.xml
+Found 83 layout controls in file res/layout/abc_list_menu_item_layout.xml
+Found 84 layout controls in file res/layout/abc_list_menu_item_radio.xml
+Found 85 layout controls in file res/layout/abc_popup_menu_header_item_layout.xml
+Found 86 layout controls in file res/layout/abc_popup_menu_item_layout.xml
+Found 86 layout controls in file res/layout/abc_screen_content_include.xml
+Found 86 layout controls in file res/layout/abc_screen_simple.xml
+Found 86 layout controls in file res/layout/abc_screen_simple_overlay_action_mode.xml
+Found 86 layout controls in file res/layout/abc_screen_toolbar.xml
+Found 87 layout controls in file res/layout/abc_search_dropdown_item_icons_2line.xml
+Found 88 layout controls in file res/layout/abc_search_view.xml
+Found 88 layout controls in file res/layout/abc_select_dialog_material.xml
+Found 89 layout controls in file res/layout/activity_fragment_frame.xml
+Found 90 layout controls in file res/layout/activity_legal_notice.xml
+Found 91 layout controls in file res/layout/activity_media_size_preference.xml
+Found 92 layout controls in file res/layout/activity_more_options.xml
+Found 93 layout controls in file res/layout/activity_preference_detail.xml
+Found 94 layout controls in file res/layout/activity_printer_info.xml
+Found 94 layout controls in file res/layout/activity_printer_picker.xml
+Found 95 layout controls in file res/layout/activity_privacy_information.xml
+Found 96 layout controls in file res/layout/activity_settings.xml
+Found 97 layout controls in file res/layout/adapter_item_media_ready.xml
+Found 98 layout controls in file res/layout/adapter_item_media_size_preference.xml
+Found 99 layout controls in file res/layout/adapter_item_network_device.xml
+Found 100 layout controls in file res/layout/adapter_item_print_job_status.xml
+Found 101 layout controls in file res/layout/design_bottom_navigation_item.xml
+Found 102 layout controls in file res/layout/design_bottom_sheet_dialog.xml
+Found 102 layout controls in file res/layout/design_layout_snackbar.xml
+Found 103 layout controls in file res/layout/design_layout_snackbar_include.xml
+Found 104 layout controls in file res/layout/design_layout_tab_icon.xml
+Found 105 layout controls in file res/layout/design_layout_tab_text.xml
+Found 106 layout controls in file res/layout/design_menu_item_action_area.xml
+Found 106 layout controls in file res/layout/design_navigation_item.xml
+Found 107 layout controls in file res/layout/design_navigation_item_header.xml
+Found 108 layout controls in file res/layout/design_navigation_item_separator.xml
+Found 109 layout controls in file res/layout/design_navigation_item_subheader.xml
+Found 109 layout controls in file res/layout/design_navigation_menu.xml
+Found 110 layout controls in file res/layout/design_navigation_menu_item.xml
+Found 110 layout controls in file res/layout/design_text_input_password_icon.xml
+Found 111 layout controls in file res/layout/dialog_add_printer.xml
+Found 112 layout controls in file res/layout/dialog_body_privacy_statement.xml
+Found 113 layout controls in file res/layout/dialog_body_privacy_statement_declined.xml
+Found 114 layout controls in file res/layout/dialog_connection_not_trusted.xml
+Found 115 layout controls in file res/layout/dialog_rate_us.xml
+Found 116 layout controls in file res/layout/fragment_aioremote_cross_promote.xml
+Found 116 layout controls in file res/layout/fragment_media_size_preference_list.xml
+Found 117 layout controls in file res/layout/fragment_more_options.xml
+Found 118 layout controls in file res/layout/fragment_print_job_status_list.xml
+Found 119 layout controls in file res/layout/fragment_print_preview.xml
+Found 120 layout controls in file res/layout/fragment_printer_info.xml
+Found 121 layout controls in file res/layout/fragment_printer_list.xml
+Found 122 layout controls in file res/layout/fragment_share_to_print_options.xml
+Found 123 layout controls in file res/layout/notification_action.xml
+Found 124 layout controls in file res/layout/notification_action_tombstone.xml
+Found 125 layout controls in file res/layout/notification_template_icon_group.xml
+Found 126 layout controls in file res/layout/notification_template_lines_media.xml
+Found 127 layout controls in file res/layout/notification_template_media.xml
+Found 128 layout controls in file res/layout/notification_template_media_custom.xml
+Found 129 layout controls in file res/layout/notification_template_part_chronometer.xml
+Found 129 layout controls in file res/layout/notification_template_part_time.xml
+Found 130 layout controls in file res/layout/preference_category.xml
+Found 131 layout controls in file res/layout/preference_category_material.xml
+Found 132 layout controls in file res/layout/preference_dialog_edittext.xml
+Found 133 layout controls in file res/layout/preference_dropdown_material.xml
+Found 134 layout controls in file res/layout/preference_information.xml
+Found 135 layout controls in file res/layout/preference_information_material.xml
+Found 136 layout controls in file res/layout/preference_list_fragment.xml
+Found 137 layout controls in file res/layout/preference_material.xml
+Found 137 layout controls in file res/layout/preference_recyclerview.xml
+Found 138 layout controls in file res/layout/preference_widget_checkbox.xml
+Found unrecognized XML attribute:  fontFamily
+Found 139 layout controls in file res/layout/preference_widget_seekbar.xml
+Found 140 layout controls in file res/layout/preference_widget_switch.xml
+Found 140 layout controls in file res/layout/preference_widget_switch_compat.xml
+Found 141 layout controls in file res/layout/select_dialog_item_material.xml
+Found 142 layout controls in file res/layout/select_dialog_multichoice_material.xml
+Found 143 layout controls in file res/layout/select_dialog_singlechoice_material.xml
+Found 144 layout controls in file res/layout/spinner_dropdown_item_with_icon.xml
+Found 145 layout controls in file res/layout/spinner_dropdown_item_with_two_text_lines.xml
+Found 146 layout controls in file res/layout/sublayout_borderless_setting.xml
+Found 147 layout controls in file res/layout/sublayout_color_mode_setting.xml
+Found 148 layout controls in file res/layout/sublayout_divider.xml
+Found 149 layout controls in file res/layout/sublayout_num_copies_setting.xml
+Found 150 layout controls in file res/layout/sublayout_orientation_setting.xml
+Found 151 layout controls in file res/layout/sublayout_page_range_settings.xml
+Found 152 layout controls in file res/layout/sublayout_paper_size_setting.xml
+Found 153 layout controls in file res/layout/sublayout_paper_tray_setting.xml
+Found 154 layout controls in file res/layout/sublayout_paper_type_setting.xml
+Found 155 layout controls in file res/layout/sublayout_print_preview.xml
+Found 156 layout controls in file res/layout/sublayout_printer_details.xml
+Found 157 layout controls in file res/layout/sublayout_quality_mode_setting.xml
+Found 158 layout controls in file res/layout/sublayout_scaling_setting.xml
+Found 159 layout controls in file res/layout/sublayout_selected_printer_setting.xml
+Found 160 layout controls in file res/layout/sublayout_supply_bar.xml
+Found 161 layout controls in file res/layout/sublayout_two_sided_setting.xml
+Found 162 layout controls in file res/layout/support_simple_spinner_dropdown_item.xml
+Found dex file 'classes.dex' with 3439 classes in '/home/anikralhan2011/Flowroid/Benign/Productivity/printservice.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 7.5 seconds.
+[Spark] Solution found in 7.5 seconds.
+Running incremental callback analysis for 38 components...
+Incremental callback analysis done.
+Found 116 callback methods for 38 components
+Found {res/layout-v17/activity_settings.xml=[2131755222 - android.widget.FrameLayout, 2131755164 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755205 - android.widget.FrameLayout, 2131755223 - android.view.View, -1 - android.widget.RelativeLayout], res/layout/notification_action.xml=[2131755317 - android.widget.ImageView, 2131755316 - android.widget.LinearLayout, 2131755318 - android.widget.TextView], res/layout-v21/adapter_item_media_size_preference.xml=[16908289 - android.widget.CheckedTextView, -1 - android.widget.FrameLayout], res/layout/fragment_share_to_print_options.xml=[-1 - android.widget.ScrollView, 2131755307 - android.widget.ProgressBar, 2131755308 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131755314 - android.widget.TextView], res/layout/notification_template_icon_group.xml=[2131755163 - android.widget.ImageView], res/layout/fragment_aioremote_cross_promote.xml=[2131755264 - android.widget.RelativeLayout, -1 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755265 - android.widget.ImageView, 2131755266 - android.widget.ImageView, 2131755267 - android.widget.TextView], res/layout-v17/notification_template_media_custom.xml=[2131755329 - android.widget.TextView, 2131755338 - android.widget.ImageView, 2131755325 - android.widget.FrameLayout, 2131755326 - android.widget.FrameLayout, 2131755322 - android.widget.LinearLayout, 2131755324 - android.widget.LinearLayout, 2131755328 - android.widget.Chronometer, 2131755321 - android.widget.LinearLayout], res/layout/design_menu_item_action_area.xml=[-1 - android.widget.FrameLayout], res/layout-v17/select_dialog_singlechoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout/design_layout_tab_text.xml=[-1 - android.widget.TextView], res/layout/sublayout_paper_size_setting.xml=[2131755352 - android.widget.Spinner, -1 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout-v11/notification_media_cancel_action.xml=[2131755320 - android.widget.ImageButton], res/layout-v21/preference_information_material.xml=[16908304 - android.widget.TextView, 2131755339 - android.widget.LinearLayout, 16908312 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 16908310 - android.widget.TextView, 16908294 - android.widget.ImageView, -1 - android.widget.RelativeLayout], res/layout-v17/activity_more_options.xml=[-1 - android.widget.RelativeLayout], res/layout-v21/adapter_item_added_printer.xml=[-1 - android.widget.LinearLayout, 16908294 - android.widget.ImageView, 16908308 - android.widget.TextView, 16908309 - android.widget.TextView, -1 - android.widget.FrameLayout, -1 - android.widget.RelativeLayout], res/layout/dialog_add_printer.xml=[-1 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755246 - android.widget.EditText, 2131755245 - android.widget.EditText], res/layout-v17/preference.xml=[16908304 - android.widget.TextView, 2131755339 - android.widget.FrameLayout, 16908312 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 16908310 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout-v17/notification_action.xml=[2131755317 - android.widget.ImageView, 2131755316 - android.widget.LinearLayout, 2131755318 - android.widget.TextView], res/layout/preference_material.xml=[16908304 - android.widget.TextView, 2131755339 - android.widget.LinearLayout, 16908312 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 16908310 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/sublayout_borderless_setting.xml=[2131755345 - android.widget.Switch, -1 - android.widget.LinearLayout], res/layout/sublayout_two_sided_setting.xml=[-1 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755361 - android.widget.Spinner], res/layout/design_layout_snackbar_include.xml=[2131755237 - android.widget.TextView, 2131755238 - android.widget.Button], res/layout-v17/adapter_item_print_job_status.xml=[2131755231 - android.widget.TextView, 2131755227 - android.widget.ImageView, 2131755226 - android.widget.CheckBox, 2131755228 - android.widget.TextView, 2131755229 - android.widget.LinearLayout, 2131755232 - android.widget.TextView, -1 - android.widget.FrameLayout, -1 - android.widget.RelativeLayout, 2131755230 - android.widget.TextView], res/layout/abc_action_bar_view_list_nav_layout.xml=[-1 - android.widget.LinearLayout], res/layout/activity_privacy_information.xml=[2131755220 - android.widget.TextView, 2131755221 - android.widget.TextView, 2131755217 - android.widget.TextView, 2131755218 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755216 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/sublayout_paper_tray_setting.xml=[2131755353 - android.widget.Spinner, -1 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout/abc_popup_menu_item_layout.xml=[2131755164 - android.widget.TextView, 2131755184 - android.widget.ImageView, 2131755182 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/design_bottom_navigation_item.xml=[2131755163 - android.widget.ImageView, 2131755233 - android.widget.TextView, 2131755234 - android.widget.TextView], res/layout-v11/notification_media_action.xml=[2131755319 - android.widget.ImageButton], res/layout-v16/notification_template_custom_big.xml=[2131755329 - android.widget.TextView, 2131755163 - android.widget.ImageView, 2131755332 - android.widget.LinearLayout, 2131755327 - android.view.ViewStub, -1 - android.widget.LinearLayout, 2131755325 - android.widget.FrameLayout, 2131755326 - android.widget.FrameLayout, 2131755328 - android.view.ViewStub, 2131755331 - android.widget.ImageView, 2131755324 - android.widget.LinearLayout, 2131755323 - android.widget.ImageView, 2131755330 - android.widget.FrameLayout], res/layout/activity_fragment_frame.xml=[2131755205 - android.widget.FrameLayout], res/layout-v17/spinner_dropdown_item_with_icon.xml=[16908294 - android.widget.ImageView, 16908308 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout-v11/preference_dropdown.xml=[16908304 - android.widget.TextView, 2131755340 - android.widget.Spinner, 2131755339 - android.widget.FrameLayout, 16908312 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 16908310 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/notification_template_part_chronometer.xml=[2131755328 - android.widget.Chronometer], res/layout/abc_alert_dialog_button_bar_material.xml=[2131755165 - android.widget.ScrollView, 16908313 - android.widget.Button, 16908314 - android.widget.Button, 16908315 - android.widget.Button], res/layout-v17/preference_material.xml=[16908304 - android.widget.TextView, 2131755339 - android.widget.LinearLayout, 16908312 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 16908310 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/design_navigation_menu_item.xml=[2131755241 - android.widget.CheckedTextView, 2131755242 - android.view.ViewStub], res/layout-v11/preference.xml=[16908304 - android.widget.TextView, 2131755339 - android.widget.FrameLayout, 16908312 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 16908310 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/adapter_item_media_size_preference.xml=[16908289 - android.widget.CheckedTextView, -1 - android.widget.FrameLayout], res/layout/preference_widget_checkbox.xml=[16908289 - android.widget.CheckBox], res/layout/sublayout_divider.xml=[-1 - android.view.View, -1 - android.widget.LinearLayout], res/layout-v17/sublayout_supply_bar.xml=[16908290 - com.hp.android.printservice.widget.SupplyLevelBar, -1 - android.widget.Space, -1 - android.widget.RelativeLayout, 16908312 - android.widget.FrameLayout], res/layout/abc_alert_dialog_material.xml=[2131755169 - android.view.View, 2131755175 - android.widget.FrameLayout, 2131755173 - android.view.View, 2131755174 - android.widget.FrameLayout, 2131755168 - android.widget.FrameLayout, -1 - android.widget.LinearLayout, 16908299 - android.widget.TextView], res/layout/adapter_item_media_ready.xml=[-1 - android.widget.LinearLayout, 16908308 - android.widget.TextView, 16908309 - android.widget.TextView], res/layout-v19/activity_manage_added_printers.xml=[2131755205 - android.widget.FrameLayout], res/layout-v17/abc_popup_menu_header_item_layout.xml=[16908310 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout-v17/preference_information.xml=[16908304 - android.widget.TextView, 16908312 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 16908310 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/abc_search_dropdown_item_icons_2line.xml=[2131755192 - android.widget.ImageView, 16908295 - android.widget.ImageView, 16908309 - android.widget.TextView, 16908308 - android.widget.TextView, 16908296 - android.widget.ImageView, -1 - android.widget.RelativeLayout], res/layout-v17/abc_search_view.xml=[2131755195 - android.widget.ImageView, 2131755193 - android.widget.LinearLayout, 2131755197 - android.widget.ImageView, 2131755194 - android.widget.TextView, 2131755196 - android.widget.LinearLayout, 2131755200 - android.widget.ImageView, 2131755201 - android.widget.LinearLayout, 2131755203 - android.widget.ImageView, 2131755198 - android.widget.LinearLayout, 2131755202 - android.widget.ImageView], res/layout-v17/notification_template_big_media.xml=[2131755321 - android.widget.RelativeLayout, 2131755322 - android.widget.LinearLayout, 2131755323 - android.widget.ImageView], res/layout-v17/abc_popup_menu_item_layout.xml=[2131755164 - android.widget.TextView, 2131755184 - android.widget.ImageView, 2131755182 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout-v21/adapter_item_print_job_status.xml=[2131755231 - android.widget.TextView, 2131755227 - android.widget.ImageView, 2131755226 - android.widget.CheckBox, 2131755228 - android.widget.TextView, 2131755229 - android.widget.LinearLayout, 2131755232 - android.widget.TextView, -1 - android.widget.FrameLayout, -1 - android.widget.RelativeLayout, 2131755230 - android.widget.TextView], res/layout-v22/abc_alert_dialog_button_bar_material.xml=[2131755165 - android.widget.ScrollView, 16908313 - android.widget.Button, 16908314 - android.widget.Button, 16908315 - android.widget.Button], res/layout/fragment_print_preview.xml=[2131755286 - android.widget.RelativeLayout, 2131755288 - android.widget.CheckBox, 2131755289 - android.widget.ProgressBar, 2131755287 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131755290 - android.widget.ImageView], res/layout-v17/notification_template_big_media_narrow.xml=[2131755321 - android.widget.RelativeLayout, 2131755163 - android.widget.ImageView, 2131755322 - android.widget.LinearLayout, 2131755323 - android.widget.ImageView], res/layout-v11/notification_template_big_media_narrow.xml=[2131755321 - android.widget.RelativeLayout, 2131755163 - android.widget.ImageView, 2131755322 - android.widget.LinearLayout, 2131755323 - android.widget.ImageView], res/layout/fragment_printer_list.xml=[16908301 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/sublayout_printer_details.xml=[16908290 - android.widget.TextView, 16908310 - android.widget.TextView, 16908294 - android.widget.ImageView], res/layout-v17/adapter_item_media_ready.xml=[-1 - android.widget.LinearLayout, 16908308 - android.widget.TextView, 16908309 - android.widget.TextView], res/layout-v17/select_dialog_multichoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout-v19/fragment_added_printers_list.xml=[16908292 - android.widget.TextView, 16908298 - com.hp.sdd.common.library.widget.ContextMenuEnabledRecyclerView, -1 - android.widget.FrameLayout], res/layout/preference_dialog_edittext.xml=[-1 - android.widget.ScrollView, 16908291 - android.widget.EditText, -1 - android.widget.LinearLayout, 16908299 - android.widget.TextView], res/layout/abc_action_bar_up_container.xml=[-1 - android.widget.LinearLayout], res/layout-v21/notification_template_icon_group.xml=[2131755163 - android.widget.ImageView, 2131755331 - android.widget.ImageView, 2131755333 - android.widget.FrameLayout], res/layout-v17/preference_information_material.xml=[16908304 - android.widget.TextView, 2131755339 - android.widget.LinearLayout, 16908312 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 16908310 - android.widget.TextView, 16908294 - android.widget.ImageView, -1 - android.widget.RelativeLayout], res/layout-v17/design_layout_snackbar_include.xml=[2131755237 - android.widget.TextView, 2131755238 - android.widget.Button], res/layout/abc_activity_chooser_view_list_item.xml=[2131755162 - android.widget.LinearLayout, 2131755164 - android.widget.TextView, 2131755163 - android.widget.ImageView, -1 - android.widget.LinearLayout], res/layout/fragment_more_options.xml=[-1 - android.widget.ScrollView, -1 - android.widget.LinearLayout], res/layout/notification_template_lines_media.xml=[2131755329 - android.widget.TextView, 2131755164 - android.widget.TextView, 2131755337 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755335 - android.widget.TextView, 2131755334 - android.widget.LinearLayout, 2131755336 - android.widget.LinearLayout, 2131755328 - android.widget.Chronometer], res/layout/spinner_dropdown_item_with_icon.xml=[16908294 - android.widget.ImageView, 16908308 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout-v11/notification_template_big_media.xml=[2131755321 - android.widget.RelativeLayout, 2131755322 - android.widget.LinearLayout, 2131755323 - android.widget.ImageView], res/layout/abc_action_bar_title_item.xml=[2131755155 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755156 - android.widget.TextView], res/layout-v17/preference_widget_seekbar.xml=[16908304 - android.widget.TextView, -1 - android.widget.LinearLayout, 16908310 - android.widget.TextView, 16908294 - android.widget.ImageView, 2131755342 - android.widget.SeekBar, 2131755343 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/sublayout_supply_bar.xml=[16908290 - com.hp.android.printservice.widget.SupplyLevelBar, -1 - android.widget.Space, -1 - android.widget.RelativeLayout, 16908312 - android.widget.FrameLayout], res/layout/preference_information.xml=[16908304 - android.widget.TextView, 16908312 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 16908310 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/dialog_rate_us.xml=[-1 - android.widget.ScrollView, -1 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755262 - android.widget.Button, 2131755263 - android.widget.Button, 2131755261 - android.widget.Button], res/layout/sublayout_page_range_settings.xml=[2131755351 - android.widget.EditText, -1 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout-v17/dialog_connection_not_trusted.xml=[2131755252 - android.widget.ScrollView, 2131755250 - android.widget.ImageView, -1 - android.widget.LinearLayout, 2131755253 - android.widget.ImageView, 2131755260 - android.widget.Button, 2131755255 - android.widget.TextView, 2131755256 - android.widget.TextView, 2131755257 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131755251 - android.widget.TextView, 2131755254 - android.widget.TextView, 2131755259 - android.widget.Button, 2131755258 - android.widget.ProgressBar, 2131755249 - android.widget.LinearLayout], res/layout/sublayout_scaling_setting.xml=[-1 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755359 - android.widget.Spinner], res/layout/activity_legal_notice.xml=[2131755209 - android.webkit.WebView], res/layout/sublayout_orientation_setting.xml=[2131755350 - android.widget.Spinner, -1 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout/spinner_dropdown_item_with_two_text_lines.xml=[-1 - android.widget.LinearLayout, 16908308 - android.widget.TextView, 16908309 - android.widget.TextView], res/layout-v21/preference_material.xml=[16908304 - android.widget.TextView, 2131755339 - android.widget.LinearLayout, 16908312 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 16908310 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/preference_list_fragment.xml=[16908292 - android.widget.TextView, 16908351 - android.widget.FrameLayout, -1 - android.widget.LinearLayout], res/layout/activity_printer_info.xml=[16908294 - android.widget.ImageView, 2131755205 - android.widget.FrameLayout], res/layout/preference_category_material.xml=[16908310 - android.widget.TextView], res/layout/dialog_body_privacy_statement.xml=[-1 - android.widget.ScrollView, -1 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755247 - com.hp.sure.supply.lib.LinkTextView], res/layout/sublayout_num_copies_setting.xml=[-1 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755349 - android.widget.TextView, 2131755347 - android.widget.TextView, 2131755348 - android.widget.TextView], res/layout/preference_information_material.xml=[16908304 - android.widget.TextView, 2131755339 - android.widget.LinearLayout, 16908312 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 16908310 - android.widget.TextView, 16908294 - android.widget.ImageView, -1 - android.widget.RelativeLayout], res/layout-v17/notification_template_big_media_narrow_custom.xml=[2131755329 - android.widget.TextView, 2131755321 - android.widget.RelativeLayout, 2131755163 - android.widget.ImageView, 2131755325 - android.widget.FrameLayout, 2131755326 - android.widget.FrameLayout, 2131755322 - android.widget.LinearLayout, 2131755324 - android.widget.LinearLayout, 2131755328 - android.widget.Chronometer, 2131755323 - android.widget.ImageView], res/layout-v21/preference_dropdown_material.xml=[16908304 - android.widget.TextView, 2131755339 - android.widget.LinearLayout, 2131755340 - android.widget.Spinner, 16908312 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 16908310 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/design_navigation_item_subheader.xml=[-1 - android.widget.TextView], res/layout-v17/adapter_item_network_device.xml=[2131755225 - android.widget.ImageView, -1 - android.widget.LinearLayout, 16908308 - android.widget.TextView, 16908309 - android.widget.TextView, 16908294 - android.widget.ImageView, -1 - android.widget.FrameLayout], res/layout-v17/notification_template_custom_big.xml=[2131755329 - android.widget.TextView, 2131755163 - android.widget.ImageView, 2131755332 - android.widget.LinearLayout, 2131755327 - android.view.ViewStub, -1 - android.widget.LinearLayout, 2131755325 - android.widget.FrameLayout, 2131755326 - android.widget.FrameLayout, 2131755328 - android.view.ViewStub, 2131755331 - android.widget.ImageView, 2131755324 - android.widget.LinearLayout, 2131755323 - android.widget.ImageView, 2131755330 - android.widget.FrameLayout], res/layout-v21/notification_action_tombstone.xml=[2131755317 - android.widget.ImageView, 2131755316 - android.widget.LinearLayout, 2131755318 - android.widget.TextView], res/layout/design_layout_tab_icon.xml=[-1 - android.widget.ImageView], res/layout/dialog_body_privacy_statement_declined.xml=[-1 - android.widget.ScrollView, -1 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755248 - android.widget.CheckBox], res/layout-v17/dialog_rate_us.xml=[-1 - android.widget.ScrollView, -1 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755262 - android.widget.Button, 2131755263 - android.widget.Button, 2131755261 - android.widget.Button], res/layout-v17/spinner_dropdown_item_with_two_text_lines.xml=[-1 - android.widget.LinearLayout, 16908308 - android.widget.TextView, 16908309 - android.widget.TextView], res/layout-v21/notification_action.xml=[2131755317 - android.widget.ImageView, 2131755316 - android.widget.LinearLayout, 2131755318 - android.widget.TextView], res/layout/preference_widget_seekbar.xml=[16908304 - android.widget.TextView, -1 - android.widget.LinearLayout, 16908310 - android.widget.TextView, 16908294 - android.widget.ImageView, 2131755342 - android.widget.SeekBar, 2131755343 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/sublayout_color_mode_setting.xml=[-1 - android.widget.TextView, 2131755346 - android.widget.Spinner, -1 - android.widget.LinearLayout], res/layout-v17/sublayout_printer_details.xml=[16908290 - android.widget.TextView, 16908310 - android.widget.TextView, 16908294 - android.widget.ImageView], res/layout/design_bottom_sheet_dialog.xml=[2131755235 - android.view.View, 2131755236 - android.widget.FrameLayout], res/layout/abc_dialog_title_material.xml=[2131755164 - android.widget.TextView], res/layout/abc_alert_dialog_title_material.xml=[2131755176 - android.widget.LinearLayout, 2131755177 - android.widget.LinearLayout, 16908294 - android.widget.ImageView], res/layout-v17/notification_template_big_media_custom.xml=[2131755329 - android.widget.TextView, 2131755321 - android.widget.RelativeLayout, 2131755325 - android.widget.FrameLayout, 2131755326 - android.widget.FrameLayout, 2131755322 - android.widget.LinearLayout, 2131755324 - android.widget.LinearLayout, 2131755328 - android.widget.Chronometer, 2131755323 - android.widget.ImageView], res/layout/notification_template_media_custom.xml=[2131755329 - android.widget.TextView, 2131755338 - android.widget.ImageView, 2131755325 - android.widget.FrameLayout, 2131755326 - android.widget.FrameLayout, 2131755322 - android.widget.LinearLayout, 2131755324 - android.widget.LinearLayout, 2131755328 - android.widget.Chronometer, 2131755321 - android.widget.LinearLayout], res/layout-v21/preference_category_material.xml=[16908310 - android.widget.TextView], res/layout-v17/abc_alert_dialog_button_bar_material.xml=[2131755165 - android.widget.ScrollView, 16908313 - android.widget.Button, 16908314 - android.widget.Button, 16908315 - android.widget.Button], res/layout/select_dialog_singlechoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout-v17/fragment_print_preview.xml=[2131755286 - android.widget.RelativeLayout, 2131755288 - android.widget.CheckBox, 2131755289 - android.widget.ProgressBar, 2131755287 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131755290 - android.widget.ImageView], res/layout/select_dialog_item_material.xml=[16908308 - android.widget.TextView], res/layout/select_dialog_multichoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout/design_navigation_item_separator.xml=[-1 - android.view.View, -1 - android.widget.FrameLayout], res/layout-v17/notification_template_media.xml=[2131755338 - android.widget.ImageView, 2131755322 - android.widget.LinearLayout, 2131755321 - android.widget.LinearLayout], res/layout/abc_action_mode_close_item_material.xml=[2131755157 - android.widget.ImageView], res/layout/preference_dropdown_material.xml=[16908304 - android.widget.TextView, 2131755339 - android.widget.LinearLayout, 2131755340 - android.widget.Spinner, 16908312 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 16908310 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout-v17/notification_action_tombstone.xml=[2131755317 - android.widget.ImageView, 2131755316 - android.widget.LinearLayout, 2131755318 - android.widget.TextView], res/layout/design_navigation_item_header.xml=[2131755239 - android.widget.LinearLayout], res/layout/adapter_item_network_device.xml=[2131755225 - android.widget.ImageView, -1 - android.widget.LinearLayout, 16908308 - android.widget.TextView, 16908309 - android.widget.TextView, 16908294 - android.widget.ImageView, -1 - android.widget.FrameLayout], res/layout/fragment_print_job_status_list.xml=[16908292 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout/activity_media_size_preference.xml=[2131755205 - android.widget.FrameLayout], res/layout-v11/notification_template_big_media_narrow_custom.xml=[2131755329 - android.widget.TextView, 2131755321 - android.widget.RelativeLayout, 2131755163 - android.widget.ImageView, 2131755325 - android.widget.FrameLayout, 2131755326 - android.widget.FrameLayout, 2131755322 - android.widget.LinearLayout, 2131755324 - android.widget.LinearLayout, 2131755328 - android.widget.Chronometer, 2131755323 - android.widget.ImageView], res/layout-v17/preference_dropdown.xml=[16908304 - android.widget.TextView, 2131755340 - android.widget.Spinner, 2131755339 - android.widget.FrameLayout, 16908312 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 16908310 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout-v17/abc_alert_dialog_title_material.xml=[2131755176 - android.widget.LinearLayout, 2131755177 - android.widget.LinearLayout, 16908294 - android.widget.ImageView], res/layout/abc_list_menu_item_layout.xml=[2131755164 - android.widget.TextView, 2131755182 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/adapter_item_print_job_status.xml=[2131755231 - android.widget.TextView, 2131755227 - android.widget.ImageView, 2131755226 - android.widget.CheckBox, 2131755228 - android.widget.TextView, 2131755229 - android.widget.LinearLayout, 2131755232 - android.widget.TextView, -1 - android.widget.FrameLayout, -1 - android.widget.RelativeLayout, 2131755230 - android.widget.TextView], res/layout-v21/notification_template_custom_big.xml=[2131755329 - android.widget.TextView, 2131755332 - android.widget.LinearLayout, 2131755327 - android.view.ViewStub, -1 - android.widget.LinearLayout, 2131755325 - android.widget.FrameLayout, 2131755326 - android.widget.FrameLayout, 2131755328 - android.view.ViewStub, 2131755324 - android.widget.LinearLayout, 2131755323 - android.widget.ImageView, 2131755330 - android.widget.FrameLayout], res/layout/abc_list_menu_item_checkbox.xml=[2131755181 - android.widget.CheckBox], res/layout/abc_popup_menu_header_item_layout.xml=[16908310 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout/activity_settings.xml=[2131755222 - android.widget.FrameLayout, 2131755164 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755205 - android.widget.FrameLayout, 2131755223 - android.view.View, -1 - android.widget.RelativeLayout], res/layout-v17/preference_category_material.xml=[16908310 - android.widget.TextView], res/layout/fragment_printer_info.xml=[-1 - android.widget.TextView, 2131755304 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131755266 - android.widget.ImageView, 2131755296 - android.widget.FrameLayout, 2131755303 - android.widget.ImageView, 2131755295 - android.widget.LinearLayout, 2131755300 - android.widget.LinearLayout, 2131755302 - android.widget.TextView, 2131755292 - android.widget.TextView, -1 - android.widget.Space, 2131755305 - android.widget.Button, 2131755205 - android.widget.LinearLayout, 2131755298 - android.widget.Button, 2131755297 - android.widget.Button], res/layout/sublayout_print_preview.xml=[2131755356 - android.widget.ProgressBar], res/layout-v17/notification_template_lines_media.xml=[2131755329 - android.widget.TextView, 2131755164 - android.widget.TextView, 2131755337 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755335 - android.widget.TextView, 2131755334 - android.widget.LinearLayout, 2131755336 - android.widget.LinearLayout, 2131755328 - android.widget.Chronometer], res/layout/abc_list_menu_item_radio.xml=[2131755183 - android.widget.RadioButton], res/layout-v17/abc_dialog_title_material.xml=[2131755164 - android.widget.TextView], res/layout/abc_activity_chooser_view.xml=[2131755160 - android.widget.ImageView, 2131755159 - android.widget.FrameLayout, 2131755161 - android.widget.FrameLayout], res/layout/notification_action_tombstone.xml=[2131755317 - android.widget.ImageView, 2131755316 - android.widget.LinearLayout, 2131755318 - android.widget.TextView], res/layout-v19/adapter_item_added_printer.xml=[-1 - android.widget.LinearLayout, 16908294 - android.widget.ImageView, 16908308 - android.widget.TextView, 16908309 - android.widget.TextView, -1 - android.widget.FrameLayout, -1 - android.widget.RelativeLayout], res/layout-v19/dialog_add_nfc_printer.xml=[-1 - android.widget.ImageView, -1 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout/activity_more_options.xml=[-1 - android.widget.RelativeLayout], res/layout/activity_preference_detail.xml=[2131755205 - android.widget.FrameLayout], res/layout/sublayout_quality_mode_setting.xml=[-1 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755358 - android.widget.Spinner], res/layout/sublayout_selected_printer_setting.xml=[2131755360 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout/abc_search_view.xml=[2131755195 - android.widget.ImageView, 2131755193 - android.widget.LinearLayout, 2131755197 - android.widget.ImageView, 2131755194 - android.widget.TextView, 2131755196 - android.widget.LinearLayout, 2131755200 - android.widget.ImageView, 2131755201 - android.widget.LinearLayout, 2131755203 - android.widget.ImageView, 2131755198 - android.widget.LinearLayout, 2131755202 - android.widget.ImageView], res/layout-v17/fragment_printer_info.xml=[-1 - android.widget.TextView, 2131755304 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131755266 - android.widget.ImageView, 2131755296 - android.widget.FrameLayout, 2131755303 - android.widget.ImageView, 2131755295 - android.widget.LinearLayout, 2131755300 - android.widget.LinearLayout, 2131755302 - android.widget.TextView, 2131755292 - android.widget.TextView, -1 - android.widget.Space, 2131755305 - android.widget.Button, 2131755205 - android.widget.LinearLayout, 2131755298 - android.widget.Button, 2131755297 - android.widget.Button], res/layout-v17/fragment_aioremote_cross_promote.xml=[2131755264 - android.widget.RelativeLayout, -1 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131755265 - android.widget.ImageView, 2131755266 - android.widget.ImageView, 2131755267 - android.widget.TextView], res/layout/notification_template_media.xml=[2131755338 - android.widget.ImageView, 2131755322 - android.widget.LinearLayout, 2131755321 - android.widget.LinearLayout], res/layout/preference_widget_switch.xml=[16908352 - android.widget.Switch], res/layout-v17/preference_dropdown_material.xml=[16908304 - android.widget.TextView, 2131755339 - android.widget.LinearLayout, 2131755340 - android.widget.Spinner, 16908312 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 16908310 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout-v21/adapter_item_network_device.xml=[2131755225 - android.widget.ImageView, -1 - android.widget.LinearLayout, 16908308 - android.widget.TextView, 16908309 - android.widget.TextView, 16908294 - android.widget.ImageView, -1 - android.widget.FrameLayout], res/layout/dialog_connection_not_trusted.xml=[2131755252 - android.widget.ScrollView, 2131755250 - android.widget.ImageView, -1 - android.widget.LinearLayout, 2131755253 - android.widget.ImageView, 2131755260 - android.widget.Button, 2131755255 - android.widget.TextView, 2131755256 - android.widget.TextView, 2131755257 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131755251 - android.widget.TextView, 2131755254 - android.widget.TextView, 2131755259 - android.widget.Button, 2131755258 - android.widget.ProgressBar, 2131755249 - android.widget.LinearLayout], res/layout/preference_category.xml=[16908310 - android.widget.TextView], res/layout/sublayout_paper_type_setting.xml=[2131755354 - android.widget.Spinner, -1 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout-v17/adapter_item_media_size_preference.xml=[16908289 - android.widget.CheckedTextView, -1 - android.widget.FrameLayout], res/layout-v19/adapter_item_connection_mode.xml=[-1 - android.widget.LinearLayout, 16908308 - android.widget.TextView, 16908294 - android.widget.ImageView], res/layout/support_simple_spinner_dropdown_item.xml=[16908308 - android.widget.TextView], res/layout-v11/notification_template_big_media_custom.xml=[2131755329 - android.widget.TextView, 2131755321 - android.widget.RelativeLayout, 2131755325 - android.widget.FrameLayout, 2131755326 - android.widget.FrameLayout, 2131755322 - android.widget.LinearLayout, 2131755324 - android.widget.LinearLayout, 2131755328 - android.widget.Chronometer, 2131755323 - android.widget.ImageView], res/layout-v19/fragment_auth.xml=[2131755273 - android.widget.EditText, 2131755276 - android.widget.ProgressBar, 2131755250 - android.widget.ImageView, -1 - android.widget.LinearLayout, 2131755270 - android.widget.TextView, 2131755274 - android.widget.EditText, 2131755269 - android.widget.ScrollView, -1 - android.widget.RelativeLayout, 2131755279 - android.widget.Button, -1 - android.widget.ImageView, 2131755251 - android.widget.TextView, 2131755272 - android.widget.TextView, 2131755271 - android.widget.TextView, 2131755277 - android.widget.Button, 2131755278 - android.widget.Button, 2131755268 - android.widget.LinearLayout, 2131755275 - android.widget.CheckBox], res/layout/abc_list_menu_item_icon.xml=[2131755163 - android.widget.ImageView]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 116 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Productivity/printservice.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 3439 classes in '/home/anikralhan2011/Flowroid/Benign/Productivity/printservice.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 9.4 seconds.
+[Spark] Solution found in 9.4 seconds.
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("android.intent.extra.TITLE", $r4), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.preferences.ActivitySettings: void onSaveInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putStringArrayList(java.lang.String,java.util.ArrayList)>("file-list", $r2), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.sharetoprint.ActivityShareToPrint: void onCreate(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.sharetoprint.ActivityShareToPrint: void onSaveInstanceState(android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r5, $r3), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.hp.android.printservice.enterpriseextension.EnterpriseExtensionReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r2 := @parameter1: android.content.Intent (in <com.hp.android.printservice.enterpriseextension.EnterpriseExtensionReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putIntArray(java.lang.String,int[])>("#prefs-to-add#", $r2), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink virtualinvoke $r3.<android.content.Intent: android.content.Intent setAction(java.lang.String)>($r2), from the following sources:
+	- $r1 := @parameter0: android.content.Intent (in <com.hp.mobileprint.printservice.WPrintService: void onRebind(android.content.Intent)>)
+Found a flow to sink $r3 = interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>($r4, $l0), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.content.Context (in <com.hp.android.printservice.common.ReceiverDelayRating: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("PrintServiceHelperBase", $r7), from the following sources:
+	- $r1 := @parameter0: android.printservice.PrintJob (in <com.hp.android.printservice.ServiceAndroidPrint: void onPrintJobQueued(android.printservice.PrintJob)>)
+Found a flow to sink virtualinvoke $r10.<android.os.Bundle: void putStringArray(java.lang.String,java.lang.String[])>("PERMISSIONS", $r4), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.sharetoprint.ActivityShareToPrint: void onCreate(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putInt(java.lang.String,int)>("port", $i0), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.hp.android.printservice.sharetoprint.ActivityPrinterPicker: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putInt(java.lang.String,int)>("discovery-method", $i0), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.hp.android.printservice.sharetoprint.ActivityPrinterPicker: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r5, $r7), from the following sources:
+	- $r1 := @parameter0: android.content.Intent (in <com.hp.android.printservice.enterpriseextension.wprintconnection.wPrintBroadcastService: int onStartCommand(android.content.Intent,int,int)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("PrintServiceHelperBase", $r5), from the following sources:
+	- $r1 := @parameter0: android.printservice.PrintJob (in <com.hp.android.printservice.ServiceAndroidPrint: void onPrintJobQueued(android.printservice.PrintJob)>)
+Found a flow to sink virtualinvoke $r14.<android.content.Intent: android.content.Intent setAction(java.lang.String)>($r3), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.hp.android.printservice.enterpriseextension.EnterpriseExtensionReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r2 := @parameter1: android.content.Intent (in <com.hp.android.printservice.enterpriseextension.EnterpriseExtensionReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r3.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("printer-hostname", $r4), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.hp.android.printservice.sharetoprint.ActivityPrinterPicker: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putParcelable(java.lang.String,android.os.Parcelable)>("extra-attributes", $r6), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.hp.android.printservice.sharetoprint.ActivityPrinterPicker: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("PrintServiceHelperBase", $r27), from the following sources:
+	- $r1 := @parameter0: android.printservice.PrintJob (in <com.hp.android.printservice.ServiceAndroidPrint: void onPrintJobQueued(android.printservice.PrintJob)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("WPrintAnalyticsTracker", $r3), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink virtualinvoke $r3.<android.os.Bundle: void putParcelable(java.lang.String,android.os.Parcelable)>("android.intent.extra.INTENT", $r5), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink virtualinvoke $r3.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("printer-bonjour-name", $r4), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.hp.android.printservice.sharetoprint.ActivityPrinterPicker: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r3.<com.hp.mobileprint.printservice.WPrintService$b: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r5 = virtualinvoke $r4.<com.hp.mobileprint.printservice.WPrintService$b: android.os.Message obtainMessage(int,java.lang.Object)>(0, $r1) (in <com.hp.mobileprint.printservice.WPrintService: int onStartCommand(android.content.Intent,int,int)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("model", $r4), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.hp.android.printservice.sharetoprint.ActivityPrinterPicker: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink $r13 = interfaceinvoke $r13.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>($r3, 0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.hp.android.printservice.enterpriseextension.EnterpriseExtensionReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("PrintServiceHelperBase", $r3), from the following sources:
+	- $r1 := @parameter0: android.printservice.PrintJob (in <com.hp.android.printservice.ServiceAndroidPrint: void onPrintJobQueued(android.printservice.PrintJob)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putByteArray(java.lang.String,byte[])>("#printer-image#", $r3), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.common.ActivityPrinterInfo: void onSaveInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("bonjour-name", $r4), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.hp.android.printservice.sharetoprint.ActivityPrinterPicker: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink $z0 = virtualinvoke $r4.<android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>($r1, $r0, 1), from the following sources:
+	- $r1 := @parameter0: android.content.Intent (in <com.hp.android.printservice.enterpriseextension.wprintconnection.wPrintBroadcastService: int onStartCommand(android.content.Intent,int,int)>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("print-document-category", "Doc"), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.common.ActivityMoreOptions: void onCreate(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r2, "Service already unbound!"), from the following sources:
+	- $r1 := @parameter0: android.content.Intent (in <com.hp.android.printservice.enterpriseextension.wprintconnection.wPrintBroadcastService: int onStartCommand(android.content.Intent,int,int)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("printer-address", $r7), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.sharetoprint.ActivityShareToPrint: void onCreate(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r2, $r4), from the following sources:
+	- $r1 := @parameter0: android.content.Intent (in <com.hp.android.printservice.enterpriseextension.wprintconnection.wPrintBroadcastService: int onStartCommand(android.content.Intent,int,int)>)
+Found a flow to sink virtualinvoke $r10.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("APP_PERMISSIONS", $r5), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.sharetoprint.ActivityShareToPrint: void onCreate(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink virtualinvoke $r3.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("device.discovery.device_bonjour_name", $r4), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.hp.android.printservice.sharetoprint.ActivityPrinterPicker: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("bonjourService", $r4), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.hp.android.printservice.sharetoprint.ActivityPrinterPicker: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r5, $r7), from the following sources:
+	- $r1 := @parameter0: android.content.Intent (in <com.hp.android.printservice.enterpriseextension.wprintconnection.wPrintBroadcastService: int onStartCommand(android.content.Intent,int,int)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putBundle(java.lang.String,android.os.Bundle)>("print-args", $r3), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.sharetoprint.ActivityShareToPrint: void onCreate(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.sharetoprint.ActivityShareToPrint: void onSaveInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r9.<android.os.Bundle: void putAll(android.os.Bundle)>($r11), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putAll(android.os.Bundle)>($r5), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r2, "UnBinding Service. "), from the following sources:
+	- $r1 := @parameter0: android.printservice.PrintJob (in <com.hp.android.printservice.ServiceAndroidPrint: void onPrintJobQueued(android.printservice.PrintJob)>)
+Found a flow to sink virtualinvoke $r9.<android.os.Bundle: void putBundle(java.lang.String,android.os.Bundle)>("network-device", $r1), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.sharetoprint.ActivityShareToPrint: void onCreate(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("device-identifier", $r4), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.hp.android.printservice.sharetoprint.ActivityPrinterPicker: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putStringArrayList(java.lang.String,java.util.ArrayList)>("#prefs-to-remove#", $r9), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putBundle(java.lang.String,android.os.Bundle)>($r3, $r2), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.addprinter.ActivityAddNetworkPrinter: void onSaveInstanceState(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.addprinter.ActivityAddNetworkPrinter: void onCreate(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putByteArray(java.lang.String,byte[])>("device-address", $r3), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.hp.android.printservice.sharetoprint.ActivityPrinterPicker: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r2, $r4), from the following sources:
+	- $i1 := @parameter2: int (in <com.hp.android.printservice.enterpriseextension.wprintconnection.wPrintBroadcastService: int onStartCommand(android.content.Intent,int,int)>)
+	- $r1 := @parameter0: android.content.Intent (in <com.hp.android.printservice.enterpriseextension.wprintconnection.wPrintBroadcastService: int onStartCommand(android.content.Intent,int,int)>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("print-document-category", "Photo"), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.common.ActivityMoreOptions: void onCreate(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink virtualinvoke $r1.<android.content.Context: void sendBroadcast(android.content.Intent,java.lang.String)>($r2, "hp.enterprise.print.extension.permission"), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.hp.android.printservice.enterpriseextension.EnterpriseExtensionReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r1.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r3, null), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.hp.android.printservice.enterpriseextension.EnterpriseExtensionReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("hostname", $r4), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.hp.android.printservice.sharetoprint.ActivityPrinterPicker: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("PrintServiceHelperBase", $r28), from the following sources:
+	- $r1 := @parameter0: android.printservice.PrintJob (in <com.hp.android.printservice.ServiceAndroidPrint: void onPrintJobQueued(android.printservice.PrintJob)>)
+Found a flow to sink virtualinvoke $r1.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r14), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.hp.android.printservice.enterpriseextension.EnterpriseExtensionReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r2 := @parameter1: android.content.Intent (in <com.hp.android.printservice.enterpriseextension.EnterpriseExtensionReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r1.<android.content.Context: void sendBroadcast(android.content.Intent,java.lang.String)>($r2, "hp.enterprise.print.extension.permission"), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.hp.android.printservice.enterpriseextension.EnterpriseExtensionReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r6, $r3), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.hp.android.printservice.enterpriseextension.EnterpriseExtensionReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r2 := @parameter1: android.content.Intent (in <com.hp.android.printservice.enterpriseextension.EnterpriseExtensionReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Bundle: void putParcelable(java.lang.String,android.os.Parcelable)>("android.intent.extra.INTENT", $r7), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.sharetoprint.ActivityShareToPrint: void onCreate(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink virtualinvoke $r14.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("printer-address", $r10), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink virtualinvoke $r4.<com.hp.android.printservice.sharetoprint.ServiceShareToPrint$a: boolean sendMessage(android.os.Message)>($r7), from the following sources:
+	- $r7 = virtualinvoke $r2.<com.hp.android.printservice.sharetoprint.ServiceShareToPrint$a: android.os.Message obtainMessage(int,java.lang.Object)>($i0, $r6) (in <com.hp.android.printservice.sharetoprint.ServiceShareToPrint: int onStartCommand(android.content.Intent,int,int)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putParcelable(java.lang.String,android.os.Parcelable)>("bonjour-data", $r6), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.hp.android.printservice.sharetoprint.ActivityPrinterPicker: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r5, $r7), from the following sources:
+	- $r1 := @parameter0: android.printservice.PrintJob (in <com.hp.android.printservice.ServiceAndroidPrint: void onPrintJobQueued(android.printservice.PrintJob)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("PRINTER_NAME", $r7), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.sharetoprint.ActivityShareToPrint: void onCreate(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("bonjour-domain-name", $r4), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.hp.android.printservice.sharetoprint.ActivityPrinterPicker: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putBundle(java.lang.String,android.os.Bundle)>("configured-options", $r2), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.common.ActivityMoreOptions: void onCreate(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.common.ActivityMoreOptions: void onSaveInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.content.Context: void sendBroadcast(android.content.Intent,java.lang.String)>($r2, "hp.enterprise.print.extension.permission"), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.hp.android.printservice.enterpriseextension.EnterpriseExtensionReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r1.<android.content.Context: void sendBroadcast(android.content.Intent)>($r2), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.hp.android.printservice.usb.ReceiverUSBDeviceDetached: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r1.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r3, $r5), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.hp.android.printservice.enterpriseextension.EnterpriseExtensionReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r2 := @parameter1: android.content.Intent (in <com.hp.android.printservice.enterpriseextension.EnterpriseExtensionReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink $r5 = interfaceinvoke $r5.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>($r2, $i0), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.hp.android.printservice.common.ReceiverDelayRating: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("PrintServiceHelperBase", $r21), from the following sources:
+	- $r1 := @parameter0: android.printservice.PrintJob (in <com.hp.android.printservice.ServiceAndroidPrint: void onPrintJobQueued(android.printservice.PrintJob)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r2, "UnBinding Service."), from the following sources:
+	- $r1 := @parameter0: android.content.Intent (in <com.hp.android.printservice.enterpriseextension.wprintconnection.wPrintBroadcastService: int onStartCommand(android.content.Intent,int,int)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("launching-app-intent-action", "com.hp.android.printservice.TESTPRINT"), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.sharetoprint.ActivityShareToPrint: void onCreate(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Found a flow to sink virtualinvoke $r3.<android.content.Intent: android.content.Intent setAction(java.lang.String)>($r2), from the following sources:
+	- $r1 := @parameter0: android.content.Intent (in <com.hp.mobileprint.printservice.WPrintService: android.os.IBinder onBind(android.content.Intent)>)
+Found a flow to sink $r4 = interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>($r3, $i0), from the following sources:
+	- $r1 := @parameter0: android.printservice.PrintJob (in <com.hp.android.printservice.ServiceAndroidPrint: void onPrintJobQueued(android.printservice.PrintJob)>)
+Found a flow to sink $r4 = interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>($r3, $i0), from the following sources:
+	- $r1 := @parameter0: android.printservice.PrintJob (in <com.hp.android.printservice.ServiceAndroidPrint: void onPrintJobQueued(android.printservice.PrintJob)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putBoolean(java.lang.String,boolean)>("hide-aio-cross-promotion", $z0), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.hp.android.printservice.sharetoprint.ActivityShareToPrint: void onCreate(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <b.a.a.a.a$a$1: void onActivityStopped(android.app.Activity)>)
+Maximum memory consumption: 237.57308 MB
+Analysis has run for 79.257223177 seconds

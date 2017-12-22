@@ -1,0 +1,123 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Social/com.tumblr.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes3.dex' with 1828 classes in '/home/anikralhan2011/Flowroid/Benign/Social/com.tumblr.apk'
+Found dex file 'classes2.dex' with 8417 classes in '/home/anikralhan2011/Flowroid/Benign/Social/com.tumblr.apk'
+Found dex file 'classes.dex' with 7054 classes in '/home/anikralhan2011/Flowroid/Benign/Social/com.tumblr.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.5 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 39.1 seconds.
+[Spark] Solution found in 39.1 seconds.
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r2), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[])>($r2), from the following sources:
+	- $r2 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.facebook.ads.internal.g.a.f: java.net.HttpURLConnection a(java.lang.String)>)
+Found a flow to sink virtualinvoke $r5.<java.io.OutputStream: void write(byte[])>($r6), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>("AppsFlyer_1.18", $r10, $r3), from the following sources:
+	- $r6 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r5, 0) (in <com.appsflyer.MultipleInstallBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r1), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("AppsFlyer_1.18", $r10), from the following sources:
+	- $r6 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r5, 0) (in <com.appsflyer.MultipleInstallBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[],int,int)>($r2, 0, $i0), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Maximum memory consumption: 204.242256 MB
+Analysis has run for 73.717689853 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Social/com.tumblr.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes3.dex' with 1828 classes in '/home/anikralhan2011/Flowroid/Benign/Social/com.tumblr.apk'
+Found dex file 'classes2.dex' with 8417 classes in '/home/anikralhan2011/Flowroid/Benign/Social/com.tumblr.apk'
+Found dex file 'classes.dex' with 7054 classes in '/home/anikralhan2011/Flowroid/Benign/Social/com.tumblr.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.5 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 40.3 seconds.
+[Spark] Solution found in 40.3 seconds.
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[],int,int)>($r2, 0, $i0), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[])>($r2), from the following sources:
+	- $r2 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.facebook.ads.internal.g.a.f: java.net.HttpURLConnection a(java.lang.String)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r5.<java.io.OutputStream: void write(byte[])>($r6), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r1), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>("AppsFlyer_1.18", $r10, $r3), from the following sources:
+	- $r6 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r5, 0) (in <com.appsflyer.MultipleInstallBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("AppsFlyer_1.18", $r10), from the following sources:
+	- $r6 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r5, 0) (in <com.appsflyer.MultipleInstallBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r2), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Maximum memory consumption: 247.546592 MB
+Analysis has run for 78.263590756 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Social/com.tumblr.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes3.dex' with 1828 classes in '/home/anikralhan2011/Flowroid/Benign/Social/com.tumblr.apk'
+Found dex file 'classes2.dex' with 8417 classes in '/home/anikralhan2011/Flowroid/Benign/Social/com.tumblr.apk'
+Found dex file 'classes.dex' with 7054 classes in '/home/anikralhan2011/Flowroid/Benign/Social/com.tumblr.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.5 seconds.
+[Spark] Type masks in 0.1 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 44.4 seconds.
+[Spark] Solution found in 44.4 seconds.
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[],int,int)>($r2, 0, $i0), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[])>($r2), from the following sources:
+	- $r2 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.facebook.ads.internal.g.a.f: java.net.HttpURLConnection a(java.lang.String)>)
+Found a flow to sink virtualinvoke $r5.<java.io.OutputStream: void write(byte[])>($r6), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r1), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>("AppsFlyer_1.18", $r10, $r3), from the following sources:
+	- $r6 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r5, 0) (in <com.appsflyer.MultipleInstallBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("AppsFlyer_1.18", $r10), from the following sources:
+	- $r6 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r5, 0) (in <com.appsflyer.MultipleInstallBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r2), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Maximum memory consumption: 209.824896 MB
+Analysis has run for 82.581340682 seconds

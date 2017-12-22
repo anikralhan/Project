@@ -1,0 +1,80 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Weather/uk.gov.metoffice.weather.android.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes2.dex' with 718 classes in '/home/anikralhan2011/Flowroid/Benign/Weather/uk.gov.metoffice.weather.android.apk'
+Found dex file 'classes.dex' with 8615 classes in '/home/anikralhan2011/Flowroid/Benign/Weather/uk.gov.metoffice.weather.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 37.7 seconds.
+[Spark] Solution found in 37.7 seconds.
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("appsee", $r0), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink $i0 = virtualinvoke $r4.<android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>($r1, "_id = ?", $r3), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>($r2, $r0, $r1), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r1, $r0), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink virtualinvoke $r4.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r5 = virtualinvoke $r4.<android.os.Handler: android.os.Message obtainMessage()>() (in <com.squareup.a.t$b: void run()>)
+Found a flow to sink virtualinvoke $r5.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r4), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink virtualinvoke $r2.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r1), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("appsee", $r0), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink $r7 = virtualinvoke $r6.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r5), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r1, $r0), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink virtualinvoke $r2.<com.urbanairship.location.LocationService$a: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r2.<com.urbanairship.location.LocationService$a: android.os.Message obtainMessage()>() (in <com.urbanairship.location.LocationService: int onStartCommand(android.content.Intent,int,int)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r1, $r0), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r1, $r0), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink $r7 = virtualinvoke $r6.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r1, null, null, null, null), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink virtualinvoke $r2.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r1), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink virtualinvoke $r4.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r5), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink virtualinvoke $r3.<java.io.FileOutputStream: void write(byte[])>($r1), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r1, $r3), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink $z0 = virtualinvoke $r2.<android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>($r1, $r3, 1), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r1, $r0), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink $r5 = virtualinvoke $r4.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r3), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Found a flow to sink $r1 = virtualinvoke $r3.<android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>($r1, $r2), from the following sources:
+	- $r5 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.urbanairship.n: void a()>)
+	- $r6 = interfaceinvoke $r4.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <com.urbanairship.n: void a()>)
+Maximum memory consumption: 515.098912 MB
+Analysis has run for 94.274672147 seconds

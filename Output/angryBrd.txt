@@ -1,0 +1,409 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Role_Playing/com.rovio.tnt.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes64.dex' with 489 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes63.dex' with 1 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes62.dex' with 7 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes61.dex' with 4 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes60.dex' with 278 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes59.dex' with 65 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes58.dex' with 337 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes57.dex' with 311 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes56.dex' with 1 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes55.dex' with 1 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes54.dex' with 1 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes53.dex' with 55 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes52.dex' with 46 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes51.dex' with 3 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes50.dex' with 124 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes49.dex' with 9 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes48.dex' with 2 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes47.dex' with 36 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes46.dex' with 15 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes45.dex' with 114 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes44.dex' with 80 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes43.dex' with 81 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes42.dex' with 34 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes41.dex' with 188 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes40.dex' with 4 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes39.dex' with 22 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes38.dex' with 363 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes37.dex' with 161 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes36.dex' with 17 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes35.dex' with 819 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes34.dex' with 265 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes33.dex' with 238 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes32.dex' with 5 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes31.dex' with 134 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes30.dex' with 29 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes29.dex' with 93 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes28.dex' with 281 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes27.dex' with 8 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes26.dex' with 27 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes25.dex' with 10 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes24.dex' with 831 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes23.dex' with 465 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes22.dex' with 41 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes21.dex' with 498 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes20.dex' with 276 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes19.dex' with 70 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes18.dex' with 96 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes17.dex' with 2 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes16.dex' with 382 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes15.dex' with 750 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes14.dex' with 13 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes13.dex' with 513 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes12.dex' with 32 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes11.dex' with 553 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes10.dex' with 179 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes9.dex' with 13 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes8.dex' with 27 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes7.dex' with 355 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes6.dex' with 5 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes5.dex' with 26 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes4.dex' with 173 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes3.dex' with 3 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes2.dex' with 10 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes.dex' with 173 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Analysis has run for 6.43417883 seconds
+Found dex file 'classes64.dex' with 489 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes63.dex' with 1 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes62.dex' with 7 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes61.dex' with 4 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes60.dex' with 278 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes59.dex' with 65 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes58.dex' with 337 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes57.dex' with 311 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes56.dex' with 1 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes55.dex' with 1 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes54.dex' with 1 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes53.dex' with 55 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes52.dex' with 46 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes51.dex' with 3 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes50.dex' with 124 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes49.dex' with 9 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes48.dex' with 2 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes47.dex' with 36 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes46.dex' with 15 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes45.dex' with 114 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes44.dex' with 80 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes43.dex' with 81 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes42.dex' with 34 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes41.dex' with 188 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes40.dex' with 4 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes39.dex' with 22 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes38.dex' with 363 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes37.dex' with 161 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes36.dex' with 17 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes35.dex' with 819 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes34.dex' with 265 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes33.dex' with 238 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes32.dex' with 5 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes31.dex' with 134 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes30.dex' with 29 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes29.dex' with 93 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes28.dex' with 281 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes27.dex' with 8 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes26.dex' with 27 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes25.dex' with 10 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes24.dex' with 831 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes23.dex' with 465 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes22.dex' with 41 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes21.dex' with 498 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes20.dex' with 276 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes19.dex' with 70 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes18.dex' with 96 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes17.dex' with 2 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes16.dex' with 382 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes15.dex' with 750 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes14.dex' with 13 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes13.dex' with 513 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes12.dex' with 32 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes11.dex' with 553 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes10.dex' with 179 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes9.dex' with 13 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes8.dex' with 27 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes7.dex' with 355 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes6.dex' with 5 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes5.dex' with 26 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes4.dex' with 173 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes3.dex' with 3 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes2.dex' with 10 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes.dex' with 173 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Callback analysis done.
+Found 0 layout controls in file res/layout-sw600dp-v13/design_layout_snackbar.xml
+Found 1 layout controls in file res/layout/abc_action_bar_title_item.xml
+Found 2 layout controls in file res/layout/abc_action_bar_up_container.xml
+Found 3 layout controls in file res/layout/abc_action_bar_view_list_nav_layout.xml
+Found 3 layout controls in file res/layout/abc_action_menu_item_layout.xml
+Found 3 layout controls in file res/layout/abc_action_menu_layout.xml
+Found 3 layout controls in file res/layout/abc_action_mode_bar.xml
+Found 4 layout controls in file res/layout/abc_action_mode_close_item_material.xml
+Found 5 layout controls in file res/layout/abc_activity_chooser_view.xml
+Found 6 layout controls in file res/layout/abc_activity_chooser_view_list_item.xml
+Found 7 layout controls in file res/layout/abc_alert_dialog_button_bar_material.xml
+Found 8 layout controls in file res/layout/abc_alert_dialog_material.xml
+Found 9 layout controls in file res/layout/abc_dialog_title_material.xml
+Found 9 layout controls in file res/layout/abc_expanded_menu_layout.xml
+Found 10 layout controls in file res/layout/abc_list_menu_item_checkbox.xml
+Found 11 layout controls in file res/layout/abc_list_menu_item_icon.xml
+Found 12 layout controls in file res/layout/abc_list_menu_item_layout.xml
+Found 13 layout controls in file res/layout/abc_list_menu_item_radio.xml
+Found 14 layout controls in file res/layout/abc_popup_menu_header_item_layout.xml
+Found 15 layout controls in file res/layout/abc_popup_menu_item_layout.xml
+Found 15 layout controls in file res/layout/abc_screen_content_include.xml
+Found 15 layout controls in file res/layout/abc_screen_simple.xml
+Found 15 layout controls in file res/layout/abc_screen_simple_overlay_action_mode.xml
+Found 15 layout controls in file res/layout/abc_screen_toolbar.xml
+Found 16 layout controls in file res/layout/abc_search_dropdown_item_icons_2line.xml
+Found 17 layout controls in file res/layout/abc_search_view.xml
+Found 18 layout controls in file res/layout/abc_select_dialog_material.xml
+Found 19 layout controls in file res/layout/activity_contact_zendesk.xml
+Found 20 layout controls in file res/layout/activity_rate_my_app.xml
+Found 21 layout controls in file res/layout/activity_requests.xml
+Found 22 layout controls in file res/layout/activity_support.xml
+Found 23 layout controls in file res/layout/activity_view_article.xml
+Found 24 layout controls in file res/layout/activity_view_request.xml
+Found 25 layout controls in file res/layout/belvedere_dialog.xml
+Found 26 layout controls in file res/layout/belvedere_dialog_row.xml
+Found 27 layout controls in file res/layout/com_facebook_activity_layout.xml
+Found unrecognized XML attribute:  fontFamily
+Found unrecognized XML attribute:  fontFamily
+Found unrecognized XML attribute:  fontFamily
+Found unrecognized XML attribute:  fontFamily
+Found 28 layout controls in file res/layout/com_facebook_device_auth_dialog_fragment.xml
+Found 29 layout controls in file res/layout/com_facebook_login_fragment.xml
+Found 30 layout controls in file res/layout/com_facebook_tooltip_bubble.xml
+Found 31 layout controls in file res/layout/design_bottom_sheet_dialog.xml
+Found 31 layout controls in file res/layout/design_layout_snackbar.xml
+Found 32 layout controls in file res/layout/design_layout_snackbar_include.xml
+Found 33 layout controls in file res/layout/design_layout_tab_icon.xml
+Found 34 layout controls in file res/layout/design_layout_tab_text.xml
+Found 35 layout controls in file res/layout/design_menu_item_action_area.xml
+Found 35 layout controls in file res/layout/design_navigation_item.xml
+Found 36 layout controls in file res/layout/design_navigation_item_header.xml
+Found 37 layout controls in file res/layout/design_navigation_item_separator.xml
+Found 38 layout controls in file res/layout/design_navigation_item_subheader.xml
+Found 38 layout controls in file res/layout/design_navigation_menu.xml
+Found 39 layout controls in file res/layout/design_navigation_menu_item.xml
+Found 40 layout controls in file res/layout/fragment_contact_zendesk.xml
+Found 40 layout controls in file res/layout/fragment_help.xml
+Found 41 layout controls in file res/layout/fragment_request_list.xml
+Found 42 layout controls in file res/layout/fragment_send_feedback.xml
+Found 43 layout controls in file res/layout/fragment_view_request.xml
+Found 44 layout controls in file res/layout/include_no_network_view.xml
+Found 45 layout controls in file res/layout/include_retry_view.xml
+Found 46 layout controls in file res/layout/main.xml
+Found 47 layout controls in file res/layout/messenger_button_send_blue_large.xml
+Found 48 layout controls in file res/layout/messenger_button_send_blue_round.xml
+Found 49 layout controls in file res/layout/messenger_button_send_blue_small.xml
+Found 50 layout controls in file res/layout/messenger_button_send_white_large.xml
+Found 51 layout controls in file res/layout/messenger_button_send_white_round.xml
+Found 52 layout controls in file res/layout/messenger_button_send_white_small.xml
+Found 53 layout controls in file res/layout/notification_media_action.xml
+Found 54 layout controls in file res/layout/notification_media_cancel_action.xml
+Found 55 layout controls in file res/layout/notification_template_big_media.xml
+Found 56 layout controls in file res/layout/notification_template_big_media_narrow.xml
+Found 57 layout controls in file res/layout/notification_template_lines.xml
+Found 58 layout controls in file res/layout/notification_template_media.xml
+Found 59 layout controls in file res/layout/notification_template_part_chronometer.xml
+Found 59 layout controls in file res/layout/notification_template_part_time.xml
+Found unrecognized XML attribute:  tag
+Found unrecognized XML attribute:  tag
+Found unrecognized XML attribute:  tag
+Found unrecognized XML attribute:  tag
+Found unrecognized XML attribute:  tag
+Found unrecognized XML attribute:  tag
+Found unrecognized XML attribute:  tag
+Found 60 layout controls in file res/layout/rovio_ads_video_layout.xml
+Found 61 layout controls in file res/layout/row_action.xml
+Found 62 layout controls in file res/layout/row_agent_comment.xml
+Found 63 layout controls in file res/layout/row_article.xml
+Found 64 layout controls in file res/layout/row_article_attachment.xml
+Found 65 layout controls in file res/layout/row_category.xml
+Found 66 layout controls in file res/layout/row_end_user_comment.xml
+Found 67 layout controls in file res/layout/row_loading_progress.xml
+Found 68 layout controls in file res/layout/row_no_articles_found.xml
+Found 69 layout controls in file res/layout/row_padding.xml
+Found 70 layout controls in file res/layout/row_request.xml
+Found 71 layout controls in file res/layout/row_search_article.xml
+Found 72 layout controls in file res/layout/row_section.xml
+Found 73 layout controls in file res/layout/select_dialog_item_material.xml
+Found 74 layout controls in file res/layout/select_dialog_multichoice_material.xml
+Found 75 layout controls in file res/layout/select_dialog_singlechoice_material.xml
+Found 76 layout controls in file res/layout/support_simple_spinner_dropdown_item.xml
+Found 77 layout controls in file res/layout/view_attachment_container_item.xml
+Found 78 layout controls in file res/layout/view_attachment_inline_item.xml
+Found 79 layout controls in file res/layout/zendesk_toolbar.xml
+Found 0 callback methods for 0 components
+Found {res/layout/belvedere_dialog_row.xml=[2131558543 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131558542 - android.widget.ImageView], res/layout/abc_select_dialog_material.xml=[2131558529 - android.widget.ListView], res/layout/activity_support.xml=[2131558534 - android.widget.FrameLayout], res/layout/messenger_button_send_blue_small.xml=[2131558590 - android.widget.FrameLayout, -1 - android.widget.TextView], res/layout/messenger_button_send_white_large.xml=[2131558590 - android.widget.FrameLayout, -1 - android.widget.TextView], res/layout/activity_view_article.xml=[-1 - android.widget.LinearLayout, 2131558537 - android.webkit.WebView, 2131558538 - android.widget.ProgressBar, 2131558532 - android.widget.FrameLayout, -1 - android.widget.FrameLayout, -1 - android.widget.ScrollView, 2131558539 - android.widget.ListView, -1 - android.widget.RelativeLayout], res/layout/com_facebook_activity_layout.xml=[2131558544 - android.widget.FrameLayout], res/layout/include_retry_view.xml=[2131558587 - android.widget.RelativeLayout, 2131558589 - android.widget.Button, -1 - android.view.View, 2131558588 - android.widget.TextView], res/layout/com_facebook_device_auth_dialog_fragment.xml=[-1 - android.widget.LinearLayout, 2131558545 - android.widget.TextView, 2131558546 - android.widget.TextView, -1 - android.widget.ImageView, -1 - android.widget.FrameLayout, 2131558547 - android.widget.TextView, 2131558548 - android.widget.ProgressBar, 2131558549 - android.widget.Button, -1 - android.widget.RelativeLayout], res/layout/design_menu_item_action_area.xml=[-1 - android.widget.FrameLayout], res/layout/row_agent_comment.xml=[-1 - android.widget.LinearLayout, 2131558610 - android.widget.TextView, 2131558608 - android.widget.TextView, 2131558609 - android.widget.ImageView, 2131558612 - android.widget.LinearLayout, 2131558611 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/row_article.xml=[2131558613 - android.widget.TextView], res/layout/design_layout_tab_text.xml=[-1 - android.widget.TextView], res/layout/fragment_contact_zendesk.xml=[2131558565 - android.widget.ScrollView, -1 - android.widget.LinearLayout, 2131558569 - android.widget.ProgressBar, -1 - android.widget.FrameLayout, 2131558567 - android.widget.EditText], res/layout/notification_template_big_media.xml=[2131558490 - android.widget.ImageView, 2131558593 - android.widget.RelativeLayout, 2131558594 - android.widget.LinearLayout, 2131558595 - android.widget.ImageView], res/layout/messenger_button_send_blue_round.xml=[2131558590 - android.widget.Button], res/layout/design_navigation_item_subheader.xml=[-1 - android.widget.TextView], res/layout/activity_requests.xml=[2131558532 - android.widget.FrameLayout, 2131558533 - android.widget.FrameLayout, -1 - android.widget.FrameLayout, -1 - android.widget.RelativeLayout], res/layout/belvedere_dialog.xml=[2131558541 - android.widget.ListView], res/layout/design_layout_tab_icon.xml=[-1 - android.widget.ImageView], res/layout/fragment_request_list.xml=[-1 - android.widget.LinearLayout, 16908292 - android.widget.TextView, 2131558571 - android.widget.ProgressBar, -1 - android.widget.FrameLayout, 16908298 - android.widget.ListView], res/layout/design_layout_snackbar_include.xml=[2131558559 - android.widget.Button, 2131558558 - android.widget.TextView], res/layout/abc_action_bar_view_list_nav_layout.xml=[-1 - android.widget.LinearLayout], res/layout/row_section.xml=[2131558628 - android.widget.LinearLayout, 2131558629 - android.widget.TextView], res/layout/abc_popup_menu_item_layout.xml=[2131558507 - android.widget.TextView, 2131558491 - android.widget.TextView, 2131558509 - android.widget.ImageView, -1 - android.widget.RelativeLayout], res/layout/activity_rate_my_app.xml=[2131558531 - android.widget.FrameLayout], res/layout/row_article_attachment.xml=[-1 - android.widget.RelativeLayout, 2131558614 - android.widget.TextView, 2131558615 - android.widget.TextView], res/layout/view_attachment_inline_item.xml=[2131558634 - android.widget.ImageView, 2131558635 - android.widget.ProgressBar, 2131558633 - android.widget.FrameLayout], res/layout/notification_template_part_chronometer.xml=[2131558598 - android.widget.Chronometer], res/layout/design_bottom_sheet_dialog.xml=[2131558557 - android.widget.FrameLayout, 2131558556 - android.view.View], res/layout/abc_alert_dialog_button_bar_material.xml=[16908315 - android.widget.Button, 16908314 - android.widget.Button, 16908313 - android.widget.Button], res/layout/abc_dialog_title_material.xml=[2131558491 - android.widget.TextView], res/layout/activity_contact_zendesk.xml=[-1 - android.widget.LinearLayout, 2131558530 - android.widget.FrameLayout], res/layout/design_navigation_menu_item.xml=[2131558562 - android.widget.CheckedTextView, 2131558563 - android.view.ViewStub], res/layout/select_dialog_singlechoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout/row_no_articles_found.xml=[16908292 - android.widget.TextView], res/layout/select_dialog_item_material.xml=[16908308 - android.widget.TextView], res/layout/select_dialog_multichoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout/com_facebook_login_fragment.xml=[2131558550 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/com_facebook_tooltip_bubble.xml=[2131558554 - android.widget.TextView, 2131558553 - android.widget.ImageView, 2131558555 - android.widget.ImageView, 2131558552 - android.widget.ImageView, -1 - android.widget.RelativeLayout, 2131558551 - android.widget.RelativeLayout], res/layout/design_navigation_item_separator.xml=[-1 - android.widget.FrameLayout, -1 - android.view.View], res/layout/abc_alert_dialog_material.xml=[2131558496 - android.widget.LinearLayout, 16908294 - android.widget.ImageView, 2131558499 - android.view.View, -1 - android.widget.LinearLayout, 2131558495 - android.widget.LinearLayout, 2131558501 - android.view.View, 16908299 - android.widget.TextView, 2131558503 - android.widget.FrameLayout, 2131558504 - android.widget.FrameLayout, 2131558498 - android.widget.FrameLayout, 2131558502 - android.view.View, 2131558494 - android.widget.LinearLayout], res/layout/row_request.xml=[2131558623 - android.widget.ImageView, 2131558624 - android.widget.LinearLayout, 2131558625 - android.widget.TextView, 2131558626 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/row_padding.xml=[2131558622 - android.view.View], res/layout/abc_action_mode_close_item_material.xml=[2131558484 - android.widget.ImageView], res/layout/notification_media_action.xml=[2131558591 - android.widget.ImageButton], res/layout/row_loading_progress.xml=[-1 - android.widget.FrameLayout, -1 - android.widget.ProgressBar], res/layout/abc_search_dropdown_item_icons_2line.xml=[16908295 - android.widget.ImageView, 16908296 - android.widget.ImageView, 16908308 - android.widget.TextView, 2131558517 - android.widget.ImageView, 16908309 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/row_action.xml=[2131558606 - android.widget.Button, -1 - android.widget.FrameLayout, 2131558607 - android.widget.ProgressBar], res/layout/design_navigation_item_header.xml=[2131558560 - android.widget.LinearLayout], res/layout/messenger_button_send_blue_large.xml=[2131558590 - android.widget.FrameLayout, -1 - android.widget.TextView], res/layout/row_search_article.xml=[-1 - android.widget.LinearLayout, 2131558627 - android.widget.TextView, 2131558491 - android.widget.TextView], res/layout/messenger_button_send_white_round.xml=[2131558590 - android.widget.Button], res/layout/abc_list_menu_item_layout.xml=[2131558507 - android.widget.TextView, 2131558491 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/row_end_user_comment.xml=[2131558620 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131558619 - android.widget.TextView, 2131558618 - android.widget.ImageView, 2131558621 - android.widget.LinearLayout, 2131558617 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/fragment_send_feedback.xml=[2131558572 - android.widget.EditText, -1 - android.widget.LinearLayout, 2131558575 - android.widget.Button, 2131558573 - android.widget.ProgressBar, 2131558574 - android.widget.Button, -1 - android.widget.FrameLayout, -1 - android.widget.TextView, -1 - android.view.View], res/layout/abc_list_menu_item_checkbox.xml=[2131558506 - android.widget.CheckBox], res/layout/abc_popup_menu_header_item_layout.xml=[-1 - android.widget.FrameLayout, 16908310 - android.widget.TextView], res/layout/messenger_button_send_white_small.xml=[2131558590 - android.widget.FrameLayout, -1 - android.widget.TextView], res/layout/zendesk_toolbar.xml=[2131558638 - android.view.View, 2131558636 - android.widget.LinearLayout], res/layout/abc_list_menu_item_radio.xml=[2131558508 - android.widget.RadioButton], res/layout/abc_activity_chooser_view.xml=[2131558486 - android.widget.FrameLayout, 2131558487 - android.widget.ImageView, 2131558488 - android.widget.FrameLayout], res/layout/main.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView], res/layout/activity_view_request.xml=[2131558540 - android.widget.LinearLayout], res/layout/abc_action_bar_up_container.xml=[-1 - android.widget.LinearLayout], res/layout/abc_search_view.xml=[2131558518 - android.widget.LinearLayout, 2131558522 - android.widget.ImageView, 2131558519 - android.widget.TextView, 2131558525 - android.widget.ImageView, 2131558527 - android.widget.ImageView, 2131558528 - android.widget.ImageView, 2131558523 - android.widget.LinearLayout, 2131558520 - android.widget.ImageView, 2131558526 - android.widget.LinearLayout, 2131558521 - android.widget.LinearLayout], res/layout/abc_activity_chooser_view_list_item.xml=[2131558490 - android.widget.ImageView, -1 - android.widget.LinearLayout, 2131558491 - android.widget.TextView, 2131558489 - android.widget.LinearLayout], res/layout/view_attachment_container_item.xml=[-1 - android.widget.FrameLayout, 2131558631 - android.widget.ProgressBar, 2131558632 - android.widget.Button, 2131558630 - android.widget.ImageView], res/layout/row_category.xml=[2131558616 - android.widget.TextView], res/layout/notification_template_media.xml=[2131558490 - android.widget.ImageView, 2131558594 - android.widget.LinearLayout, 2131558593 - android.widget.LinearLayout, 2131558603 - android.widget.ImageView], res/layout/fragment_view_request.xml=[2131558584 - android.widget.Button, 2131558578 - android.widget.HorizontalScrollView, 2131558577 - android.view.View, 2131558582 - android.widget.EditText, 2131558576 - android.widget.ListView, -1 - android.widget.FrameLayout, 2131558579 - android.view.View, 2131558581 - android.widget.LinearLayout, 2131558585 - android.widget.ProgressBar, 2131558583 - android.widget.Button, -1 - android.widget.RelativeLayout], res/layout/notification_template_big_media_narrow.xml=[2131558490 - android.widget.ImageView, 2131558593 - android.widget.RelativeLayout, 2131558594 - android.widget.LinearLayout, 2131558595 - android.widget.ImageView], res/layout/abc_action_bar_title_item.xml=[-1 - android.widget.LinearLayout, 2131558482 - android.widget.TextView, 2131558483 - android.widget.TextView], res/layout/include_no_network_view.xml=[2131558586 - android.widget.LinearLayout, -1 - android.view.View, -1 - android.widget.TextView], res/layout/notification_template_lines.xml=[-1 - android.widget.LinearLayout, 2131558596 - android.widget.LinearLayout, 2131558599 - android.widget.TextView, 2131558602 - android.widget.TextView, 2131558601 - android.widget.TextView, 2131558491 - android.widget.TextView, 2131558600 - android.widget.LinearLayout], res/layout/rovio_ads_video_layout.xml=[2131558604 - android.widget.ImageButton, -1 - android.widget.LinearLayout, 2131558605 - android.widget.ImageButton, -1 - android.widget.TextView, -1 - android.widget.ProgressBar], res/layout/notification_media_cancel_action.xml=[2131558592 - android.widget.ImageButton], res/layout/support_simple_spinner_dropdown_item.xml=[16908308 - android.widget.TextView], res/layout/abc_list_menu_item_icon.xml=[2131558490 - android.widget.ImageView]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Role_Playing/com.rovio.tnt.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes64.dex' with 489 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes63.dex' with 1 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes62.dex' with 7 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes61.dex' with 4 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes60.dex' with 278 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes59.dex' with 65 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes58.dex' with 337 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes57.dex' with 311 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes56.dex' with 1 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes55.dex' with 1 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes54.dex' with 1 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes53.dex' with 55 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes52.dex' with 46 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes51.dex' with 3 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes50.dex' with 124 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes49.dex' with 9 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes48.dex' with 2 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes47.dex' with 36 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes46.dex' with 15 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes45.dex' with 114 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes44.dex' with 80 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes43.dex' with 81 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes42.dex' with 34 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes41.dex' with 188 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes40.dex' with 4 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes39.dex' with 22 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes38.dex' with 363 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes37.dex' with 161 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes36.dex' with 17 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes35.dex' with 819 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes34.dex' with 265 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes33.dex' with 238 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes32.dex' with 5 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes31.dex' with 134 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes30.dex' with 29 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes29.dex' with 93 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes28.dex' with 281 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes27.dex' with 8 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes26.dex' with 27 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes25.dex' with 10 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes24.dex' with 831 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes23.dex' with 465 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes22.dex' with 41 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes21.dex' with 498 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes20.dex' with 276 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes19.dex' with 70 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes18.dex' with 96 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes17.dex' with 2 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes16.dex' with 382 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes15.dex' with 750 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes14.dex' with 13 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes13.dex' with 513 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes12.dex' with 32 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes11.dex' with 553 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes10.dex' with 179 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes9.dex' with 13 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes8.dex' with 27 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes7.dex' with 355 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes6.dex' with 5 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes5.dex' with 26 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes4.dex' with 173 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes3.dex' with 3 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes2.dex' with 10 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes.dex' with 173 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Analysis has run for 2.92604046 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Role_Playing/com.rovio.tnt.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes64.dex' with 489 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes63.dex' with 1 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes62.dex' with 7 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes61.dex' with 4 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes60.dex' with 278 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes59.dex' with 65 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes58.dex' with 337 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes57.dex' with 311 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes56.dex' with 1 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes55.dex' with 1 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes54.dex' with 1 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes53.dex' with 55 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes52.dex' with 46 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes51.dex' with 3 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes50.dex' with 124 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes49.dex' with 9 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes48.dex' with 2 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes47.dex' with 36 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes46.dex' with 15 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes45.dex' with 114 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes44.dex' with 80 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes43.dex' with 81 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes42.dex' with 34 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes41.dex' with 188 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes40.dex' with 4 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes39.dex' with 22 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes38.dex' with 363 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes37.dex' with 161 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes36.dex' with 17 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes35.dex' with 819 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes34.dex' with 265 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes33.dex' with 238 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes32.dex' with 5 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes31.dex' with 134 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes30.dex' with 29 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes29.dex' with 93 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes28.dex' with 281 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes27.dex' with 8 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes26.dex' with 27 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes25.dex' with 10 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes24.dex' with 831 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes23.dex' with 465 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes22.dex' with 41 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes21.dex' with 498 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes20.dex' with 276 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes19.dex' with 70 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes18.dex' with 96 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes17.dex' with 2 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes16.dex' with 382 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes15.dex' with 750 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes14.dex' with 13 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes13.dex' with 513 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes12.dex' with 32 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes11.dex' with 553 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes10.dex' with 179 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes9.dex' with 13 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes8.dex' with 27 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes7.dex' with 355 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes6.dex' with 5 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes5.dex' with 26 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes4.dex' with 173 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes3.dex' with 3 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes2.dex' with 10 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+Found dex file 'classes.dex' with 173 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.rovio.tnt.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Analysis has run for 1.120550381 seconds

@@ -1,0 +1,71 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Simulation/it.rortos.airfighters.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 9506 classes in '/home/anikralhan2011/Flowroid/Benign/Simulation/it.rortos.airfighters.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 25.3 seconds.
+[Spark] Solution found in 25.3 seconds.
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putBoolean(java.lang.String,boolean)>($r7, $z0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r1, $r0), from the following sources:
+	- $r5 = virtualinvoke $r3.<java.util.Locale: java.lang.String getCountry()>() (in <com.heyzap.internal.Utils: java.util.HashMap extraParams(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>($i0, $r1) (in <com.heyzap.http.AsyncHttpResponseHandler: android.os.Message obtainMessage(int,java.lang.Object)>)
+	- $r5 = interfaceinvoke $r1.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.heyzap.http.AsyncHttpResponseHandler: void sendResponseMessage(org.apache.http.HttpResponse)>)
+	- $r4 = interfaceinvoke $r1.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.heyzap.http.AsyncHttpResponseHandler: void sendResponseMessage(org.apache.http.HttpResponse)>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>($r7, $r8), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putInt(java.lang.String,int)>($r7, $i0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[])>($r2), from the following sources:
+	- $r2 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.facebook.ads.internal.i.a.f: java.net.HttpURLConnection a(java.lang.String)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String,java.lang.Throwable)>("OneSignal", $r1, $r2), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>($i0, $r1) (in <com.heyzap.http.AsyncHttpResponseHandler: android.os.Message obtainMessage(int,java.lang.Object)>)
+	- $r11 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.onesignal.OneSignalRestClient: void makeRequest(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.OneSignalRestClient$ResponseHandler)>)
+	- $r5 = interfaceinvoke $r1.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.heyzap.http.AsyncHttpResponseHandler: void sendResponseMessage(org.apache.http.HttpResponse)>)
+	- $r4 = interfaceinvoke $r1.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.heyzap.http.AsyncHttpResponseHandler: void sendResponseMessage(org.apache.http.HttpResponse)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String,java.lang.Throwable)>("OneSignal", $r1, $r2), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>($i0, $r1) (in <com.heyzap.http.AsyncHttpResponseHandler: android.os.Message obtainMessage(int,java.lang.Object)>)
+	- $r11 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.onesignal.OneSignalRestClient: void makeRequest(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.OneSignalRestClient$ResponseHandler)>)
+	- $r5 = interfaceinvoke $r1.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.heyzap.http.AsyncHttpResponseHandler: void sendResponseMessage(org.apache.http.HttpResponse)>)
+	- $r4 = interfaceinvoke $r1.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.heyzap.http.AsyncHttpResponseHandler: void sendResponseMessage(org.apache.http.HttpResponse)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>($i0, $r1) (in <com.heyzap.http.AsyncHttpResponseHandler: android.os.Message obtainMessage(int,java.lang.Object)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String,java.lang.Throwable)>("OneSignal", $r1, $r2), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>($i0, $r1) (in <com.heyzap.http.AsyncHttpResponseHandler: android.os.Message obtainMessage(int,java.lang.Object)>)
+	- $r11 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.onesignal.OneSignalRestClient: void makeRequest(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.OneSignalRestClient$ResponseHandler)>)
+	- $r5 = interfaceinvoke $r1.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.heyzap.http.AsyncHttpResponseHandler: void sendResponseMessage(org.apache.http.HttpResponse)>)
+	- $r4 = interfaceinvoke $r1.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.heyzap.http.AsyncHttpResponseHandler: void sendResponseMessage(org.apache.http.HttpResponse)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>("OneSignal", $r1, $r2), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>($i0, $r1) (in <com.heyzap.http.AsyncHttpResponseHandler: android.os.Message obtainMessage(int,java.lang.Object)>)
+	- $r11 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.onesignal.OneSignalRestClient: void makeRequest(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.OneSignalRestClient$ResponseHandler)>)
+	- $r5 = interfaceinvoke $r1.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.heyzap.http.AsyncHttpResponseHandler: void sendResponseMessage(org.apache.http.HttpResponse)>)
+	- $r4 = interfaceinvoke $r1.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.heyzap.http.AsyncHttpResponseHandler: void sendResponseMessage(org.apache.http.HttpResponse)>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putFloat(java.lang.String,float)>($r7, $f0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>($r2, $r0, $r1), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>($i0, $r1) (in <com.heyzap.http.AsyncHttpResponseHandler: android.os.Message obtainMessage(int,java.lang.Object)>)
+	- $r5 = interfaceinvoke $r1.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.heyzap.http.AsyncHttpResponseHandler: void sendResponseMessage(org.apache.http.HttpResponse)>)
+	- $r4 = interfaceinvoke $r1.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.heyzap.http.AsyncHttpResponseHandler: void sendResponseMessage(org.apache.http.HttpResponse)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String,java.lang.Throwable)>("OneSignal", $r1, $r2), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>($i0, $r1) (in <com.heyzap.http.AsyncHttpResponseHandler: android.os.Message obtainMessage(int,java.lang.Object)>)
+	- $r11 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.onesignal.OneSignalRestClient: void makeRequest(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.OneSignalRestClient$ResponseHandler)>)
+	- $r5 = interfaceinvoke $r1.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.heyzap.http.AsyncHttpResponseHandler: void sendResponseMessage(org.apache.http.HttpResponse)>)
+	- $r4 = interfaceinvoke $r1.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.heyzap.http.AsyncHttpResponseHandler: void sendResponseMessage(org.apache.http.HttpResponse)>)
+Found a flow to sink $r11 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>(), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>($i0, $r1) (in <com.heyzap.http.AsyncHttpResponseHandler: android.os.Message obtainMessage(int,java.lang.Object)>)
+	- $r5 = interfaceinvoke $r1.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.heyzap.http.AsyncHttpResponseHandler: void sendResponseMessage(org.apache.http.HttpResponse)>)
+	- $r4 = interfaceinvoke $r1.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.heyzap.http.AsyncHttpResponseHandler: void sendResponseMessage(org.apache.http.HttpResponse)>)
+Found a flow to sink virtualinvoke $r14.<java.io.OutputStream: void write(byte[])>($r13), from the following sources:
+	- $r11 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.onesignal.OneSignalRestClient: void makeRequest(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.OneSignalRestClient$ResponseHandler)>)
+Found a flow to sink virtualinvoke $r2.<com.unity3d.plugin.downloader.b.g: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r2.<com.unity3d.plugin.downloader.b.g: android.os.Message obtainMessage()>() (in <com.unity3d.plugin.downloader.b.f: void onStart(android.content.Intent,int)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r11), from the following sources:
+	- $r5 = staticinvoke <android.app.PendingIntent: android.app.PendingIntent getActivity(android.content.Context,int,android.content.Intent,int)>($r0, 0, $r2, 134217728) (in <com.unity3d.plugin.downloader.UnityDownloaderActivity: void onCreate(android.os.Bundle)>)
+Maximum memory consumption: 608.133352 MB
+Analysis has run for 66.015318258 seconds

@@ -1,0 +1,32 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Action/com.glu.deerhunt2.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes3.dex' with 4077 classes in '/home/anikralhan2011/Flowroid/Benign/Action/com.glu.deerhunt2.apk'
+Found dex file 'classes2.dex' with 8734 classes in '/home/anikralhan2011/Flowroid/Benign/Action/com.glu.deerhunt2.apk'
+Found dex file 'classes.dex' with 13 classes in '/home/anikralhan2011/Flowroid/Benign/Action/com.glu.deerhunt2.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.2 seconds.
+[Spark] Solution found in 0.2 seconds.
+Analysis has run for 8.047715547 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Action/com.glu.deerhunt2.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes3.dex' with 4077 classes in '/home/anikralhan2011/Flowroid/Benign/Action/com.glu.deerhunt2.apk'
+Found dex file 'classes2.dex' with 8734 classes in '/home/anikralhan2011/Flowroid/Benign/Action/com.glu.deerhunt2.apk'
+Found dex file 'classes.dex' with 13 classes in '/home/anikralhan2011/Flowroid/Benign/Action/com.glu.deerhunt2.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.3 seconds.
+[Spark] Solution found in 0.3 seconds.
+Analysis has run for 4.500447545 seconds

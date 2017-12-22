@@ -1,0 +1,103 @@
+Entry point calculation done.
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/House_Home/com.houzz.app.apk with 46 sources and 122 sinks...
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/House_Home/com.houzz.app.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes2.dex' with 2203 classes in '/home/anikralhan2011/Flowroid/Benign/House_Home/com.houzz.app.apk'
+Found dex file 'classes.dex' with 8186 classes in '/home/anikralhan2011/Flowroid/Benign/House_Home/com.houzz.app.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.4 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 14.4 seconds.
+[Spark] Solution found in 14.4 seconds.
+Found a flow to sink $z0 = virtualinvoke $r0.<a.a.a.f: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r5 = virtualinvoke $r0.<a.a.a.f: android.os.Message obtainMessage()>() (in <a.a.a.f: void a(a.a.a.m,java.lang.Object)>)
+Maximum memory consumption: 205.465944 MB
+Analysis has run for 42.206247905 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/House_Home/com.houzz.app.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes2.dex' with 2203 classes in '/home/anikralhan2011/Flowroid/Benign/House_Home/com.houzz.app.apk'
+Found dex file 'classes.dex' with 8186 classes in '/home/anikralhan2011/Flowroid/Benign/House_Home/com.houzz.app.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/House_Home/com.houzz.app.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes2.dex' with 2203 classes in '/home/anikralhan2011/Flowroid/Benign/House_Home/com.houzz.app.apk'
+Found dex file 'classes.dex' with 8186 classes in '/home/anikralhan2011/Flowroid/Benign/House_Home/com.houzz.app.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 14.1 seconds.
+[Spark] Solution found in 14.1 seconds.
+Found a flow to sink $z0 = virtualinvoke $r0.<a.a.a.f: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r5 = virtualinvoke $r0.<a.a.a.f: android.os.Message obtainMessage()>() (in <a.a.a.f: void a(a.a.a.m,java.lang.Object)>)
+Maximum memory consumption: 593.95424 MB
+Analysis has run for 38.09217351 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/House_Home/com.houzz.app.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes2.dex' with 2203 classes in '/home/anikralhan2011/Flowroid/Benign/House_Home/com.houzz.app.apk'
+Found dex file 'classes.dex' with 8186 classes in '/home/anikralhan2011/Flowroid/Benign/House_Home/com.houzz.app.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.5 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 13.4 seconds.
+[Spark] Solution found in 13.4 seconds.
+Found a flow to sink $z0 = virtualinvoke $r0.<a.a.a.f: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r5 = virtualinvoke $r0.<a.a.a.f: android.os.Message obtainMessage()>() (in <a.a.a.f: void a(a.a.a.m,java.lang.Object)>)
+Maximum memory consumption: 685.676264 MB
+Analysis has run for 44.446639068 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/House_Home/com.houzz.app.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes2.dex' with 2203 classes in '/home/anikralhan2011/Flowroid/Benign/House_Home/com.houzz.app.apk'
+Found dex file 'classes.dex' with 8186 classes in '/home/anikralhan2011/Flowroid/Benign/House_Home/com.houzz.app.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 13.2 seconds.
+[Spark] Solution found in 13.2 seconds.
+Found a flow to sink $z0 = virtualinvoke $r0.<a.a.a.f: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r5 = virtualinvoke $r0.<a.a.a.f: android.os.Message obtainMessage()>() (in <a.a.a.f: void a(a.a.a.m,java.lang.Object)>)
+Maximum memory consumption: 683.600784 MB
+Analysis has run for 39.312076404 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/House_Home/com.houzz.app.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes2.dex' with 2203 classes in '/home/anikralhan2011/Flowroid/Benign/House_Home/com.houzz.app.apk'
+Found dex file 'classes.dex' with 8186 classes in '/home/anikralhan2011/Flowroid/Benign/House_Home/com.houzz.app.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 13.2 seconds.
+[Spark] Solution found in 13.2 seconds.
+Found a flow to sink $z0 = virtualinvoke $r0.<a.a.a.f: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r5 = virtualinvoke $r0.<a.a.a.f: android.os.Message obtainMessage()>() (in <a.a.a.f: void a(a.a.a.m,java.lang.Object)>)
+Maximum memory consumption: 489.971624 MB
+Analysis has run for 37.827779531 seconds

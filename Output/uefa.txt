@@ -1,0 +1,32 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Sports/com.uefa.ucl.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes2.dex' with 2974 classes in '/home/anikralhan2011/Flowroid/Benign/Sports/com.uefa.ucl.apk'
+Found dex file 'classes.dex' with 8508 classes in '/home/anikralhan2011/Flowroid/Benign/Sports/com.uefa.ucl.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.9 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 37.2 seconds.
+[Spark] Solution found in 37.2 seconds.
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r4.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(2, $r1) (in <com.squareup.picasso.Dispatcher: void dispatchCancel(com.squareup.picasso.Action)>)
+Found a flow to sink virtualinvoke $r4.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r5 = virtualinvoke $r4.<android.os.Handler: android.os.Message obtainMessage()>() (in <com.squareup.picasso.Picasso$CleanupThread: void run()>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r4.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(1, $r1) (in <com.squareup.picasso.Dispatcher: void dispatchSubmit(com.squareup.picasso.Action)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("pw_base_url", $r1), from the following sources:
+	- $r4 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.pushwoosh.richpages.g: byte[] a(java.lang.String)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("Pushwoosh", $r0), from the following sources:
+	- $r4 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.pushwoosh.richpages.g: byte[] a(java.lang.String)>)
+Found a flow to sink $r9 = virtualinvoke $r8.<java.net.URL: java.net.URLConnection openConnection()>(), from the following sources:
+	- $r4 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.pushwoosh.richpages.g: byte[] a(java.lang.String)>)
+Found a flow to sink virtualinvoke $r14.<java.io.OutputStream: void write(byte[])>($r13), from the following sources:
+	- $r9 = virtualinvoke $r8.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.pushwoosh.internal.b.l: com.pushwoosh.internal.b.l$a a(android.content.Context,java.util.Map,java.lang.String)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("Pushwoosh", $r0), from the following sources:
+	- $r5 = virtualinvoke $r4.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.pushwoosh.internal.utils.c: java.io.File a(java.lang.String,java.io.File)>)
+Maximum memory consumption: 415.31828 MB
+Analysis has run for 75.234335766 seconds

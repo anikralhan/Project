@@ -1,0 +1,144 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Libraries/com.google.samples.apps.cardboarddemo.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 3861 classes in '/home/anikralhan2011/Flowroid/Benign/Libraries/com.google.samples.apps.cardboarddemo.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.8 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 12.1 seconds.
+[Spark] Solution found in 12.1 seconds.
+Found a flow to sink interfaceinvoke $r33.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("version", $r10), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r1.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r4), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r1, 128) (in <ji: android.content.pm.ServiceInfo a(android.content.Context,android.content.Intent)>)
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r0.<java.io.OutputStream: void write(int)>($b2), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>("CardboardDeviceParams", $r6), from the following sources:
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <baz: void d()>)
+	- $r7 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r6, $r3, null, null, "date_added DESC") (in <baz: void d()>)
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("launch_count", $i1), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r0.<java.io.OutputStream: void write(int)>($b2), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String,java.lang.Throwable)>("ps.TourDemo", "Failed to load tour list", $r1), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r0.<java.io.OutputStream: void write(byte[],int,int)>($r2, 0, $i0), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r6.<android.os.Handler: boolean sendMessage(android.os.Message)>($r8), from the following sources:
+	- $r8 = virtualinvoke $r7.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(6, r10) (in <ig: void onServiceConnected(android.content.ComponentName,android.os.IBinder)>)
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r7.<android.os.Handler: boolean sendMessage(android.os.Message)>($r9), from the following sources:
+	- $r9 = virtualinvoke $r8.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(1, $r1) (in <ik: void a(gd)>)
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putBoolean(java.lang.String,boolean)>($r7, $z0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r7, $r5), from the following sources:
+	- $r5 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r3, 0) (in <ayf: java.util.List a(android.content.Context)>)
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink $r7 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r6, $r3, null, null, "date_added DESC"), from the following sources:
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <baz: void d()>)
+	- $r7 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r6, $r3, null, null, "date_added DESC") (in <baz: void d()>)
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String,java.lang.Throwable)>("ps.AudioFileHelper", $r8, $r10), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink interfaceinvoke $r33.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("name", $r10), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r0.<java.io.OutputStream: void write(int)>($i0), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r11.<java.io.FileOutputStream: void write(byte[],int,int)>($r12, 0, $i1), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>("GooglePlayServicesUtil", $r3), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String,java.lang.Throwable)>("ps.TourController", "Failed to load pano", $r1), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink $z0 = virtualinvoke $r4.<android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>($r6, $r7, 129), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>("GmsClientEvents", $r5), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink interfaceinvoke $r33.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("packageName", $r10), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putFloat(java.lang.String,float)>($r7, $f0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r0.<java.io.OutputStream: void write(int)>($i1), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r6.<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>($r7, $r4), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r0.<java.io.OutputStream: void write(int)>($b2), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("CardboardDeviceParams", $r4), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r5.<java.io.OutputStream: void write(byte[])>($r0), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>($r12, $r15, $r13), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>($r7, $r8), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r0.<java.io.OutputStream: void write(int)>($b2), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r0.<java.io.OutputStream: void write(int)>($b2), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r9.<android.os.Handler: boolean sendMessage(android.os.Message)>($r12), from the following sources:
+	- $r12 = virtualinvoke $r10.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(3, $r11) (in <ib: void a(int,android.os.IInterface)>)
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r3.<android.os.Handler: boolean sendMessage(android.os.Message)>($r6), from the following sources:
+	- $r6 = virtualinvoke $r4.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(3, $r5) (in <ib: void a()>)
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String,java.lang.Throwable)>("ps.TourDemo", "Failed to load tour", $r1), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r0.<java.io.OutputStream: void write(int)>($i1), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r0.<java.io.OutputStream: void write(int)>($b2), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink $r5 = virtualinvoke $r4.<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>($r1, $r3), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String,java.lang.Throwable)>("ps.AudioFileHelper", "Failed to get audio asset for playback", $r1), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r0.<java.io.OutputStream: void write(int)>($b2), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r8, $r9), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r7, $r5), from the following sources:
+	- $r5 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r3, 0) (in <ayf: java.util.List a(android.content.Context)>)
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>("ConnectionTracker", $r5), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r1, 128) (in <ji: android.content.pm.ServiceInfo a(android.content.Context,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>("GmsClientEvents", $r5), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r0.<java.io.OutputStream: void write(int)>($b2), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink $r3 = interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>($r4, 1), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>("ConnectionTracker", $r7), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r5.<java.io.FileOutputStream: void write(byte[])>($r3), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r2, $r0), from the following sources:
+	- $r10 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <an: fx a(af)>)
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r0.<fu: boolean sendMessage(android.os.Message)>($r4), from the following sources:
+	- $r4 = virtualinvoke $r0.<fu: android.os.Message obtainMessage(int,java.lang.Object)>(1, $r3) (in <fu: void a(gl,gk)>)
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putInt(java.lang.String,int)>($r7, $i0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r0.<java.io.OutputStream: void write(int)>($i1), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink $r3 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>(), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>("PassiveTimedConnectionMap", $r6), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink $r10 = interfaceinvoke $r9.<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>(r21), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>($r14, $r16, $r15), from the following sources:
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i1) (in <baz: void d()>)
+	- $r7 = virtualinvoke $r5.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r6, $r3, null, null, "date_added DESC") (in <baz: void d()>)
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("CacheInstaller", $r8), from the following sources:
+	- $r15 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <an: fx a(af)>)
+Maximum memory consumption: 1551.074816 MB
+Analysis has run for 243.671117746 seconds

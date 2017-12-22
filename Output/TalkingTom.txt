@@ -1,0 +1,55 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Entertainment/com.outfit7.talkingtom.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes3.dex' with 3437 classes in '/home/anikralhan2011/Flowroid/Benign/Entertainment/com.outfit7.talkingtom.apk'
+Found dex file 'classes2.dex' with 9569 classes in '/home/anikralhan2011/Flowroid/Benign/Entertainment/com.outfit7.talkingtom.apk'
+Found dex file 'classes.dex' with 6946 classes in '/home/anikralhan2011/Flowroid/Benign/Entertainment/com.outfit7.talkingtom.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.1 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 45.5 seconds.
+[Spark] Solution found in 45.5 seconds.
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r0, $r7), from the following sources:
+	- $r4 = staticinvoke <org.apache.http.util.EntityUtils: java.lang.String toString(org.apache.http.HttpEntity)>($r8) (in <com.bee7.sdk.common.AbstractBackendCommunication: void sendPingRequest(int)>)
+	- $r9 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.bee7.sdk.common.AbstractBackendCommunication: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,boolean)>)
+	- $r9 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.bee7.sdk.common.AbstractBackendCommunication: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,boolean)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r0, $r7), from the following sources:
+	- $r4 = staticinvoke <org.apache.http.util.EntityUtils: java.lang.String toString(org.apache.http.HttpEntity)>($r8) (in <com.bee7.sdk.common.AbstractBackendCommunication: void sendPingRequest(int)>)
+	- $r9 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.bee7.sdk.common.AbstractBackendCommunication: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,boolean)>)
+	- $r9 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.bee7.sdk.common.AbstractBackendCommunication: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,boolean)>)
+Found a flow to sink $r5 = virtualinvoke $r4.<java.net.URL: java.net.URLConnection openConnection()>(), from the following sources:
+	- $r5 = virtualinvoke $r4.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.apptracker.android.request.AppRequest$AppTrackTask: java.lang.String f(java.lang.String[])>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r0, $r7), from the following sources:
+	- $r4 = staticinvoke <org.apache.http.util.EntityUtils: java.lang.String toString(org.apache.http.HttpEntity)>($r8) (in <com.bee7.sdk.common.AbstractBackendCommunication: void sendPingRequest(int)>)
+	- $r9 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.bee7.sdk.common.AbstractBackendCommunication: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,boolean)>)
+	- $r9 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.bee7.sdk.common.AbstractBackendCommunication: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,boolean)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String,java.lang.Throwable)>($r0, $r3, $r2), from the following sources:
+	- $r4 = staticinvoke <org.apache.http.util.EntityUtils: java.lang.String toString(org.apache.http.HttpEntity)>($r8) (in <com.bee7.sdk.common.AbstractBackendCommunication: void sendPingRequest(int)>)
+	- $r9 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.bee7.sdk.common.AbstractBackendCommunication: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,boolean)>)
+	- $r9 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.bee7.sdk.common.AbstractBackendCommunication: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,boolean)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r0, $r7), from the following sources:
+	- $r4 = staticinvoke <org.apache.http.util.EntityUtils: java.lang.String toString(org.apache.http.HttpEntity)>($r8) (in <com.bee7.sdk.common.AbstractBackendCommunication: void sendPingRequest(int)>)
+	- $r9 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.bee7.sdk.common.AbstractBackendCommunication: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,boolean)>)
+	- $r9 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.bee7.sdk.common.AbstractBackendCommunication: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,boolean)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String,java.lang.Throwable)>($r0, $r3, $r2), from the following sources:
+	- $r4 = staticinvoke <org.apache.http.util.EntityUtils: java.lang.String toString(org.apache.http.HttpEntity)>($r8) (in <com.bee7.sdk.common.AbstractBackendCommunication: void sendPingRequest(int)>)
+	- $r9 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.bee7.sdk.common.AbstractBackendCommunication: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,boolean)>)
+	- $r9 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.bee7.sdk.common.AbstractBackendCommunication: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,boolean)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>($r0, $r3, $r2), from the following sources:
+	- $r4 = staticinvoke <org.apache.http.util.EntityUtils: java.lang.String toString(org.apache.http.HttpEntity)>($r8) (in <com.bee7.sdk.common.AbstractBackendCommunication: void sendPingRequest(int)>)
+	- $r9 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.bee7.sdk.common.AbstractBackendCommunication: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,boolean)>)
+	- $r9 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.bee7.sdk.common.AbstractBackendCommunication: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,boolean)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("APTr", $r1), from the following sources:
+	- $r5 = virtualinvoke $r4.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.apptracker.android.request.AppRequest$AppTrackTask: java.lang.String f(java.lang.String[])>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String,java.lang.Throwable)>($r0, $r3, $r2), from the following sources:
+	- $r4 = staticinvoke <org.apache.http.util.EntityUtils: java.lang.String toString(org.apache.http.HttpEntity)>($r8) (in <com.bee7.sdk.common.AbstractBackendCommunication: void sendPingRequest(int)>)
+	- $r9 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.bee7.sdk.common.AbstractBackendCommunication: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,boolean)>)
+	- $r9 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.bee7.sdk.common.AbstractBackendCommunication: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,boolean)>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[])>($r2), from the following sources:
+	- $r2 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.facebook.ads.internal.g.a.f: java.net.HttpURLConnection a(java.lang.String)>)
+Maximum memory consumption: 182.42792 MB
+Analysis has run for 80.592292096 seconds

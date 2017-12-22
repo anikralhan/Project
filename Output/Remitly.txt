@@ -1,0 +1,862 @@
+Found dex file 'classes2.dex' with 4449 classes in '/home/anikralhan2011/Flowroid/Benign/Finance/com.remitly.androidapp.apk'
+Found dex file 'classes.dex' with 7176 classes in '/home/anikralhan2011/Flowroid/Benign/Finance/com.remitly.androidapp.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.7 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 21.1 seconds.
+[Spark] Solution found in 21.1 seconds.
+Callback analysis done.
+Found 1 layout controls in file res/layout-land/com_mixpanel_android_activity_notification_full.xml
+Found 1 layout controls in file res/layout-sw600dp-v13/design_layout_snackbar.xml
+Found 1 layout controls in file res/layout-v21/abc_screen_toolbar.xml
+Found unrecognized XML attribute:  contentDescription
+Found unrecognized XML attribute:  contentDescription
+Found 2 layout controls in file res/layout-v21/apptentive_about.xml
+Found 3 layout controls in file res/layout/abc_action_bar_title_item.xml
+Found 4 layout controls in file res/layout/abc_action_bar_up_container.xml
+Found 5 layout controls in file res/layout/abc_action_bar_view_list_nav_layout.xml
+Found 5 layout controls in file res/layout/abc_action_menu_item_layout.xml
+Found 5 layout controls in file res/layout/abc_action_menu_layout.xml
+Found 5 layout controls in file res/layout/abc_action_mode_bar.xml
+Found 6 layout controls in file res/layout/abc_action_mode_close_item_material.xml
+Found 7 layout controls in file res/layout/abc_activity_chooser_view.xml
+Found 8 layout controls in file res/layout/abc_activity_chooser_view_list_item.xml
+Found 9 layout controls in file res/layout/abc_alert_dialog_button_bar_material.xml
+Found 10 layout controls in file res/layout/abc_alert_dialog_material.xml
+Found 11 layout controls in file res/layout/abc_dialog_title_material.xml
+Found 11 layout controls in file res/layout/abc_expanded_menu_layout.xml
+Found 12 layout controls in file res/layout/abc_list_menu_item_checkbox.xml
+Found 13 layout controls in file res/layout/abc_list_menu_item_icon.xml
+Found 14 layout controls in file res/layout/abc_list_menu_item_layout.xml
+Found 15 layout controls in file res/layout/abc_list_menu_item_radio.xml
+Found 16 layout controls in file res/layout/abc_popup_menu_header_item_layout.xml
+Found 17 layout controls in file res/layout/abc_popup_menu_item_layout.xml
+Found 17 layout controls in file res/layout/abc_screen_content_include.xml
+Found 17 layout controls in file res/layout/abc_screen_simple.xml
+Found 17 layout controls in file res/layout/abc_screen_simple_overlay_action_mode.xml
+Found 17 layout controls in file res/layout/abc_screen_toolbar.xml
+Found 18 layout controls in file res/layout/abc_search_dropdown_item_icons_2line.xml
+Found 19 layout controls in file res/layout/abc_search_view.xml
+Found 20 layout controls in file res/layout/abc_select_dialog_material.xml
+Found 21 layout controls in file res/layout/activity_camera.xml
+Found 22 layout controls in file res/layout/activity_configure_appwidget.xml
+Found 23 layout controls in file res/layout/activity_feed.xml
+Found 24 layout controls in file res/layout/activity_home.xml
+Found 24 layout controls in file res/layout/activity_home_contacts.xml
+Found 25 layout controls in file res/layout/activity_main_fragment.xml
+Found 26 layout controls in file res/layout/activity_modal_panel.xml
+Found 26 layout controls in file res/layout/activity_referrals.xml
+Found 27 layout controls in file res/layout/activity_scrolling_fragment.xml
+Found 28 layout controls in file res/layout/activity_splash.xml
+Found 28 layout controls in file res/layout/activity_unsupported_corridor.xml
+Found unrecognized XML attribute:  contentDescription
+Found unrecognized XML attribute:  contentDescription
+Found 29 layout controls in file res/layout/apptentive_about.xml
+Found 30 layout controls in file res/layout/apptentive_branding.xml
+Found 31 layout controls in file res/layout/apptentive_dialog_alert.xml
+Found unrecognized XML attribute:  contentDescription
+Found 32 layout controls in file res/layout/apptentive_dialog_image_preview.xml
+Found 33 layout controls in file res/layout/apptentive_enjoyment_dialog_interaction.xml
+Found 34 layout controls in file res/layout/apptentive_image_grid_view_item.xml
+Found 35 layout controls in file res/layout/apptentive_message_auto.xml
+Found 36 layout controls in file res/layout/apptentive_message_center.xml
+Found 37 layout controls in file res/layout/apptentive_message_center_composer.xml
+Found 38 layout controls in file res/layout/apptentive_message_center_context_message.xml
+Found 39 layout controls in file res/layout/apptentive_message_center_error.xml
+Found 40 layout controls in file res/layout/apptentive_message_center_greeting.xml
+Found 41 layout controls in file res/layout/apptentive_message_center_status.xml
+Found 42 layout controls in file res/layout/apptentive_message_center_who_card.xml
+Found 43 layout controls in file res/layout/apptentive_message_incoming.xml
+Found 44 layout controls in file res/layout/apptentive_message_outgoing.xml
+Found 45 layout controls in file res/layout/apptentive_notification_toast.xml
+Found 46 layout controls in file res/layout/apptentive_notification_toast_container.xml
+Found 47 layout controls in file res/layout/apptentive_rating_dialog_interaction.xml
+Found 48 layout controls in file res/layout/apptentive_survey.xml
+Found 49 layout controls in file res/layout/apptentive_survey_invalid_toast.xml
+Found 50 layout controls in file res/layout/apptentive_survey_question_base.xml
+Found 51 layout controls in file res/layout/apptentive_survey_question_multichoice.xml
+Found 52 layout controls in file res/layout/apptentive_survey_question_multichoice_choice.xml
+Found 53 layout controls in file res/layout/apptentive_survey_question_multiselect.xml
+Found 54 layout controls in file res/layout/apptentive_survey_question_multiselect_choice.xml
+Found 55 layout controls in file res/layout/apptentive_survey_question_range_answer.xml
+Found 56 layout controls in file res/layout/apptentive_survey_question_range_choice.xml
+Found 57 layout controls in file res/layout/apptentive_survey_question_singleline.xml
+Found 58 layout controls in file res/layout/apptentive_survey_sent_toast.xml
+Found 59 layout controls in file res/layout/apptentive_textmodal_interaction_button.xml
+Found 60 layout controls in file res/layout/apptentive_textmodal_interaction_center.xml
+Found 61 layout controls in file res/layout/apptentive_upgrade_message_interaction.xml
+Found 62 layout controls in file res/layout/apptentive_viewactivity.xml
+Found 63 layout controls in file res/layout/apptentive_widget_message_center_badge.xml
+Found unrecognized XML attribute:  fontFamily
+Found 64 layout controls in file res/layout/appwidget_forex_1_rate.xml
+Found unrecognized XML attribute:  fontFamily
+Found unrecognized XML attribute:  fontFamily
+Found unrecognized XML attribute:  fontFamily
+Found unrecognized XML attribute:  fontFamily
+Found 65 layout controls in file res/layout/appwidget_forex_2_rates.xml
+Found unrecognized XML attribute:  fontFamily
+Found 66 layout controls in file res/layout/appwidget_forex_head_flags.xml
+Found unrecognized XML attribute:  fontFamily
+Found 67 layout controls in file res/layout/appwidget_send_button.xml
+Found 68 layout controls in file res/layout/com_facebook_activity_layout.xml
+Found unrecognized XML attribute:  fontFamily
+Found unrecognized XML attribute:  fontFamily
+Found unrecognized XML attribute:  fontFamily
+Found unrecognized XML attribute:  fontFamily
+Found 69 layout controls in file res/layout/com_facebook_device_auth_dialog_fragment.xml
+Found 70 layout controls in file res/layout/com_facebook_login_fragment.xml
+Found 71 layout controls in file res/layout/com_facebook_tooltip_bubble.xml
+Found 72 layout controls in file res/layout/com_mixpanel_android_activity_notification_full.xml
+Found 73 layout controls in file res/layout/com_mixpanel_android_activity_notification_mini.xml
+Found 74 layout controls in file res/layout/com_mixpanel_android_activity_survey.xml
+Found 74 layout controls in file res/layout/com_mixpanel_android_first_choice_answer.xml
+Found 74 layout controls in file res/layout/com_mixpanel_android_last_choice_answer.xml
+Found 74 layout controls in file res/layout/com_mixpanel_android_middle_choice_answer.xml
+Found unrecognized XML attribute:  tag
+Found unrecognized XML attribute:  tag
+Found 75 layout controls in file res/layout/com_mixpanel_android_question_card.xml
+Found 76 layout controls in file res/layout/compound_radio_button.xml
+Found 77 layout controls in file res/layout/design_bottom_sheet_dialog.xml
+Found 77 layout controls in file res/layout/design_layout_snackbar.xml
+Found 78 layout controls in file res/layout/design_layout_snackbar_include.xml
+Found 79 layout controls in file res/layout/design_layout_tab_icon.xml
+Found 80 layout controls in file res/layout/design_layout_tab_text.xml
+Found 81 layout controls in file res/layout/design_menu_item_action_area.xml
+Found 81 layout controls in file res/layout/design_navigation_item.xml
+Found 82 layout controls in file res/layout/design_navigation_item_header.xml
+Found 83 layout controls in file res/layout/design_navigation_item_separator.xml
+Found 84 layout controls in file res/layout/design_navigation_item_subheader.xml
+Found 84 layout controls in file res/layout/design_navigation_menu.xml
+Found 85 layout controls in file res/layout/design_navigation_menu_item.xml
+Found 85 layout controls in file res/layout/design_text_input_password_icon.xml
+Found 85 layout controls in file res/layout/destination_radio_button.xml
+Found 86 layout controls in file res/layout/dialog_base.xml
+Found 87 layout controls in file res/layout/dialog_content_error.xml
+Found 88 layout controls in file res/layout/dialog_content_info.xml
+Found 88 layout controls in file res/layout/dialog_date_picker.xml
+Found 89 layout controls in file res/layout/dialog_progress.xml
+Found 90 layout controls in file res/layout/dialog_transaction_processing.xml
+Found 91 layout controls in file res/layout/form_element_country_picker_item.xml
+Found 92 layout controls in file res/layout/form_element_phone_picker.xml
+Found 93 layout controls in file res/layout/form_element_picker_text.xml
+Found 94 layout controls in file res/layout/form_element_region_picker_text.xml
+Found 95 layout controls in file res/layout/fragment_camera.xml
+Found 96 layout controls in file res/layout/fragment_webview.xml
+Found 97 layout controls in file res/layout/home.xml
+Found 98 layout controls in file res/layout/home_attention_required.xml
+Found 99 layout controls in file res/layout/home_forex.xml
+Found 100 layout controls in file res/layout/home_forex_absent.xml
+Found 101 layout controls in file res/layout/home_forex_dual.xml
+Found 102 layout controls in file res/layout/home_forex_single.xml
+Found 103 layout controls in file res/layout/home_has_survey.xml
+Found 104 layout controls in file res/layout/home_where_gift_card.xml
+Found 105 layout controls in file res/layout/messenger_button_send_blue_large.xml
+Found 106 layout controls in file res/layout/messenger_button_send_blue_round.xml
+Found 107 layout controls in file res/layout/messenger_button_send_blue_small.xml
+Found 108 layout controls in file res/layout/messenger_button_send_white_large.xml
+Found 109 layout controls in file res/layout/messenger_button_send_white_round.xml
+Found 110 layout controls in file res/layout/messenger_button_send_white_small.xml
+Found 111 layout controls in file res/layout/notification_media_action.xml
+Found 112 layout controls in file res/layout/notification_media_cancel_action.xml
+Found 113 layout controls in file res/layout/notification_template_big_media.xml
+Found 114 layout controls in file res/layout/notification_template_big_media_narrow.xml
+Found 115 layout controls in file res/layout/notification_template_lines.xml
+Found 116 layout controls in file res/layout/notification_template_media.xml
+Found 117 layout controls in file res/layout/notification_template_part_chronometer.xml
+Found 117 layout controls in file res/layout/notification_template_part_time.xml
+Found 118 layout controls in file res/layout/panel_barcode_scanner.xml
+Found 119 layout controls in file res/layout/panel_doc_upload.xml
+Found 120 layout controls in file res/layout/panel_fragment.xml
+Found 121 layout controls in file res/layout/panel_loading_overlay.xml
+Found 121 layout controls in file res/layout/panel_widget_action_button.xml
+Found 121 layout controls in file res/layout/panel_widget_button.xml
+Found 121 layout controls in file res/layout/panel_widget_checkbox_view.xml
+Found 122 layout controls in file res/layout/panel_widget_currency.xml
+Found 123 layout controls in file res/layout/panel_widget_edittext.xml
+Found 124 layout controls in file res/layout/panel_widget_icon_set.xml
+Found 125 layout controls in file res/layout/panel_widget_ifsc.xml
+Found 126 layout controls in file res/layout/panel_widget_label_layout.xml
+Found 126 layout controls in file res/layout/panel_widget_label_sxs.xml
+Found 126 layout controls in file res/layout/panel_widget_label_view.xml
+Found 127 layout controls in file res/layout/panel_widget_profile.xml
+Found 128 layout controls in file res/layout/panel_widget_scrolling_list.xml
+Found 129 layout controls in file res/layout/panel_widget_state_with_progress.xml
+Found 130 layout controls in file res/layout/panel_widget_tab_header.xml
+Found 130 layout controls in file res/layout/panel_widget_template_linear.xml
+Found 131 layout controls in file res/layout/payment_radio_button.xml
+Found 132 layout controls in file res/layout/select_dialog_item_material.xml
+Found 133 layout controls in file res/layout/select_dialog_multichoice_material.xml
+Found 134 layout controls in file res/layout/select_dialog_singlechoice_material.xml
+Found 135 layout controls in file res/layout/spinner_region_dropdown_item.xml
+Found 136 layout controls in file res/layout/support_simple_spinner_dropdown_item.xml
+Found 137 layout controls in file res/layout/view_avatar.xml
+Found 138 layout controls in file res/layout/view_avatar_progress.xml
+Found 139 layout controls in file res/layout/view_bubble_transaction.xml
+Found 140 layout controls in file res/layout/view_choice.xml
+Found 141 layout controls in file res/layout/view_content.xml
+Found 142 layout controls in file res/layout/view_date_picker.xml
+Found 143 layout controls in file res/layout/view_detail_body_step_container.xml
+Found 143 layout controls in file res/layout/view_drawer.xml
+Found 144 layout controls in file res/layout/view_drawer_account.xml
+Found 145 layout controls in file res/layout/view_drawer_item.xml
+Found 145 layout controls in file res/layout/view_drawer_space.xml
+Found 146 layout controls in file res/layout/view_feed_item_navigation.xml
+Found 146 layout controls in file res/layout/view_feed_item_transaction_bubble.xml
+Found 146 layout controls in file res/layout/view_feed_items.xml
+Found 147 layout controls in file res/layout/view_free_text.xml
+Found 148 layout controls in file res/layout/view_home_contact.xml
+Found 149 layout controls in file res/layout/view_interstitial.xml
+Found 149 layout controls in file res/layout/view_outline_button.xml
+Found 150 layout controls in file res/layout/view_person_simple.xml
+Found 151 layout controls in file res/layout/view_referrals_link.xml
+Found 152 layout controls in file res/layout/view_send_choice_menu.xml
+Found 153 layout controls in file res/layout/view_tabs_layout.xml
+Found 154 layout controls in file res/layout/view_toolbar.xml
+Found 155 layout controls in file res/layout/view_toolbar_referrals_shrinking.xml
+Found 156 layout controls in file res/layout/view_with_bottom_button.xml
+Found 157 layout controls in file res/layout/view_wizard_header.xml
+Found 158 layout controls in file res/layout/view_wizard_label.xml
+Found 158 layout controls in file res/layout/view_wizard_list.xml
+Found dex file 'classes2.dex' with 4449 classes in '/home/anikralhan2011/Flowroid/Benign/Finance/com.remitly.androidapp.apk'
+Found dex file 'classes.dex' with 7176 classes in '/home/anikralhan2011/Flowroid/Benign/Finance/com.remitly.androidapp.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 20.4 seconds.
+[Spark] Solution found in 20.4 seconds.
+Running incremental callback analysis for 9 components...
+Incremental callback analysis done.
+Found 55 callback methods for 9 components
+Found {res/layout/apptentive_branding.xml=[-1 - android.widget.TextView, -1 - android.widget.ImageView, -1 - android.widget.FrameLayout, 2131624143 - android.widget.LinearLayout, -1 - android.widget.LinearLayout], res/layout/abc_select_dialog_material.xml=[2131624117 - android.widget.ListView], res/layout/apptentive_notification_toast_container.xml=[2131624201 - android.widget.LinearLayout], res/layout/messenger_button_send_white_large.xml=[-1 - android.widget.TextView, 2131624316 - android.widget.FrameLayout], res/layout/view_content.xml=[2131624392 - android.widget.FrameLayout], res/layout/com_facebook_activity_layout.xml=[2131624244 - android.widget.FrameLayout], res/layout/panel_widget_icon_set.xml=[2131624343 - android.widget.TextView, 2131624344 - android.widget.LinearLayout], res/layout/apptentive_textmodal_interaction_center.xml=[2131624079 - android.widget.TextView, 2131624155 - android.widget.LinearLayout, 2131624173 - android.widget.TextView, -1 - android.widget.LinearLayout, -1 - android.widget.ScrollView], res/layout/appwidget_forex_1_rate.xml=[2131624237 - android.widget.TextView, 2131624236 - android.widget.LinearLayout], res/layout/apptentive_widget_message_center_badge.xml=[2131624235 - android.widget.ImageView, 2131624234 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/home_forex_single.xml=[2131624312 - android.widget.TextView], res/layout/design_menu_item_action_area.xml=[-1 - android.widget.FrameLayout], res/layout/apptentive_survey_question_range_choice.xml=[-1 - android.widget.RadioButton], res/layout/design_layout_tab_text.xml=[-1 - android.widget.TextView], res/layout/view_send_choice_menu.xml=[2131624417 - android.view.View, 2131624418 - android.widget.LinearLayout], res/layout/messenger_button_send_blue_round.xml=[2131624316 - android.widget.Button], res/layout/apptentive_dialog_image_preview.xml=[2131624153 - android.widget.ProgressBar, 2131624151 - android.widget.RelativeLayout, 2131624150 - com.apptentive.android.sdk.util.image.PreviewImageView, 2131624152 - android.widget.ImageButton, 2131624149 - android.widget.FrameLayout], res/layout/activity_configure_appwidget.xml=[-1 - android.widget.TextView, 2131624123 - android.widget.Button, 2131624122 - android.widget.Button, -1 - android.widget.RelativeLayout, -1 - android.widget.LinearLayout], res/layout/apptentive_survey_invalid_toast.xml=[2131624211 - android.widget.TextView, 2131624210 - android.widget.LinearLayout], res/layout/design_layout_snackbar_include.xml=[2131624279 - android.widget.Button, 2131624278 - android.widget.TextView], res/layout/abc_action_bar_view_list_nav_layout.xml=[-1 - android.widget.LinearLayout], res/layout/panel_loading_overlay.xml=[2131624290 - com.github.rahatarmanahmed.cpv.CircularProgressView, -1 - android.widget.FrameLayout], res/layout/abc_popup_menu_item_layout.xml=[2131624079 - android.widget.TextView, 2131624095 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131624097 - android.widget.ImageView], res/layout/apptentive_upgrade_message_interaction.xml=[-1 - android.widget.LinearLayout, 2131624078 - android.widget.ImageView, -1 - android.widget.ScrollView, 2131624230 - android.webkit.WebView], res/layout/apptentive_image_grid_view_item.xml=[-1 - android.widget.FrameLayout, 2131624161 - android.widget.ProgressBar, 2131624159 - android.view.View, 2131624075 - android.widget.ImageView, 2131624158 - android.widget.TextView, 2131624162 - com.apptentive.android.sdk.view.ApptentiveMaterialDeterminateProgressBar, 2131624160 - android.widget.ImageView], res/layout/panel_widget_ifsc.xml=[2131624345 - android.widget.EditText, 2131624346 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout/view_feed_item_navigation.xml=[2131624323 - android.widget.TextView, 2131624399 - android.view.ViewStub], res/layout/notification_template_part_chronometer.xml=[2131624324 - android.widget.Chronometer], res/layout/apptentive_survey_sent_toast.xml=[2131624227 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131624229 - android.widget.TextView], res/layout-land/com_mixpanel_android_activity_notification_full.xml=[2131624258 - android.widget.ImageView, 2131624256 - android.widget.ImageView, 2131624262 - android.widget.Button, 2131624257 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, 2131624261 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131624260 - android.widget.TextView], res/layout/abc_alert_dialog_button_bar_material.xml=[16908313 - android.widget.Button, 16908314 - android.widget.Button, 16908315 - android.widget.Button], res/layout/apptentive_message_incoming.xml=[2131624175 - com.apptentive.android.sdk.module.messagecenter.view.ApptentiveAvatarView, 2131624191 - android.widget.LinearLayout, 2131624190 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131624163 - android.widget.TextView, 2131624194 - com.apptentive.android.sdk.util.image.ApptentiveImageGridView, 2131624192 - android.widget.TextView, 2131624193 - android.widget.TextView], res/layout/view_drawer_account.xml=[-1 - android.widget.TextView], res/layout/apptentive_message_center_context_message.xml=[2131624173 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout/activity_home.xml=[2131624126 - android.widget.FrameLayout, 2131624127 - android.widget.LinearLayout, 2131623954 - android.widget.FrameLayout], res/layout/design_navigation_menu_item.xml=[2131624283 - android.view.ViewStub, 2131624282 - android.widget.CheckedTextView], res/layout/home.xml=[2131624125 - com.remitly.orca.ui.views.IconSpanButton, -1 - android.widget.LinearLayout], res/layout/view_drawer_item.xml=[-1 - android.widget.TextView], res/layout/abc_alert_dialog_material.xml=[2131624087 - android.view.View, 16908294 - android.widget.ImageView, 2131624083 - android.widget.LinearLayout, 2131624084 - android.widget.LinearLayout, 2131624082 - android.widget.LinearLayout, 2131624086 - android.widget.FrameLayout, -1 - android.widget.LinearLayout, 16908299 - android.widget.TextView, 2131624092 - android.widget.FrameLayout, 2131624089 - android.view.View, 2131624090 - android.view.View, 2131624091 - android.widget.FrameLayout], res/layout/apptentive_message_center_greeting.xml=[2131624177 - android.widget.TextView, 2131624175 - com.apptentive.android.sdk.module.messagecenter.view.ApptentiveAvatarView, 2131624179 - android.widget.ImageButton, 2131624178 - android.widget.TextView, -1 - android.widget.FrameLayout, -1 - android.widget.RelativeLayout, 2131624176 - android.widget.LinearLayout], res/layout/apptentive_survey_question_range_answer.xml=[-1 - android.widget.RelativeLayout, 2131624224 - android.widget.TextView, 2131624222 - android.widget.RadioGroup, 2131624223 - android.widget.TextView], res/layout/home_forex.xml=[-1 - android.widget.RelativeLayout], res/layout/abc_search_dropdown_item_icons_2line.xml=[2131624105 - android.widget.ImageView, -1 - android.widget.RelativeLayout, 16908308 - android.widget.TextView, 16908296 - android.widget.ImageView, 16908309 - android.widget.TextView, 16908295 - android.widget.ImageView], res/layout/apptentive_survey_question_multiselect.xml=[2131624219 - android.widget.LinearLayout], res/layout/dialog_content_info.xml=[-1 - android.widget.RelativeLayout], res/layout/spinner_region_dropdown_item.xml=[-1 - android.view.View, 2131624377 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout/apptentive_survey_question_multichoice.xml=[2131624219 - android.widget.LinearLayout], res/layout/panel_widget_scrolling_list.xml=[2131624363 - android.widget.ListView], res/layout/apptentive_about.xml=[-1 - android.widget.TextView, -1 - android.widget.FrameLayout, -1 - android.widget.LinearLayout, 2131624138 - android.widget.RelativeLayout, 2131624139 - android.widget.ImageButton, 2131624142 - android.widget.Button, -1 - android.widget.ScrollView, 2131624140 - android.widget.ImageButton, 2131624141 - android.widget.Button], res/layout/view_with_bottom_button.xml=[2131624429 - com.remitly.orca.ui.views.IconSpanButton, 2131624392 - android.widget.FrameLayout], res/layout/home_forex_absent.xml=[2131624310 - android.widget.TextView], res/layout/panel_barcode_scanner.xml=[2131624329 - android.widget.ScrollView, -1 - android.widget.FrameLayout, 2131623980 - android.widget.LinearLayout], res/layout/apptentive_message_outgoing.xml=[2131624191 - android.widget.LinearLayout, 2131624190 - android.widget.LinearLayout, 2131624196 - com.apptentive.android.sdk.view.ApptentiveMaterialIndeterminateProgressBar, -1 - android.widget.LinearLayout, 2131624163 - android.widget.TextView, 2131624194 - com.apptentive.android.sdk.util.image.ApptentiveImageGridView, 2131624195 - android.widget.TextView, 2131624193 - android.widget.TextView], res/layout/dialog_progress.xml=[2131624290 - com.github.rahatarmanahmed.cpv.CircularProgressView, -1 - android.widget.RelativeLayout, 2131624291 - android.widget.TextView], res/layout/view_person_simple.xml=[2131624416 - android.widget.TextView], res/layout/home_where_gift_card.xml=[-1 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout/messenger_button_send_white_small.xml=[-1 - android.widget.TextView, 2131624316 - android.widget.FrameLayout], res/layout/activity_main_fragment.xml=[2131623954 - android.widget.RelativeLayout, 2131623944 - android.widget.LinearLayout], res/layout/form_element_region_picker_text.xml=[-1 - android.widget.TextView], res/layout/abc_action_bar_up_container.xml=[-1 - android.widget.LinearLayout], res/layout/form_element_phone_picker.xml=[2131624300 - android.widget.Spinner], res/layout/view_choice.xml=[2131624063 - com.remitly.orca.ui.views.IconSpanButton, 2131624390 - android.widget.LinearLayout], res/layout/fragment_webview.xml=[-1 - android.widget.FrameLayout], res/layout/panel_doc_upload.xml=[2131624332 - android.widget.TextView, 2131624331 - android.widget.RelativeLayout, 2131624335 - android.widget.ScrollView, 2131623980 - android.widget.LinearLayout, -1 - android.widget.LinearLayout], res/layout/com_mixpanel_android_activity_survey.xml=[2131624265 - android.widget.ImageButton, 2131624267 - android.widget.ImageButton, 2131624266 - android.widget.TextView, -1 - android.widget.ImageView, -1 - android.widget.RelativeLayout, 2131624264 - android.widget.LinearLayout], res/layout/apptentive_survey_question_base.xml=[-1 - android.view.View, 2131624217 - android.widget.LinearLayout, 2131624213 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131624214 - android.widget.TextView, 2131624218 - android.widget.FrameLayout, -1 - android.widget.LinearLayout, 2131624215 - android.widget.TextView, 2131624216 - android.widget.TextView, 2131624212 - android.widget.FrameLayout], res/layout/com_mixpanel_android_activity_notification_full.xml=[2131624258 - android.widget.ImageView, 2131624256 - android.widget.ImageView, 2131624259 - android.widget.LinearLayout, 2131624262 - android.widget.Button, 2131624257 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, 2131624261 - android.widget.TextView, 2131624260 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout/abc_activity_chooser_view_list_item.xml=[2131624079 - android.widget.TextView, 2131624077 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131624078 - android.widget.ImageView], res/layout/activity_splash.xml=[2131624135 - android.widget.ImageView, 2131624136 - com.github.rahatarmanahmed.cpv.CircularProgressView, 2131623944 - android.widget.LinearLayout], res/layout-v21/apptentive_about.xml=[-1 - android.widget.TextView, -1 - android.widget.FrameLayout, -1 - android.widget.LinearLayout, 2131624138 - android.widget.RelativeLayout, 2131624139 - android.widget.ImageButton, 2131624142 - android.widget.Button, -1 - android.widget.ScrollView, 2131624140 - android.widget.ImageButton, 2131624141 - android.widget.Button], res/layout/abc_action_bar_title_item.xml=[2131624071 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131624070 - android.widget.TextView], res/layout/dialog_base.xml=[2131624133 - android.widget.TextView, 2131624287 - android.view.ViewStub, 2131624286 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131624131 - android.widget.RelativeLayout, -1 - android.widget.ScrollView], res/layout/home_forex_dual.xml=[2131624312 - android.widget.TextView, 2131624313 - android.widget.TextView], res/layout/notification_media_cancel_action.xml=[2131624318 - android.widget.ImageButton], res/layout/activity_modal_panel.xml=[2131624133 - android.widget.TextView, 2131623954 - android.widget.FrameLayout, 2131624131 - android.widget.RelativeLayout, 2131623944 - android.widget.LinearLayout], res/layout/panel_widget_edittext.xml=[2131624342 - android.widget.AutoCompleteTextView], res/layout/apptentive_message_auto.xml=[2131624164 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131624163 - android.widget.TextView, 2131624165 - android.widget.TextView], res/layout/panel_widget_currency.xml=[-1 - android.widget.TextView, 2131624340 - android.widget.LinearLayout, 2131624339 - android.widget.ImageView, -1 - android.widget.LinearLayout, 2131624337 - android.widget.RelativeLayout, 2131624341 - android.widget.TextView], res/layout/messenger_button_send_blue_small.xml=[-1 - android.widget.TextView, 2131624316 - android.widget.FrameLayout], res/layout/apptentive_rating_dialog_interaction.xml=[2131624079 - android.widget.TextView, 2131624204 - android.widget.Button, 2131624155 - android.widget.LinearLayout, 2131624173 - android.widget.TextView, -1 - android.widget.LinearLayout, -1 - android.widget.ScrollView, 2131624202 - android.widget.Button, 2131624203 - android.widget.Button], res/layout/fragment_camera.xml=[2131624301 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131624302 - android.widget.TextView], res/layout/view_free_text.xml=[2131624401 - android.widget.EditText, -1 - android.widget.FrameLayout], res/layout/view_home_contact.xml=[2131624402 - android.view.View, 2131624404 - android.widget.TextView, 2131624405 - android.widget.TextView], res/layout/panel_widget_tab_header.xml=[2131624373 - android.view.View], res/layout/com_facebook_device_auth_dialog_fragment.xml=[2131624245 - android.widget.TextView, 2131624249 - android.widget.Button, -1 - android.widget.ImageView, 2131624248 - android.widget.ProgressBar, -1 - android.widget.FrameLayout, -1 - android.widget.RelativeLayout, 2131624247 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131624246 - android.widget.TextView], res/layout/panel_widget_state_with_progress.xml=[2131624368 - android.view.View, 2131624367 - android.view.View, 2131624366 - android.widget.LinearLayout], res/layout/view_avatar_progress.xml=[2131624381 - android.widget.ProgressBar], res/layout/home_has_survey.xml=[-1 - android.widget.FrameLayout, 2131624315 - android.widget.TextView], res/layout/notification_template_big_media.xml=[2131624321 - android.widget.ImageView, 2131624078 - android.widget.ImageView, 2131624320 - android.widget.LinearLayout, 2131624319 - android.widget.RelativeLayout], res/layout/apptentive_notification_toast.xml=[2131624199 - android.widget.TextView, 2131624197 - com.apptentive.android.sdk.module.messagecenter.view.ApptentiveAvatarView, 2131624198 - android.widget.TextView, 2131624200 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/form_element_country_picker_item.xml=[2131624299 - android.widget.TextView, 2131624079 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131624298 - android.widget.ImageView], res/layout/apptentive_message_center_composer.xml=[2131624169 - android.widget.ImageButton, 2131624079 - android.widget.TextView, 2131624170 - android.widget.ImageButton, 2131624172 - com.apptentive.android.sdk.util.image.ApptentiveImageGridView, -1 - android.widget.FrameLayout, -1 - android.widget.RelativeLayout, -1 - android.widget.LinearLayout, 2131624171 - android.widget.EditText, 2131624168 - android.widget.ImageButton], res/layout/design_navigation_item_subheader.xml=[-1 - android.widget.TextView], res/layout/view_detail_body_step_container.xml=[2131624392 - android.widget.FrameLayout, 2131624063 - com.remitly.orca.ui.views.IconSpanButton, 2131624398 - android.widget.LinearLayout], res/layout/design_layout_tab_icon.xml=[-1 - android.widget.ImageView], res/layout/panel_widget_label_layout.xml=[2131624350 - android.widget.ImageView, 2131624352 - android.widget.ImageView, 2131624351 - android.view.ViewStub], res/layout/com_mixpanel_android_question_card.xml=[-1 - android.widget.TextView, -1 - android.widget.ListView, -1 - android.widget.LinearLayout], res/layout/view_toolbar.xml=[2131624425 - android.view.View], res/layout/com_mixpanel_android_activity_notification_mini.xml=[-1 - android.widget.LinearLayout, 2131624260 - android.widget.TextView], res/layout/compound_radio_button.xml=[2131624032 - android.widget.RelativeLayout, -1 - android.widget.RelativeLayout], res/layout/design_bottom_sheet_dialog.xml=[2131624276 - android.view.View, 2131624277 - android.widget.FrameLayout], res/layout/abc_dialog_title_material.xml=[2131624079 - android.widget.TextView], res/layout/apptentive_dialog_alert.xml=[2131624144 - android.widget.TextView, 2131624148 - android.widget.Button, 2131624146 - android.widget.TextView, 2131624145 - android.widget.ScrollView, -1 - android.widget.LinearLayout, 2131624147 - android.widget.Button], res/layout/view_avatar.xml=[2131624378 - android.widget.TextView, 2131624380 - android.widget.ImageView], res/layout/appwidget_send_button.xml=[2131624125 - android.widget.ImageView, -1 - android.widget.TextView, -1 - android.widget.LinearLayout], res/layout/apptentive_message_center_who_card.xml=[2131624186 - android.widget.TextView, 2131624181 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131624189 - android.widget.Button, 2131624188 - android.widget.Button, 2131624183 - android.widget.EditText, -1 - android.widget.LinearLayout, 2131624185 - android.widget.EditText, 2131624187 - android.widget.LinearLayout], res/layout/apptentive_survey.xml=[2131624209 - android.widget.Button, 2131624206 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131624207 - android.widget.ImageButton, -1 - android.widget.LinearLayout, 2131624208 - android.widget.LinearLayout, 2131624205 - com.apptentive.android.sdk.view.ApptentiveNestedScrollView], res/layout/select_dialog_singlechoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout/select_dialog_item_material.xml=[16908308 - android.widget.TextView], res/layout/select_dialog_multichoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout/com_facebook_login_fragment.xml=[2131624250 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/view_toolbar_referrals_shrinking.xml=[2131624079 - android.widget.TextView, 2131624425 - android.view.View, 2131624206 - android.widget.TextView, 2131624426 - android.widget.RelativeLayout, 2131624427 - android.widget.ImageView, 2131624118 - com.remitly.orca.ui.views.ReferralsAppBarLayout, 2131624428 - android.widget.TextView], res/layout/com_facebook_tooltip_bubble.xml=[2131624254 - android.widget.TextView, 2131624255 - android.widget.ImageView, 2131624251 - android.widget.RelativeLayout, 2131624252 - android.widget.ImageView, -1 - android.widget.RelativeLayout, 2131624253 - android.widget.ImageView], res/layout/design_navigation_item_separator.xml=[-1 - android.view.View, -1 - android.widget.FrameLayout], res/layout/view_referrals_link.xml=[-1 - android.widget.TextView], res/layout/activity_feed.xml=[2131624125 - com.remitly.orca.ui.views.IconSpanButton, 2131624124 - android.widget.LinearLayout], res/layout/abc_action_mode_close_item_material.xml=[2131624072 - android.widget.ImageView], res/layout/apptentive_textmodal_interaction_button.xml=[-1 - android.widget.Button], res/layout/notification_media_action.xml=[2131624317 - android.widget.ImageButton], res/layout/view_interstitial.xml=[2131624079 - android.widget.TextView, 2131624409 - com.github.rahatarmanahmed.cpv.CircularProgressView, 2131624414 - android.widget.Button, 2131624413 - android.widget.Button, 2131624411 - android.widget.TextView, 2131624410 - android.widget.TextView, 2131624412 - android.widget.TextView, 2131624408 - android.widget.ImageView, -1 - android.widget.LinearLayout], res/layout/activity_camera.xml=[2131623954 - android.widget.RelativeLayout, 2131623944 - android.widget.FrameLayout], res/layout/design_navigation_item_header.xml=[2131624280 - android.widget.LinearLayout], res/layout/messenger_button_send_blue_large.xml=[-1 - android.widget.TextView, 2131624316 - android.widget.FrameLayout], res/layout/panel_widget_profile.xml=[2131624361 - android.widget.TextView, 2131624362 - android.widget.ImageView, 2131624360 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131624355 - android.widget.LinearLayout], res/layout/view_wizard_label.xml=[-1 - android.widget.TextView], res/layout/apptentive_survey_question_multiselect_choice.xml=[2131624221 - android.widget.EditText, -1 - android.widget.LinearLayout, 2131624094 - android.widget.CheckBox], res/layout/apptentive_viewactivity.xml=[2131624232 - android.widget.FrameLayout, -1 - android.widget.LinearLayout], res/layout/home_attention_required.xml=[-1 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout/messenger_button_send_white_round.xml=[2131624316 - android.widget.Button], res/layout/view_wizard_header.xml=[2131624079 - android.widget.TextView, 2131624431 - android.widget.ImageView, 2131624430 - android.widget.LinearLayout, 2131624118 - android.widget.FrameLayout, 2131624433 - android.widget.TextView, 2131624432 - android.widget.TextView], res/layout/abc_list_menu_item_layout.xml=[2131624079 - android.widget.TextView, 2131624095 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/view_tabs_layout.xml=[2131624423 - android.widget.LinearLayout, 2131624424 - android.view.View], res/layout/abc_list_menu_item_checkbox.xml=[2131624094 - android.widget.CheckBox], res/layout/apptentive_message_center.xml=[2131624166 - com.apptentive.android.sdk.module.messagecenter.view.MessageCenterRecyclerView], res/layout/appwidget_forex_head_flags.xml=[2131624240 - android.widget.TextView, 2131624241 - android.widget.ImageView, 2131624242 - android.widget.ImageView, -1 - android.widget.RelativeLayout, 2131624239 - android.widget.ImageView, 2131624243 - android.widget.ImageView], res/layout/abc_popup_menu_header_item_layout.xml=[16908310 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout/abc_list_menu_item_radio.xml=[2131624096 - android.widget.RadioButton], res/layout/abc_activity_chooser_view.xml=[2131624074 - android.widget.FrameLayout, 2131624076 - android.widget.FrameLayout, 2131624075 - android.widget.ImageView], res/layout/activity_scrolling_fragment.xml=[2131623954 - android.widget.RelativeLayout, 2131623944 - android.widget.LinearLayout, -1 - android.widget.ScrollView], res/layout/payment_radio_button.xml=[2131624375 - android.widget.LinearLayout, 2131624271 - android.widget.RadioButton], res/layout/form_element_picker_text.xml=[-1 - android.widget.TextView], res/layout/view_bubble_transaction.xml=[2131624386 - android.widget.TextView, -1 - android.view.View, 2131624388 - android.widget.TextView, 2131624382 - android.widget.TextView, 2131624385 - android.widget.TextView, 2131624387 - android.widget.LinearLayout, 2131624195 - android.widget.TextView], res/layout/abc_search_view.xml=[2131624109 - android.widget.LinearLayout, 2131624113 - android.widget.ImageView, 2131624116 - android.widget.ImageView, 2131624106 - android.widget.LinearLayout, 2131624115 - android.widget.ImageView, 2131624110 - android.widget.ImageView, 2131624111 - android.widget.LinearLayout, 2131624108 - android.widget.ImageView, 2131624114 - android.widget.LinearLayout, 2131624107 - android.widget.TextView], res/layout/apptentive_message_center_error.xml=[-1 - android.widget.FrameLayout, -1 - android.widget.LinearLayout, 2131624078 - android.widget.ImageView, 2131624171 - android.widget.TextView, 2131624174 - android.widget.ProgressBar], res/layout/appwidget_forex_2_rates.xml=[-1 - android.widget.TextView, 2131624237 - android.widget.TextView, 2131624238 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131624236 - android.widget.LinearLayout], res/layout/panel_fragment.xml=[-1 - android.widget.FrameLayout], res/layout/apptentive_survey_question_multichoice_choice.xml=[2131624221 - android.widget.EditText, -1 - android.widget.LinearLayout, 2131624094 - android.widget.CheckBox], res/layout/apptentive_enjoyment_dialog_interaction.xml=[2131624079 - android.widget.TextView, 2131624154 - android.widget.ImageButton, 2131624157 - android.widget.Button, 2131624156 - android.widget.Button, 2131624155 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, -1 - android.widget.ScrollView], res/layout/dialog_transaction_processing.xml=[-1 - android.widget.TextView, 2131624292 - android.widget.Space, 2131624293 - android.widget.ImageView, 2131624295 - android.widget.TextView, 2131624294 - android.widget.TextView, 2131624297 - android.widget.TextView, 2131624296 - android.widget.TextView, -1 - android.widget.FrameLayout, -1 - android.widget.RelativeLayout, -1 - android.widget.LinearLayout, 2131624290 - android.widget.ProgressBar], res/layout/apptentive_survey_question_singleline.xml=[2131624226 - android.widget.EditText], res/layout/notification_template_media.xml=[2131624328 - android.widget.ImageView, 2131624319 - android.widget.LinearLayout, 2131624078 - android.widget.ImageView, 2131624320 - android.widget.LinearLayout], res/layout/notification_template_big_media_narrow.xml=[2131624321 - android.widget.ImageView, 2131624078 - android.widget.ImageView, 2131624320 - android.widget.LinearLayout, 2131624319 - android.widget.RelativeLayout], res/layout/notification_template_lines.xml=[2131624079 - android.widget.TextView, 2131624207 - android.widget.TextView, 2131624327 - android.widget.TextView, 2131624325 - android.widget.TextView, 2131624322 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131624326 - android.widget.LinearLayout], res/layout/view_date_picker.xml=[2131624393 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131624397 - android.widget.CalendarView], res/layout/support_simple_spinner_dropdown_item.xml=[16908308 - android.widget.TextView], res/layout/abc_list_menu_item_icon.xml=[2131624078 - android.widget.ImageView], res/layout/dialog_content_error.xml=[2131624288 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/apptentive_message_center_status.xml=[2131624180 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131624078 - android.widget.ImageView]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 55 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Finance/com.remitly.androidapp.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes2.dex' with 4449 classes in '/home/anikralhan2011/Flowroid/Benign/Finance/com.remitly.androidapp.apk'
+Found dex file 'classes.dex' with 7176 classes in '/home/anikralhan2011/Flowroid/Benign/Finance/com.remitly.androidapp.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 31.9 seconds.
+[Spark] Solution found in 31.9 seconds.
+Found a flow to sink virtualinvoke $r1.<android.content.Context: void sendBroadcast(android.content.Intent)>($r6), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.appsflyer.MultipleInstallBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r5.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("referrer", $r3), from the following sources:
+	- $r2 := @parameter1: android.content.Intent (in <com.appsflyer.MultipleInstallBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>($r2, $r0, $r1), from the following sources:
+	- $r5 = virtualinvoke $r3.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r4, 0) (in <com.appsflyer.MultipleInstallBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("ButterKnife", $r5), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("refererURL", $r7), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r3.<android.os.Bundle: void putInt(java.lang.String,int)>("toolbarLayoutId", $i0), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r3 = virtualinvoke $r2.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.c.w: long e(android.net.Uri)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r7, $r9), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.remitly.androidapp.activities.UnauthenticatedPanelActivity: void onCreate(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.content.Intent (in <com.remitly.androidapp.async.GcmIntentService: void onHandleIntent(android.content.Intent)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r1), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r3 = virtualinvoke $r2.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.c.w: long e(android.net.Uri)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink $z0 = virtualinvoke $r0.<android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>($r2, $r1, 1), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("outputURLScheme", $r1), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink $r5 = interfaceinvoke $r5.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r1, $r2), from the following sources:
+	- $r3 := @parameter2: int[] (in <com.remitly.androidapp.appwidget.ForexAppWidgetProvider: void onRestored(android.content.Context,int[],int[])>)
+Found a flow to sink virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("refererAppName", $r7), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("inputURL", $r1), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("fragmentTag", $r2), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.apptentive.android.sdk.ApptentiveViewActivity: void onSaveInstanceState(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("inputURLScheme", $r1), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putBundle(java.lang.String,android.os.Bundle)>("AppState", $r2), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.remitly.androidapp.activities.UnauthenticatedPanelActivity: void onSaveInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r2), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r3 = virtualinvoke $r2.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.c.w: long e(android.net.Uri)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("package", $r1), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>($r15, $r7), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("sourceApplication", $r7), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>(r8, r7), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.remitly.androidapp.appwidget.ForexAppWidgetProvider: void onDisabled(android.content.Context)>)
+Found a flow to sink virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>($r9, $r10), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("class", $r7), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("error_description", $r1), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("outputURL", $r1), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink $r3 = virtualinvoke $r2.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r0.<android.os.Bundle: void putBoolean(java.lang.String,boolean)>("showAsModal", $z0), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r3 = virtualinvoke $r2.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.c.w: long e(android.net.Uri)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("PushNotification.TouchpointId", $r3), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.remitly.androidapp.activities.UnauthenticatedPanelActivity: void onSaveInstanceState(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>(r14, r12), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.remitly.androidapp.appwidget.ForexAppWidgetProvider: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.remitly.androidapp.appwidget.ForexAppWidgetProvider: void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("Scope", $r2), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>($r7, $r10), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r2 := @parameter1: android.os.Bundle (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink $r8 = virtualinvoke $r7.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r5, $r2, null, null, null), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r2.<android.content.Intent: android.content.Intent setAction(java.lang.String)>($r3), from the following sources:
+	- $r1 := @parameter0: android.content.Context (in <com.remitly.androidapp.appwidget.ForexAppWidgetProvider: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r1 := @parameter0: android.content.Context (in <com.remitly.androidapp.appwidget.ForexAppWidgetProvider: void onDisabled(android.content.Context)>)
+	- $r1 := @parameter0: android.content.Context (in <com.remitly.androidapp.appwidget.ForexAppWidgetProvider: void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])>)
+	- $r1 := @parameter0: android.content.Context (in <com.remitly.androidapp.appwidget.ForexAppWidgetProvider: void onEnabled(android.content.Context)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putSerializable(java.lang.String,java.io.Serializable)>("SerializedKeyValueMap", $r5), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r3 = virtualinvoke $r2.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.c.w: long e(android.net.Uri)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink $r5 = interfaceinvoke $r5.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>($r1, $l0), from the following sources:
+	- $r3 := @parameter2: int[] (in <com.remitly.androidapp.appwidget.ForexAppWidgetProvider: void onRestored(android.content.Context,int[],int[])>)
+	- $r1 := @parameter0: android.content.Context (in <com.remitly.androidapp.appwidget.ForexAppWidgetProvider: void onRestored(android.content.Context,int[],int[])>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r3 = virtualinvoke $r2.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.c.w: long e(android.net.Uri)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("intentData", $r9), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>($r2, $r3), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.remitly.androidapp.activities.UnauthenticatedPanelActivity: void onCreate(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.remitly.androidapp.activities.UnauthenticatedPanelActivity: void onSaveInstanceState(android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r4.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>($r1, $r7), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink $r5 = interfaceinvoke $r5.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r3, $r6), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r5.<java.io.OutputStream: void write(byte[])>($r6), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r3 = virtualinvoke $r2.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.c.w: long e(android.net.Uri)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r3 = virtualinvoke $r2.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.c.w: long e(android.net.Uri)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("Tag", $r2), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r1, $r0), from the following sources:
+	- $r5 = virtualinvoke $r3.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r4, 0) (in <com.appsflyer.MultipleInstallBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+	- $r2 := @parameter1: android.content.Intent (in <com.appsflyer.MultipleInstallBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[],int,int)>($r3, 0, $i0), from the following sources:
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityStopped(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityPaused(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityDestroyed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityResumed(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityResumed(android.app.Activity)>)
+	- $r3 = virtualinvoke $r2.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.c.w: long e(android.net.Uri)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.AppLifecycleObserver: void onActivityStarted(android.app.Activity)>)
+	- $r1 := @parameter0: android.app.Activity (in <com.remitly.orca.ui.jx.AppController: void onActivityCreated(android.app.Activity,android.os.Bundle)>)
+Maximum memory consumption: 284.378464 MB
+Analysis has run for 164.311279944 seconds

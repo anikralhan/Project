@@ -1,0 +1,86 @@
+Found dex file 'classes.dex' with 3475 classes in '/home/anikralhan2011/Flowroid/Benign/Beauty/com.outthinking.hairstyles.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 8.7 seconds.
+[Spark] Solution found in 8.8 seconds.
+Callback analysis done.
+Found 1 layout controls in file res/layout-v17/actionbar_customview.xml
+Found 2 layout controls in file res/layout-v17/activity_accessories.xml
+Found 3 layout controls in file res/layout-v17/ad_app_install_popup.xml
+Found 4 layout controls in file res/layout-v17/native_content_ads.xml
+Found 5 layout controls in file res/layout-v17/native_content_ads_dialog.xml
+Found 6 layout controls in file res/layout/actionbar_customview.xml
+Found 7 layout controls in file res/layout/activity_accessories.xml
+Found 8 layout controls in file res/layout/activity_launch.xml
+Found 9 layout controls in file res/layout/ad_app_install_popup.xml
+Found 10 layout controls in file res/layout/ad_app_install_popup_dialog.xml
+Found 11 layout controls in file res/layout/ad_unit.xml
+Found 12 layout controls in file res/layout/ad_unit_new.xml
+Found 13 layout controls in file res/layout/circle_imageview.xml
+Found 14 layout controls in file res/layout/galary_folder_fragment.xml
+Found 15 layout controls in file res/layout/galary_list_items.xml
+Found 16 layout controls in file res/layout/gallery_fragment.xml
+Found 17 layout controls in file res/layout/gallery_fragment_thumbnail.xml
+Found 18 layout controls in file res/layout/gallery_item.xml
+Found 19 layout controls in file res/layout/list_item_selected_thumbnail.xml
+Found 20 layout controls in file res/layout/native_content_ads.xml
+Found 21 layout controls in file res/layout/native_content_ads_dialog.xml
+Found 22 layout controls in file res/layout/photoshare_activity.xml
+Found 23 layout controls in file res/layout/pic_reset_dialog.xml
+Found 24 layout controls in file res/layout/select_images_activity.xml
+Found dex file 'classes.dex' with 3475 classes in '/home/anikralhan2011/Flowroid/Benign/Beauty/com.outthinking.hairstyles.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 7.7 seconds.
+[Spark] Solution found in 7.7 seconds.
+Running incremental callback analysis for 9 components...
+Incremental callback analysis done.
+Found 59 callback methods for 9 components
+Found {res/layout-v17/native_content_ads_dialog.xml=[-1 - com.google.android.gms.ads.formats.NativeContentAdView, -1 - android.widget.RelativeLayout, 2131361888 - android.widget.TextView, 2131361887 - android.widget.TextView, 2131361889 - android.widget.Button, -1 - android.widget.TextView, 2131361886 - android.widget.ImageView, 2131361885 - android.widget.ImageView, -1 - android.widget.LinearLayout, 2131361845 - android.widget.RelativeLayout], res/layout/gallery_item.xml=[2131361875 - android.widget.ImageView, 2131361876 - android.widget.ImageView, 2131361874 - android.widget.RelativeLayout], res/layout/photoshare_activity.xml=[2131361894 - android.widget.ImageButton, 2131361896 - android.widget.ScrollView, 2131361898 - android.webkit.WebView, -1 - android.widget.RelativeLayout, 2131361890 - android.widget.RelativeLayout, 2131361897 - android.widget.LinearLayout, 2131361892 - android.widget.ImageButton, 2131361891 - android.widget.LinearLayout, 2131361893 - android.widget.ImageButton, 2131361895 - android.widget.ImageButton], res/layout/ad_unit.xml=[2131361858 - android.widget.TextView, 2131361855 - com.facebook.ads.MediaView, 2131361857 - android.widget.TextView, 2131361859 - android.widget.Button, 2131361854 - android.widget.LinearLayout, 2131361856 - android.widget.ImageView, -1 - android.widget.LinearLayout], res/layout/pic_reset_dialog.xml=[2131361903 - android.widget.TextView, 2131361904 - android.widget.TextView, 2131361902 - android.view.View, 2131361900 - android.widget.LinearLayout, 2131361905 - android.widget.TextView, -1 - android.view.View, -1 - android.widget.LinearLayout, 2131361899 - android.widget.TextView, 2131361901 - android.widget.FrameLayout], res/layout/galary_list_items.xml=[2131361869 - com.outthinking.hairstyles.CustomSquareImageView, -1 - android.widget.LinearLayout, 2131361870 - android.widget.TextView], res/layout-v17/ad_app_install_popup.xml=[-1 - com.google.android.gms.ads.formats.NativeAppInstallAdView, 2131361847 - android.widget.TextView, 2131361848 - android.widget.TextView, -1 - android.widget.RelativeLayout, -1 - android.widget.TextView, 2131361844 - android.widget.ImageView, 2131361843 - android.widget.ImageView, 2131361842 - android.widget.ImageView, -1 - android.widget.LinearLayout, 2131361845 - android.widget.RelativeLayout, 2131361846 - android.widget.Button], res/layout/actionbar_customview.xml=[2131361802 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131361803 - android.widget.LinearLayout, -1 - android.widget.ImageView], res/layout-v17/activity_accessories.xml=[2131361824 - android.widget.TextView, 2131361829 - android.widget.RelativeLayout, 2131361821 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131361832 - android.widget.TextView, 2131361823 - android.widget.LinearLayout, 2131361834 - android.widget.LinearLayout, 2131361828 - android.widget.LinearLayout, 2131361831 - android.widget.ImageView, -1 - android.widget.ImageView, 2131361830 - android.widget.LinearLayout, 2131361806 - android.widget.ImageView, 2131361825 - android.widget.LinearLayout, 2131361826 - android.widget.ImageView, 2131361805 - android.widget.FrameLayout, -1 - android.widget.RelativeLayout, 2131361804 - android.widget.RelativeLayout, 2131361811 - android.widget.LinearLayout, 2131361812 - android.widget.ImageView, 2131361807 - android.widget.LinearLayout, 2131361820 - android.widget.RelativeLayout, 2131361813 - android.widget.TextView, 2131361814 - android.widget.LinearLayout, 2131361815 - android.widget.ImageView, 2131361827 - android.widget.TextView, 2131361822 - android.widget.LinearLayout, 2131361833 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131361816 - android.widget.TextView, 2131361817 - android.widget.RelativeLayout, 2131361809 - android.widget.ImageView, 2131361808 - android.widget.LinearLayout, 2131361819 - android.view.View, 2131361835 - android.widget.FrameLayout, 2131361810 - android.widget.TextView], res/layout/activity_launch.xml=[2131361836 - android.widget.LinearLayout, 2131361838 - android.widget.LinearLayout, 2131361837 - android.widget.LinearLayout, 2131361840 - android.widget.ImageView, -1 - android.widget.RelativeLayout, 2131361839 - android.webkit.WebView, -1 - android.widget.ImageView, 2131361841 - android.widget.TextView], res/layout/ad_unit_new.xml=[2131361864 - android.widget.Button, 2131361854 - android.widget.LinearLayout, 2131361862 - android.widget.TextView, 2131361863 - android.widget.TextView, 2131361860 - com.facebook.ads.MediaView, -1 - android.widget.LinearLayout, 2131361861 - android.widget.ImageView], res/layout/gallery_fragment_thumbnail.xml=[2131361872 - com.outthinking.hairstyles.CustomSquareFrameLayout, 2131361873 - com.outthinking.hairstyles.CustomSquareImageView], res/layout/list_item_selected_thumbnail.xml=[-1 - android.widget.RelativeLayout, 2131361878 - android.widget.ImageView, 2131361877 - android.widget.ImageView], res/layout/ad_app_install_popup_dialog.xml=[-1 - com.google.android.gms.ads.formats.NativeAppInstallAdView, 2131361849 - android.widget.ImageView, 2131361850 - android.widget.ImageView, 2131361853 - android.widget.Button, -1 - android.widget.RelativeLayout, 2131361851 - android.widget.TextView, -1 - android.widget.TextView, 2131361852 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361845 - android.widget.RelativeLayout], res/layout-v17/native_content_ads.xml=[-1 - com.google.android.gms.ads.formats.NativeContentAdView, 2131361881 - android.widget.ImageView, -1 - android.widget.RelativeLayout, 2131361883 - android.widget.TextView, 2131361879 - android.widget.ImageView, 2131361880 - android.widget.ImageView, 2131361884 - android.widget.TextView, -1 - android.widget.TextView, 2131361882 - android.widget.Button, -1 - android.widget.LinearLayout], res/layout/galary_folder_fragment.xml=[2131361868 - android.widget.ListView, -1 - android.widget.LinearLayout], res/layout/native_content_ads.xml=[-1 - com.google.android.gms.ads.formats.NativeContentAdView, 2131361881 - android.widget.ImageView, -1 - android.widget.RelativeLayout, 2131361883 - android.widget.TextView, 2131361879 - android.widget.ImageView, 2131361880 - android.widget.ImageView, 2131361884 - android.widget.TextView, -1 - android.widget.TextView, 2131361882 - android.widget.Button, -1 - android.widget.LinearLayout], res/layout/circle_imageview.xml=[2131361865 - android.widget.RelativeLayout, 2131361867 - android.widget.ImageView, 2131361866 - com.outthinking.hairstyles.utils.CircleView], res/layout/gallery_fragment.xml=[2131361871 - android.widget.GridView, -1 - android.widget.FrameLayout], res/layout/ad_app_install_popup.xml=[-1 - com.google.android.gms.ads.formats.NativeAppInstallAdView, 2131361847 - android.widget.TextView, 2131361848 - android.widget.TextView, -1 - android.widget.RelativeLayout, -1 - android.widget.TextView, 2131361844 - android.widget.ImageView, 2131361843 - android.widget.ImageView, 2131361842 - android.widget.ImageView, -1 - android.widget.LinearLayout, 2131361845 - android.widget.RelativeLayout, 2131361846 - android.widget.Button], res/layout/select_images_activity.xml=[2131361913 - android.widget.TextView, 2131361908 - android.view.View, 2131361910 - android.widget.HorizontalScrollView, 2131361912 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, 2131361909 - android.widget.LinearLayout, 2131361911 - android.widget.LinearLayout, 2131361907 - android.widget.FrameLayout], res/layout/activity_accessories.xml=[2131361824 - android.widget.TextView, 2131361829 - android.widget.RelativeLayout, 2131361821 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131361832 - android.widget.TextView, 2131361823 - android.widget.LinearLayout, 2131361834 - android.widget.LinearLayout, 2131361828 - android.widget.LinearLayout, 2131361831 - android.widget.ImageView, -1 - android.widget.ImageView, 2131361830 - android.widget.LinearLayout, 2131361806 - android.widget.ImageView, 2131361825 - android.widget.LinearLayout, 2131361826 - android.widget.ImageView, 2131361805 - android.widget.FrameLayout, -1 - android.widget.RelativeLayout, 2131361804 - android.widget.RelativeLayout, 2131361811 - android.widget.LinearLayout, 2131361812 - android.widget.ImageView, 2131361807 - android.widget.LinearLayout, 2131361820 - android.widget.RelativeLayout, 2131361813 - android.widget.TextView, 2131361814 - android.widget.LinearLayout, 2131361815 - android.widget.ImageView, 2131361827 - android.widget.TextView, 2131361822 - android.widget.LinearLayout, 2131361833 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131361816 - android.widget.TextView, 2131361817 - android.widget.RelativeLayout, 2131361809 - android.widget.ImageView, 2131361808 - android.widget.LinearLayout, 2131361819 - android.view.View, 2131361835 - android.widget.FrameLayout, 2131361810 - android.widget.TextView], res/layout/native_content_ads_dialog.xml=[-1 - com.google.android.gms.ads.formats.NativeContentAdView, -1 - android.widget.RelativeLayout, 2131361888 - android.widget.TextView, 2131361887 - android.widget.TextView, 2131361889 - android.widget.Button, -1 - android.widget.TextView, 2131361886 - android.widget.ImageView, 2131361885 - android.widget.ImageView, -1 - android.widget.LinearLayout, 2131361845 - android.widget.RelativeLayout], res/layout-v17/actionbar_customview.xml=[2131361802 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131361803 - android.widget.LinearLayout, -1 - android.widget.ImageView]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 59 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Beauty/com.outthinking.hairstyles.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 3475 classes in '/home/anikralhan2011/Flowroid/Benign/Beauty/com.outthinking.hairstyles.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 8.7 seconds.
+[Spark] Solution found in 8.7 seconds.
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.outthinking.hairstyles.LaunchActivity: void onActivityResult(int,int,android.content.Intent)>)
+	- $r3 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) (in <com.kbeanie.multipicker.a.a.a: com.kbeanie.multipicker.api.entity.ChosenFile g(com.kbeanie.multipicker.api.entity.ChosenFile)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>($r14, $r1, $r16), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.ads.InterstitialAdActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("request_id", $r2), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.ads.InterstitialAdActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putBundle(java.lang.String,android.os.Bundle)>("dataModel", $r2), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.ads.InterstitialAdActivity: void onSaveInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("adInterstitialUniqueId", $r3), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.ads.InterstitialAdActivity: void onCreate(android.os.Bundle)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.ads.InterstitialAdActivity: void onSaveInstanceState(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putInt(java.lang.String,int)>("viewability_check_initial_delay", $i0), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.ads.InterstitialAdActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("native_impression_report_url", $r2), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.ads.InterstitialAdActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putInt(java.lang.String,int)>("lastRequestedOrientation", $i0), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.ads.InterstitialAdActivity: void onCreate(android.os.Bundle)>)
+	- $i0 := @parameter0: int (in <com.facebook.ads.InterstitialAdActivity: void setRequestedOrientation(int)>)
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.ads.InterstitialAdActivity: void onSaveInstanceState(android.os.Bundle)>)
+Found a flow to sink $r8 = interfaceinvoke $r5.<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r2), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.ads.InterstitialAdActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("markup", $r2), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.ads.InterstitialAdActivity: void onCreate(android.os.Bundle)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putInt(java.lang.String,int)>("viewability_check_interval", $i0), from the following sources:
+	- $r1 := @parameter0: android.os.Bundle (in <com.facebook.ads.InterstitialAdActivity: void onCreate(android.os.Bundle)>)
+Maximum memory consumption: 178.06924 MB
+Analysis has run for 55.838860363 seconds

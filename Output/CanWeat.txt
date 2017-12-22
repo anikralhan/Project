@@ -1,0 +1,87 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Weather/ca.fwe.caweather.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 2171 classes in '/home/anikralhan2011/Flowroid/Benign/Weather/ca.fwe.caweather.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 2.9 seconds.
+[Spark] Solution found in 2.9 seconds.
+Found a flow to sink virtualinvoke $r26.<android.content.Context: void sendBroadcast(android.content.Intent)>($r4), from the following sources:
+	- $r3 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(3) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r8 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.weather.backend.UserLocationsList$UserLocationDatabase: void populateList()>)
+	- $r6 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(6) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.weather.backend.UpdatesManager$UpdatesDb: ca.fwe.weather.backend.UpdatesManager$WidgetInfo getInfoByWidgetId(android.database.sqlite.SQLiteDatabase,int)>)
+	- $r5 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(0) (in <ca.fwe.weather.backend.UpdatesManager$UpdatesDb: ca.fwe.weather.backend.UpdatesManager$WidgetInfo getInfoByWidgetId(android.database.sqlite.SQLiteDatabase,int)>)
+	- $r2 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(0) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r4 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(2) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+Found a flow to sink interfaceinvoke $r5.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("last_location_position", $i0), from the following sources:
+	- $r5 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(3) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r3 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r8 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.weather.backend.UserLocationsList$UserLocationDatabase: void populateList()>)
+	- $r6 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(6) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r2 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(0) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r4 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(2) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("FilesManager", $r0), from the following sources:
+	- $r3 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(3) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r8 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.weather.backend.UserLocationsList$UserLocationDatabase: void populateList()>)
+	- $r6 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(6) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.weather.backend.UpdatesManager$UpdatesDb: ca.fwe.weather.backend.UpdatesManager$WidgetInfo getInfoByWidgetId(android.database.sqlite.SQLiteDatabase,int)>)
+	- $r5 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(0) (in <ca.fwe.weather.backend.UpdatesManager$UpdatesDb: ca.fwe.weather.backend.UpdatesManager$WidgetInfo getInfoByWidgetId(android.database.sqlite.SQLiteDatabase,int)>)
+	- $r2 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(0) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r4 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(2) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+Found a flow to sink virtualinvoke $r5.<java.io.OutputStream: void write(byte[],int,int)>($r2, 0, $i0), from the following sources:
+	- $r17 = virtualinvoke $r6.<java.net.URL: java.net.URLConnection openConnection()>() (in <ca.fwe.weather.util.ForecastDownloader$DlTask: ca.fwe.weather.util.ForecastDownloader$ReturnTypes doInBackground(ca.fwe.weather.core.Forecast[])>)
+Found a flow to sink virtualinvoke $r6.<java.io.OutputStream: void write(byte[],int,int)>($r3, 0, $i0), from the following sources:
+	- $r3 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(3) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r8 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.weather.backend.UserLocationsList$UserLocationDatabase: void populateList()>)
+	- $r6 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(6) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.weather.backend.UpdatesManager$UpdatesDb: ca.fwe.weather.backend.UpdatesManager$WidgetInfo getInfoByWidgetId(android.database.sqlite.SQLiteDatabase,int)>)
+	- $r5 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(0) (in <ca.fwe.weather.backend.UpdatesManager$UpdatesDb: ca.fwe.weather.backend.UpdatesManager$WidgetInfo getInfoByWidgetId(android.database.sqlite.SQLiteDatabase,int)>)
+	- $r2 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(0) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r4 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(2) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("ForecastDownloader", $r1), from the following sources:
+	- $r3 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(3) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r8 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.weather.backend.UserLocationsList$UserLocationDatabase: void populateList()>)
+	- $r6 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(6) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.weather.backend.UpdatesManager$UpdatesDb: ca.fwe.weather.backend.UpdatesManager$WidgetInfo getInfoByWidgetId(android.database.sqlite.SQLiteDatabase,int)>)
+	- $r5 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(0) (in <ca.fwe.weather.backend.UpdatesManager$UpdatesDb: ca.fwe.weather.backend.UpdatesManager$WidgetInfo getInfoByWidgetId(android.database.sqlite.SQLiteDatabase,int)>)
+	- $r2 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(0) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r4 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(2) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+Found a flow to sink $r17 = virtualinvoke $r6.<java.net.URL: java.net.URLConnection openConnection()>(), from the following sources:
+	- $r3 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(3) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r8 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.weather.backend.UserLocationsList$UserLocationDatabase: void populateList()>)
+	- $r6 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(6) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.weather.backend.UpdatesManager$UpdatesDb: ca.fwe.weather.backend.UpdatesManager$WidgetInfo getInfoByWidgetId(android.database.sqlite.SQLiteDatabase,int)>)
+	- $r5 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(0) (in <ca.fwe.weather.backend.UpdatesManager$UpdatesDb: ca.fwe.weather.backend.UpdatesManager$WidgetInfo getInfoByWidgetId(android.database.sqlite.SQLiteDatabase,int)>)
+	- $r2 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(0) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r4 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(2) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("UserLocationsList", $r8), from the following sources:
+	- $r7 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(0) (in <ca.fwe.weather.backend.UserLocationsList$UserLocationDatabase: void populateList()>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("ForecastDownloader", $r15), from the following sources:
+	- $r3 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(3) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r8 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.weather.backend.UserLocationsList$UserLocationDatabase: void populateList()>)
+	- $r6 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(6) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r5 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.weather.backend.UpdatesManager$UpdatesDb: ca.fwe.weather.backend.UpdatesManager$WidgetInfo getInfoByWidgetId(android.database.sqlite.SQLiteDatabase,int)>)
+	- $r5 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(0) (in <ca.fwe.weather.backend.UpdatesManager$UpdatesDb: ca.fwe.weather.backend.UpdatesManager$WidgetInfo getInfoByWidgetId(android.database.sqlite.SQLiteDatabase,int)>)
+	- $r2 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(0) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r4 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(2) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("ForecastActivity", $r0), from the following sources:
+	- $r5 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(3) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r3 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r8 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(1) (in <ca.fwe.weather.backend.UserLocationsList$UserLocationDatabase: void populateList()>)
+	- $r6 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(6) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r2 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(0) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+	- $r4 = interfaceinvoke $r0.<android.database.Cursor: java.lang.String getString(int)>(2) (in <ca.fwe.caweather.backend.CityPageLocationDatabase: ca.fwe.caweather.core.CityPageLocation locationFromCursor(android.database.Cursor)>)
+Maximum memory consumption: 166.098872 MB
+Analysis has run for 13.220277367 seconds

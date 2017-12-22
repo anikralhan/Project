@@ -1,0 +1,115 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Adventure/com.blackpanther.ninjaarashi.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 3625 classes in '/home/anikralhan2011/Flowroid/Benign/Adventure/com.blackpanther.ninjaarashi.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 3.4 seconds.
+[Spark] Solution found in 3.4 seconds.
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putBoolean(java.lang.String,boolean)>($r7, $z0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>($r7, $r8), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putFloat(java.lang.String,float)>($r7, $f0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putInt(java.lang.String,int)>($r7, $i0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Maximum memory consumption: 377.837424 MB
+Analysis has run for 17.229191574 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Adventure/com.blackpanther.ninjaarashi.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 3625 classes in '/home/anikralhan2011/Flowroid/Benign/Adventure/com.blackpanther.ninjaarashi.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 3.6 seconds.
+[Spark] Solution found in 3.6 seconds.
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putBoolean(java.lang.String,boolean)>($r7, $z0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>($r7, $r8), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putFloat(java.lang.String,float)>($r7, $f0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putInt(java.lang.String,int)>($r7, $i0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Maximum memory consumption: 209.29224 MB
+Analysis has run for 15.812045302 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Adventure/com.blackpanther.ninjaarashi.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 3625 classes in '/home/anikralhan2011/Flowroid/Benign/Adventure/com.blackpanther.ninjaarashi.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 3.9 seconds.
+[Spark] Solution found in 3.9 seconds.
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putBoolean(java.lang.String,boolean)>($r7, $z0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>($r7, $r8), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putFloat(java.lang.String,float)>($r7, $f0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putInt(java.lang.String,int)>($r7, $i0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Maximum memory consumption: 403.793712 MB
+Analysis has run for 16.244262291 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Adventure/com.blackpanther.ninjaarashi.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 3625 classes in '/home/anikralhan2011/Flowroid/Benign/Adventure/com.blackpanther.ninjaarashi.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 4.1 seconds.
+[Spark] Solution found in 4.1 seconds.
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putBoolean(java.lang.String,boolean)>($r7, $z0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>($r7, $r8), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putFloat(java.lang.String,float)>($r7, $f0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putInt(java.lang.String,int)>($r7, $i0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Maximum memory consumption: 256.878528 MB
+Analysis has run for 18.855277857 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Adventure/com.blackpanther.ninjaarashi.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 3625 classes in '/home/anikralhan2011/Flowroid/Benign/Adventure/com.blackpanther.ninjaarashi.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 4.3 seconds.
+[Spark] Solution found in 4.3 seconds.
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>($r7, $r8), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putBoolean(java.lang.String,boolean)>($r7, $z0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putFloat(java.lang.String,float)>($r7, $f0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putInt(java.lang.String,int)>($r7, $i0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.p: void b()>)
+Maximum memory consumption: 210.067864 MB
+Analysis has run for 16.699385945 seconds

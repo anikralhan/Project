@@ -1,0 +1,61 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Role_Playing/com.gm_shaber.dayr.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes3.dex' with 2243 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.gm_shaber.dayr.apk'
+Found dex file 'classes2.dex' with 2211 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.gm_shaber.dayr.apk'
+Found dex file 'classes.dex' with 1755 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.gm_shaber.dayr.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.6 seconds.
+[Spark] Solution found in 0.6 seconds.
+Analysis has run for 11.555088424 seconds
+Found dex file 'classes3.dex' with 2243 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.gm_shaber.dayr.apk'
+Found dex file 'classes2.dex' with 2211 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.gm_shaber.dayr.apk'
+Found dex file 'classes.dex' with 1755 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.gm_shaber.dayr.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.3 seconds.
+[Spark] Solution found in 0.3 seconds.
+Callback analysis done.
+Found 0 callback methods for 0 components
+Found {} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Role_Playing/com.gm_shaber.dayr.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes3.dex' with 2243 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.gm_shaber.dayr.apk'
+Found dex file 'classes2.dex' with 2211 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.gm_shaber.dayr.apk'
+Found dex file 'classes.dex' with 1755 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.gm_shaber.dayr.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.2 seconds.
+[Spark] Solution found in 0.2 seconds.
+Analysis has run for 9.347021863 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Role_Playing/com.gm_shaber.dayr.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes3.dex' with 2243 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.gm_shaber.dayr.apk'
+Found dex file 'classes2.dex' with 2211 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.gm_shaber.dayr.apk'
+Found dex file 'classes.dex' with 1755 classes in '/home/anikralhan2011/Flowroid/Benign/Role_Playing/com.gm_shaber.dayr.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.3 seconds.
+[Spark] Solution found in 0.3 seconds.
+Analysis has run for 5.551735524 seconds

@@ -1,0 +1,166 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Strategy/com.ruanshaomin.game.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 2565 classes in '/home/anikralhan2011/Flowroid/Benign/Strategy/com.ruanshaomin.game.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 26.9 seconds.
+[Spark] Solution found in 26.9 seconds.
+Found a flow to sink virtualinvoke $r2.<android.os.Bundle: void putInt(java.lang.String,int)>("resize_height", $i1), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>($r4, $r0, $r1), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink interfaceinvoke $r36.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("options", $i0), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("homer", $r1), from the following sources:
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putInt(java.lang.String,int)>("themeId", $i0), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("homer", $r3), from the following sources:
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r11 = interfaceinvoke $r10.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>)
+	- $r5 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tapjoy.TapjoyConnectCore: void obtainCarrierInformation()>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r7 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.tapjoy.TapjoyURLConnection: java.lang.String getContentLength(java.lang.String)>)
+	- $r7 = virtualinvoke $r6.<android.content.pm.PackageManager: java.util.List getInstalledApplications(int)>(0) (in <com.tapjoy.TapjoyConnectCore: boolean handleConnectResponse(java.lang.String)>)
+	- $r19 = virtualinvoke $r4.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>)
+Found a flow to sink virtualinvoke $r8.<java.io.FileOutputStream: void write(byte[],int,int)>($r3, 0, $i0), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r1, $r7), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r4, $r11), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r1, $r7), from the following sources:
+	- $r7 = interfaceinvoke $r4.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.threatmetrix.TrustDefenderMobile.URLConnection: long post(java.lang.String,org.apache.http.HttpEntity)>)
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.threatmetrix.TrustDefenderMobile.URLConnection: long get(java.lang.String)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r2, $r1), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Bundle: void putInt(java.lang.String,int)>("resize_width", $i0), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("DoodleStore", $r5), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r2, $r1), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r0, $r2), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r11 = interfaceinvoke $r10.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>)
+	- $r5 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.tapjoy.TapjoyConnectCore: void obtainCarrierInformation()>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r7 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.tapjoy.TapjoyURLConnection: java.lang.String getContentLength(java.lang.String)>)
+	- $r7 = virtualinvoke $r6.<android.content.pm.PackageManager: java.util.List getInstalledApplications(int)>(0) (in <com.tapjoy.TapjoyConnectCore: boolean handleConnectResponse(java.lang.String)>)
+	- $r19 = virtualinvoke $r4.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.tapjoy.TapjoyURLConnection: com.tapjoy.TapjoyHttpURLResponse getResponseFromURL(java.lang.String,java.lang.String,int,boolean)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink $r19 = virtualinvoke $r4.<java.net.URL: java.net.URLConnection openConnection()>(), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Handler: boolean sendMessage(android.os.Message)>($r6), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r6 = virtualinvoke $r5.<android.os.Handler: android.os.Message obtainMessage(int)>(1010) (in <com.tapjoy.mraid.view.MraidView: void resizeOrientation(int,int,java.lang.String,boolean)>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("DoodleStore", $r5), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>("DoodleMobileAnaylise", $r5), from the following sources:
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Bundle: void putStringArrayList(java.lang.String,java.util.ArrayList)>("ITEM_ID_LIST", $r6), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r8, $r9), from the following sources:
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("here", $r2), from the following sources:
+	- $r8 = staticinvoke <org.apache.http.util.EntityUtils: java.lang.String toString(org.apache.http.HttpEntity)>($r7) (in <com.doodlemobile.gamecenter.net.DHttpClient: java.lang.String post(java.lang.String,java.util.List)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r2, $r1), from the following sources:
+	- $r7 = virtualinvoke $r4.<java.util.Locale: java.lang.String getCountry()>() (in <com.threatmetrix.TrustDefenderMobile.JSExecutor: java.lang.String getUserAgentString()>)
+	- $r4 = virtualinvoke $r9.<java.util.Locale: java.lang.String getCountry()>() (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void onCreate(android.app.Activity)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(0) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+	- $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.threatmetrix.TrustDefenderMobile.TDID: java.lang.String getIMEI(android.content.Context)>)
+	- $r6 = virtualinvoke $r2.<android.content.pm.PackageManager: java.util.List getInstalledPackages(int)>(128) (in <com.doodlemobile.gamecenter.DoodleMobileAnaylise: void initDMAppId(android.content.Context)>)
+Maximum memory consumption: 614.12 MB
+Analysis has run for 67.51137774 seconds

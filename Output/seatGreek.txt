@@ -1,0 +1,817 @@
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 36.0 seconds.
+[Spark] Solution found in 36.0 seconds.
+Callback analysis done.
+Found 1 layout controls in file res/layout/abs__activity_chooser_view.xml
+Found 2 layout controls in file res/layout/abs__activity_chooser_view_list_item.xml
+Found 3 layout controls in file res/layout/activity_auth.xml
+Found 4 layout controls in file res/layout/activity_autocomplete.xml
+Found 5 layout controls in file res/layout/activity_event.xml
+Found 6 layout controls in file res/layout/activity_explore.xml
+Found 7 layout controls in file res/layout/activity_explore_event.xml
+Found 8 layout controls in file res/layout/activity_main.xml
+Found 9 layout controls in file res/layout/activity_my_events.xml
+Found 10 layout controls in file res/layout/activity_my_performers.xml
+Found 11 layout controls in file res/layout/activity_onboarding.xml
+Found 12 layout controls in file res/layout/activity_settings.xml
+Found 13 layout controls in file res/layout/activity_ticket.xml
+Found 14 layout controls in file res/layout/activity_with_drawer_with_pseudo_actionbar.xml
+Found 15 layout controls in file res/layout/autocomplete_event.xml
+Found 16 layout controls in file res/layout/autocomplete_item.xml
+Found 17 layout controls in file res/layout/autocomplete_recent_searches.xml
+Found 18 layout controls in file res/layout/autocomplete_recent_searches_item.xml
+Found 19 layout controls in file res/layout/autocomplete_separator.xml
+Found 20 layout controls in file res/layout/coaching_inner.xml
+Found 21 layout controls in file res/layout/coaching_inner_pager.xml
+Found 22 layout controls in file res/layout/com_facebook_friendpickerfragment.xml
+Found 23 layout controls in file res/layout/com_facebook_login_activity_layout.xml
+Found 24 layout controls in file res/layout/com_facebook_picker_activity_circle_row.xml
+Found 25 layout controls in file res/layout/com_facebook_picker_checkbox.xml
+Found 26 layout controls in file res/layout/com_facebook_picker_image.xml
+Found 27 layout controls in file res/layout/com_facebook_picker_list_row.xml
+Found 28 layout controls in file res/layout/com_facebook_picker_list_section_header.xml
+Found 29 layout controls in file res/layout/com_facebook_picker_search_box.xml
+Found 30 layout controls in file res/layout/com_facebook_picker_title_bar.xml
+Found 31 layout controls in file res/layout/com_facebook_picker_title_bar_stub.xml
+Found 32 layout controls in file res/layout/com_facebook_placepickerfragment.xml
+Found 33 layout controls in file res/layout/com_facebook_placepickerfragment_list_row.xml
+Found 34 layout controls in file res/layout/com_facebook_search_bar_layout.xml
+Found 35 layout controls in file res/layout/com_facebook_tooltip_bubble.xml
+Found 36 layout controls in file res/layout/com_facebook_usersettingsfragment.xml
+Found 37 layout controls in file res/layout/custom_switch.xml
+Found 38 layout controls in file res/layout/drawer_container_debug.xml
+Found 39 layout controls in file res/layout/drawer_content.xml
+Found 40 layout controls in file res/layout/event_location_item.xml
+Found 41 layout controls in file res/layout/event_search_header.xml
+Found 42 layout controls in file res/layout/event_search_item.xml
+Found 43 layout controls in file res/layout/fragment_about.xml
+Found 44 layout controls in file res/layout/fragment_auth_landing.xml
+Found 45 layout controls in file res/layout/fragment_auth_login.xml
+Found 46 layout controls in file res/layout/fragment_auth_signup.xml
+Found 47 layout controls in file res/layout/fragment_autocomplete.xml
+Found 48 layout controls in file res/layout/fragment_event_with_map.xml
+Found 49 layout controls in file res/layout/fragment_explore.xml
+Found 50 layout controls in file res/layout/fragment_explore_event.xml
+Found 51 layout controls in file res/layout/fragment_explore_event_list.xml
+Found 52 layout controls in file res/layout/fragment_explore_list.xml
+Found 53 layout controls in file res/layout/fragment_information.xml
+Found 54 layout controls in file res/layout/fragment_listing_filters.xml
+Found 55 layout controls in file res/layout/fragment_location_picker.xml
+Found 56 layout controls in file res/layout/fragment_my_events.xml
+Found 57 layout controls in file res/layout/fragment_my_performers.xml
+Found 58 layout controls in file res/layout/fragment_results.xml
+Found 59 layout controls in file res/layout/fragment_score.xml
+Found 60 layout controls in file res/layout/fragment_score_inner.xml
+Found 61 layout controls in file res/layout/fragment_settings.xml
+Found 62 layout controls in file res/layout/fragment_ticket.xml
+Found 63 layout controls in file res/layout/location_item.xml
+Found unrecognized XML attribute:  contentDescription
+Found 64 layout controls in file res/layout/msv__error_network.xml
+Found unrecognized XML attribute:  contentDescription
+Found 65 layout controls in file res/layout/msv__error_unknown.xml
+Found 66 layout controls in file res/layout/msv__loading.xml
+Found 67 layout controls in file res/layout/msv_content_state_empty.xml
+Found 68 layout controls in file res/layout/msv_content_state_explore_announced_no_events.xml
+Found 69 layout controls in file res/layout/msv_content_state_explore_announced_not_logged_in.xml
+Found 70 layout controls in file res/layout/msv_content_state_explore_my_performers_not_logged_in.xml
+Found 71 layout controls in file res/layout/msv_content_state_my_events_no_tracked_events.xml
+Found 72 layout controls in file res/layout/msv_content_state_my_events_not_logged_in.xml
+Found 73 layout controls in file res/layout/msv_content_state_my_performers_no_tracked_performers.xml
+Found 74 layout controls in file res/layout/msv_content_state_my_performers_not_logged_in.xml
+Found 75 layout controls in file res/layout/msv_content_state_no_location.xml
+Found 76 layout controls in file res/layout/msv_location_picker_state_empty.xml
+Found 77 layout controls in file res/layout/no_location.xml
+Found 78 layout controls in file res/layout/onboarding_indicator.xml
+Found 79 layout controls in file res/layout/onboarding_page_one.xml
+Found 80 layout controls in file res/layout/onboarding_page_three.xml
+Found 81 layout controls in file res/layout/onboarding_page_two.xml
+Found 82 layout controls in file res/layout/recommendation_item.xml
+Found 83 layout controls in file res/layout/sticky_list_header.xml
+Found 84 layout controls in file res/layout/ticket_details.xml
+Found 85 layout controls in file res/layout/view_event_second_header.xml
+Found 86 layout controls in file res/layout/view_events_state_header.xml
+Found 87 layout controls in file res/layout/view_item_explore_event.xml
+Found 88 layout controls in file res/layout/view_item_explore_event_with_announced.xml
+Found 89 layout controls in file res/layout/view_item_my_events.xml
+Found 90 layout controls in file res/layout/view_item_my_performers.xml
+Found 91 layout controls in file res/layout/view_listing_deal_quality.xml
+Found 92 layout controls in file res/layout/view_listing_filtered_header.xml
+Found 93 layout controls in file res/layout/view_listing_header.xml
+Found 94 layout controls in file res/layout/view_listing_no_deal_quality.xml
+Found 95 layout controls in file res/layout/view_listing_separator.xml
+Found 96 layout controls in file res/layout/view_performer_header.xml
+Found 97 layout controls in file res/layout/view_result_header.xml
+Found 98 layout controls in file res/layout-v14/custom_switch.xml
+Found 99 layout controls in file res/layout-land/fragment_about.xml
+Found 100 layout controls in file res/layout-land/fragment_event_with_map.xml
+Found 101 layout controls in file res/layout-land/fragment_information.xml
+Found 102 layout controls in file res/layout-land/fragment_listing_filters.xml
+Found 103 layout controls in file res/layout-land/fragment_location_picker.xml
+Found 104 layout controls in file res/layout-land/fragment_ticket.xml
+Found 105 layout controls in file res/layout-land/msv_location_picker_state_empty.xml
+Found 106 layout controls in file res/layout-w600dp-v13/activity_onboarding.xml
+Found 107 layout controls in file res/layout-w600dp-v13/coaching_inner.xml
+Found 108 layout controls in file res/layout-w600dp-land-v13/fragment_explore_event.xml
+Found 109 layout controls in file res/layout-w600dp-land-v13/fragment_results.xml
+Found 110 layout controls in file res/layout-w600dp-port-v13/fragment_results.xml
+Found 111 layout controls in file res/layout-sw600dp-v13/fragment_score.xml
+Found 112 layout controls in file res/layout-sw600dp-v13/msv_location_picker_state_empty.xml
+Found 113 layout controls in file res/layout-sw600dp-v13/ticket_details.xml
+Found 113 layout controls in file res/layout-sw600dp-v13/view_item_my_events.xml
+Found 114 layout controls in file res/layout-sw600dp-land-v13/fragment_ticket.xml
+Found 115 layout controls in file res/layout-sw600dp-port-v13/fragment_event_with_map.xml
+Found 116 layout controls in file res/layout-sw600dp-port-v13/fragment_ticket.xml
+Found 117 layout controls in file res/layout-sw720dp-v13/coaching_inner.xml
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.2 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 50.3 seconds.
+[Spark] Solution found in 50.3 seconds.
+Running incremental callback analysis for 25 components...
+Incremental callback analysis done.
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.5 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 42.0 seconds.
+[Spark] Solution found in 42.0 seconds.
+Running incremental callback analysis for 0 components...
+Incremental callback analysis done.
+Found 150 callback methods for 25 components
+Found {res/layout/autocomplete_item.xml=[2131361846 - android.widget.TextView, 2131361848 - android.widget.ImageView, -1 - android.widget.LinearLayout, 2131361849 - android.widget.CheckBox, -1 - android.widget.RelativeLayout, -1 - android.widget.FrameLayout, 2131361850 - android.widget.TextView], res/layout-land/fragment_ticket.xml=[2131361929 - com.seatgeek.android.ui.views.NoInteractionMapView, -1 - android.widget.LinearLayout, 2131362002 - android.widget.FrameLayout, 2131362003 - android.widget.ImageView, -1 - android.widget.FrameLayout, -1 - android.view.View], res/layout/com_facebook_picker_checkbox.xml=[2131361865 - android.widget.CheckBox], res/layout/view_event_second_header.xml=[2131362041 - android.widget.FrameLayout, -1 - android.widget.LinearLayout, 2131362039 - android.widget.TextView, 2131362040 - android.widget.ProgressBar, 2131362042 - android.widget.TextView, 2131362037 - android.widget.LinearLayout, 2131362038 - android.widget.FrameLayout], res/layout/onboarding_page_two.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView], res/layout/activity_autocomplete.xml=[2131361835 - android.widget.FrameLayout], res/layout/com_facebook_placepickerfragment.xml=[2131361861 - android.widget.ListView, 2131361862 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/msv_content_state_no_location.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362014 - android.widget.ImageView], res/layout/view_result_header.xml=[2131361901 - android.widget.TextView, 2131362069 - android.widget.ImageView, 2131362072 - android.widget.TextView, 2131362071 - android.widget.TextView, 2131362070 - android.widget.LinearLayout, 2131362068 - android.widget.FrameLayout], res/layout/msv_location_picker_state_empty.xml=[2131362009 - android.widget.LinearLayout, 2131362010 - android.widget.ImageView, 2131362011 - android.widget.TextView, -1 - android.widget.ScrollView], res/layout-sw600dp-port-v13/fragment_ticket.xml=[2131361929 - com.seatgeek.android.ui.views.NoInteractionMapView, -1 - android.widget.LinearLayout, 2131362002 - android.widget.FrameLayout, 2131362003 - android.widget.ImageView, -1 - android.widget.FrameLayout, -1 - android.view.View], res/layout/fragment_event_with_map.xml=[2131361941 - com.seatgeek.android.ui.views.ListingFilteredHeaderView, 2131361932 - android.widget.FrameLayout, 2131361930 - android.widget.ProgressBar, -1 - android.widget.ProgressBar, 2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361931 - android.widget.TextView, -1 - android.widget.TextView, 2131361938 - android.widget.LinearLayout, 2131361933 - com.seatgeek.android.ui.views.ListingHeaderView, 2131361940 - android.widget.LinearLayout, -1 - android.widget.FrameLayout, 2131361934 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.widget.LinearLayout, 2131361927 - android.view.View, 2131361943 - android.widget.FrameLayout, 2131361936 - android.widget.LinearLayout, 2131361929 - com.seatgeek.android.ui.views.TouchListenerMapView, 2131361937 - android.widget.LinearLayout, 2131361935 - android.widget.LinearLayout, -1 - android.widget.ImageView, 2131361928 - android.widget.FrameLayout, 2131361942 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.view.View, 2131361939 - android.widget.TextView], res/layout/recommendation_item.xml=[2131361899 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361898 - android.widget.TextView, 2131361958 - android.widget.ImageView, 2131361896 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout/msv_content_state_my_events_no_tracked_events.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.widget.ImageView], res/layout/fragment_my_events.xml=[-1 - android.widget.GridView, 2131361837 - com.meetme.android.multistateview.MultiStateView, -1 - android.widget.FrameLayout], res/layout/view_listing_filtered_header.xml=[2131362063 - android.widget.TextView, 2131362062 - com.seatgeek.android.ui.views.FontFitTextView], res/layout/activity_auth.xml=[2131361835 - android.widget.FrameLayout, -1 - android.widget.FrameLayout, 2131361834 - android.widget.FrameLayout], res/layout/fragment_explore_event.xml=[-1 - android.widget.FrameLayout], res/layout/activity_with_drawer_with_pseudo_actionbar.xml=[2131361843 - android.widget.FrameLayout, 2131361842 - android.view.View, 2131361838 - android.widget.RelativeLayout], res/layout/activity_event.xml=[2131361835 - android.widget.FrameLayout], res/layout/msv_content_state_explore_my_performers_not_logged_in.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.widget.ImageView], res/layout-w600dp-land-v13/fragment_results.xml=[-1 - android.widget.LinearLayout, 2131361986 - com.seatgeek.android.ui.views.ResultHeaderView, 2131361797 - com.meetme.android.multistateview.MultiStateView, -1 - se.emilsjolander.stickylistheaders.StickyListHeadersListView], res/layout/fragment_results.xml=[-1 - android.widget.LinearLayout, 2131361986 - com.seatgeek.android.ui.views.ResultHeaderView, 2131361797 - com.meetme.android.multistateview.MultiStateView, -1 - se.emilsjolander.stickylistheaders.StickyListHeadersListView], res/layout-sw600dp-v13/msv_location_picker_state_empty.xml=[2131362009 - android.widget.LinearLayout, 2131362010 - android.widget.ImageView, 2131362011 - android.widget.TextView, -1 - android.widget.ScrollView], res/layout/sticky_list_header.xml=[2131362018 - android.widget.TextView], res/layout/com_facebook_picker_list_section_header.xml=[2131361870 - android.widget.TextView], res/layout/fragment_score.xml=[-1 - android.widget.LinearLayout], res/layout/onboarding_indicator.xml=[2131362017 - android.view.View, -1 - android.widget.FrameLayout, -1 - android.view.View], res/layout/msv__error_network.xml=[-1 - android.widget.LinearLayout, 2131362007 - android.widget.TextView, 2131362008 - android.widget.Button, -1 - android.widget.ImageView], res/layout/location_item.xml=[-1 - android.widget.LinearLayout, 2131362005 - android.widget.ImageView, 2131362006 - android.widget.TextView], res/layout/view_item_explore_event.xml=[2131362044 - android.widget.RelativeLayout, 2131361899 - android.widget.TextView, 2131361959 - android.view.View, 2131362046 - android.widget.TextView, 2131361954 - android.widget.ImageView, 2131361898 - android.widget.TextView, 2131362045 - android.widget.TextView, 2131361958 - android.widget.ImageView, 2131361896 - android.widget.TextView, 2131361849 - android.widget.ToggleButton, -1 - android.widget.RelativeLayout], res/layout/fragment_listing_filters.xml=[-1 - android.widget.TextView, 2131361974 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361968 - android.widget.LinearLayout, 2131361971 - android.widget.TextView, 2131361972 - android.widget.TextView, 2131361973 - android.widget.SeekBar, 2131361969 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131361956 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131361976 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361970 - android.widget.LinearLayout, 2131361975 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361978 - android.widget.Button, 2131361977 - android.widget.Button, -1 - android.view.View], res/layout/fragment_auth_login.xml=[2131361920 - com.dd.processbutton.iml.ActionProcessButton, 2131361917 - android.widget.Button, 2131361919 - android.widget.EditText, -1 - com.seatgeek.android.ui.views.FloatLabelLayout, 2131361921 - com.seatgeek.android.ui.views.MaxWidthLinearLayout, -1 - android.widget.RelativeLayout, 2131361924 - com.dd.processbutton.iml.ActionProcessButton, 2131361916 - android.widget.TextView, 2131361915 - com.seatgeek.android.ui.views.MaxWidthLinearLayout, 2131361922 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361923 - android.widget.AutoCompleteTextView, 2131361918 - android.widget.AutoCompleteTextView], res/layout/view_listing_deal_quality.xml=[2131362061 - android.view.View, 2131362054 - android.widget.ImageView, 2131362052 - android.widget.LinearLayout, 2131362053 - android.widget.FrameLayout, 2131362056 - android.widget.LinearLayout, 2131362060 - android.widget.TextView, 2131362057 - android.widget.TextView, 2131362058 - android.widget.TextView, -1 - android.view.View, 2131362055 - android.widget.TextView, 2131362059 - android.widget.ImageView], res/layout/autocomplete_event.xml=[2131361845 - android.widget.TextView, 2131361846 - android.widget.TextView, 2131361844 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361847 - android.widget.TextView], res/layout/coaching_inner_pager.xml=[2131361856 - android.widget.LinearLayout, 2131361860 - android.widget.Button, 2131361859 - android.widget.Button, 2131361858 - android.widget.LinearLayout, -1 - android.view.View], res/layout/com_facebook_picker_activity_circle_row.xml=[2131361864 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/coaching_inner.xml=[2131361852 - android.widget.ImageView, 2131361853 - android.widget.ImageView, 2131361854 - android.widget.ImageView], res/layout/msv_content_state_explore_announced_no_events.xml=[-1 - android.widget.LinearLayout, 2131362011 - android.widget.TextView, 2131362012 - android.widget.TextView, 2131362010 - android.view.View], res/layout/autocomplete_separator.xml=[2131361846 - android.widget.TextView], res/layout-sw600dp-port-v13/fragment_event_with_map.xml=[2131361941 - com.seatgeek.android.ui.views.ListingFilteredHeaderView, 2131361945 - android.widget.ImageView, 2131361932 - android.widget.FrameLayout, 2131361930 - android.widget.ProgressBar, 2131361933 - com.seatgeek.android.ui.views.ListingHeaderView, 2131361934 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.widget.LinearLayout, 2131361943 - android.widget.FrameLayout, 2131361936 - android.widget.LinearLayout, 2131361929 - com.seatgeek.android.ui.views.TouchListenerMapView, -1 - android.widget.ImageView, 2131361942 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.view.View, -1 - android.widget.ProgressBar, 2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361931 - android.widget.TextView, -1 - android.widget.TextView, 2131361938 - android.widget.LinearLayout, 2131361940 - android.widget.LinearLayout, -1 - android.widget.FrameLayout, 2131361927 - android.view.View, 2131361944 - android.widget.FrameLayout, 2131361937 - android.widget.LinearLayout, 2131361935 - android.widget.LinearLayout, 2131361928 - android.widget.FrameLayout, 2131361939 - android.widget.TextView], res/layout/view_listing_header.xml=[2131362066 - android.widget.ImageButton, 2131362065 - android.widget.ImageButton, 2131362064 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131362062 - android.widget.TextView], res/layout/fragment_location_picker.xml=[2131361982 - android.widget.SearchView, -1 - android.widget.LinearLayout, 2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361980 - android.widget.TextView, 2131361979 - android.widget.TextView, 2131361985 - android.widget.ListView, 2131361984 - android.widget.ProgressBar, 2131361983 - android.widget.ImageButton, 2131361981 - android.widget.FrameLayout], res/layout/msv__error_unknown.xml=[-1 - android.widget.LinearLayout, 2131362007 - android.widget.TextView, 2131362008 - android.widget.Button, -1 - android.widget.ImageView], res/layout/view_events_state_header.xml=[2131362043 - android.widget.TextView, 2131361984 - android.widget.ProgressBar], res/layout/msv__loading.xml=[-1 - android.widget.ProgressBar, -1 - android.widget.FrameLayout], res/layout/activity_my_events.xml=[-1 - android.widget.FrameLayout], res/layout-land/fragment_listing_filters.xml=[-1 - android.widget.TextView, 2131361974 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361968 - android.widget.LinearLayout, 2131361971 - android.widget.TextView, 2131361972 - android.widget.TextView, 2131361973 - android.widget.SeekBar, 2131361969 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131361956 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131361976 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361970 - android.widget.LinearLayout, 2131361975 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361978 - android.widget.Button, 2131361977 - android.widget.Button, -1 - android.view.View], res/layout/autocomplete_recent_searches_item.xml=[-1 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout/view_item_my_events.xml=[2131361899 - android.widget.TextView, 2131361954 - android.widget.ImageView, 2131361898 - android.widget.TextView, 2131362048 - android.view.View, 2131362045 - android.widget.TextView, 2131361958 - android.widget.ImageView, 2131361896 - android.widget.TextView, 2131361849 - android.widget.CheckBox, 2131361960 - android.widget.RelativeLayout, 2131362044 - android.widget.LinearLayout], res/layout/fragment_about.xml=[-1 - android.widget.LinearLayout, -1 - com.seatgeek.android.ui.views.MaxWidthFrameLayout, -1 - android.widget.RelativeLayout, 2131361906 - android.widget.TextView, 2131361904 - android.widget.LinearLayout, 2131361905 - android.widget.ImageView, 2131361908 - android.widget.Button, -1 - android.widget.ScrollView, 2131361907 - android.widget.Button, 2131361909 - android.widget.TextView], res/layout/com_facebook_login_activity_layout.xml=[2131361863 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/view_item_explore_event_with_announced.xml=[2131362047 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout/activity_my_performers.xml=[2131361835 - android.widget.FrameLayout], res/layout/fragment_auth_signup.xml=[2131361919 - android.widget.EditText, -1 - android.widget.LinearLayout, -1 - com.seatgeek.android.ui.views.FloatLabelLayout, -1 - android.widget.TextView, 2131361925 - com.seatgeek.android.ui.views.MaxWidthLinearLayout, 2131361926 - com.dd.processbutton.iml.ActionProcessButton, -1 - android.widget.FrameLayout, 2131361918 - android.widget.AutoCompleteTextView], res/layout/fragment_ticket.xml=[2131361929 - com.seatgeek.android.ui.views.NoInteractionMapView, -1 - android.widget.LinearLayout, 2131362002 - android.widget.FrameLayout, 2131362003 - android.widget.ImageView], res/layout/activity_main.xml=[2131361838 - android.widget.FrameLayout, 2131361840 - android.widget.FrameLayout], res/layout-w600dp-land-v13/fragment_explore_event.xml=[2131361842 - android.view.View, -1 - android.widget.LinearLayout, 2131361948 - android.widget.FrameLayout, -1 - android.widget.FrameLayout], res/layout/fragment_settings.xml=[2131361989 - android.widget.ImageView, 2131361990 - android.widget.ImageView, -1 - android.widget.TextView, 2131361999 - android.widget.CheckBox, 2131361996 - android.widget.LinearLayout, 2131361997 - android.widget.LinearLayout, 2131362000 - android.widget.RelativeLayout, 2131361995 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131361998 - android.widget.RelativeLayout, 2131362001 - android.widget.LinearLayout, 2131361993 - android.widget.TextView, 2131361994 - android.widget.TextView, 2131361992 - android.widget.LinearLayout, 2131361991 - android.widget.TextView, -1 - android.widget.ScrollView, -1 - android.view.View], res/layout/msv_content_state_empty.xml=[2131362009 - android.widget.LinearLayout, 2131362010 - android.widget.ImageView, 2131362011 - android.widget.TextView, 2131362012 - android.widget.TextView], res/layout-land/fragment_information.xml=[2131361965 - android.widget.LinearLayout, 2131361964 - android.widget.LinearLayout, 2131361967 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131361963 - android.view.View, 2131361957 - android.widget.FrameLayout, 2131361962 - android.widget.TextView, 2131361961 - android.widget.TextView, 2131361966 - android.widget.TextView, 2131361899 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361897 - android.widget.TextView, 2131361958 - android.widget.ImageView, -1 - android.widget.ImageView, -1 - android.view.View], res/layout/msv_content_state_explore_announced_not_logged_in.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.view.View], res/layout/activity_explore.xml=[2131361836 - android.widget.FrameLayout], res/layout/abs__activity_chooser_view.xml=[2131361827 - android.widget.LinearLayout, 2131361828 - android.widget.FrameLayout, 2131361829 - android.widget.ImageView, 2131361830 - android.widget.FrameLayout], res/layout/abs__activity_chooser_view_list_item.xml=[2131361831 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131361833 - android.widget.TextView, 2131361832 - android.widget.ImageView], res/layout/onboarding_page_one.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView], res/layout/drawer_content.xml=[2131361892 - android.widget.TextView, 2131361891 - android.widget.TextView, 2131361893 - android.widget.TextView, 2131361894 - android.widget.TextView, 2131361895 - android.widget.TextView, 2131361890 - android.widget.LinearLayout, 2131361889 - android.widget.ScrollView], res/layout/view_listing_no_deal_quality.xml=[2131362061 - android.view.View, 2131362052 - android.widget.LinearLayout, 2131362056 - android.widget.LinearLayout, 2131362060 - android.widget.TextView, 2131362057 - android.widget.TextView, 2131362058 - android.widget.TextView, -1 - android.view.View, 2131362059 - android.widget.ImageView], res/layout-w600dp-v13/activity_onboarding.xml=[-1 - android.widget.FrameLayout], res/layout-v14/custom_switch.xml=[2131361887 - android.widget.Switch], res/layout/fragment_auth_landing.xml=[-1 - android.widget.LinearLayout, 2131361911 - android.widget.LinearLayout, -1 - com.seatgeek.android.ui.views.MaxWidthFrameLayout, 2131361912 - android.widget.Button, -1 - android.widget.ImageView, 2131361913 - android.widget.Button, 2131361914 - android.widget.Button, -1 - android.widget.FrameLayout], res/layout/com_facebook_picker_title_bar_stub.xml=[2131361874 - android.view.ViewStub], res/layout/view_item_my_performers.xml=[-1 - android.widget.LinearLayout, 2131361849 - android.widget.CheckBox, -1 - android.widget.RelativeLayout, 2131362049 - android.widget.ImageView, 2131362050 - android.widget.TextView, 2131362051 - android.widget.TextView, -1 - android.view.View], res/layout-sw600dp-v13/fragment_score.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.FrameLayout], res/layout-sw600dp-land-v13/fragment_ticket.xml=[2131361929 - com.seatgeek.android.ui.views.NoInteractionMapView, -1 - android.widget.LinearLayout, 2131362002 - android.widget.FrameLayout, 2131362003 - android.widget.ImageView, -1 - android.widget.FrameLayout, -1 - android.view.View], res/layout/fragment_explore_list.xml=[2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361955 - android.widget.ImageView, 2131361953 - android.widget.TextView, 2131361950 - android.widget.RelativeLayout, 2131361951 - android.widget.GridView, 2131361954 - android.view.View, 2131361952 - android.widget.FrameLayout], res/layout/fragment_information.xml=[2131361965 - android.widget.LinearLayout, 2131361964 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131361963 - android.view.View, 2131361957 - android.widget.FrameLayout, 2131361960 - android.widget.FrameLayout, 2131361962 - android.widget.TextView, 2131361959 - android.widget.FrameLayout, 2131361961 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131361956 - android.widget.LinearLayout, 2131361966 - android.widget.TextView, 2131361899 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361897 - android.widget.TextView, 2131361958 - android.widget.ImageView, -1 - android.widget.ImageView, -1 - android.view.View], res/layout/com_facebook_picker_list_row.xml=[2131361868 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361869 - android.view.ViewStub, 2131361867 - android.view.ViewStub], res/layout-land/fragment_about.xml=[-1 - android.widget.LinearLayout, 2131361910 - android.widget.LinearLayout, -1 - com.seatgeek.android.ui.views.MaxWidthFrameLayout, -1 - android.widget.RelativeLayout, 2131361906 - android.widget.TextView, 2131361905 - android.widget.ImageView, 2131361908 - android.widget.Button, 2131361907 - android.widget.Button, 2131361909 - android.widget.TextView], res/layout/custom_switch.xml=[2131361887 - android.widget.CheckBox], res/layout/com_facebook_picker_title_bar.xml=[2131361868 - android.widget.TextView, 2131361872 - android.widget.Button, 2131361871 - android.widget.RelativeLayout, 2131361873 - android.widget.LinearLayout], res/layout/msv_content_state_my_performers_no_tracked_performers.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.widget.ImageView], res/layout/activity_onboarding.xml=[-1 - android.widget.FrameLayout], res/layout-w600dp-v13/coaching_inner.xml=[2131361852 - android.widget.ImageView, -1 - android.widget.FrameLayout, 2131361853 - android.widget.ImageView, 2131361854 - android.widget.ImageView], res/layout/fragment_autocomplete.xml=[2131361842 - android.view.View, -1 - android.widget.LinearLayout, 2131361797 - com.meetme.android.multistateview.MultiStateView, -1 - android.widget.ListView], res/layout/fragment_my_performers.xml=[-1 - android.widget.GridView, 2131361837 - com.meetme.android.multistateview.MultiStateView, -1 - android.widget.FrameLayout], res/layout-sw600dp-v13/ticket_details.xml=[2131362022 - android.widget.TextView, 2131362029 - android.view.View, 2131362004 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, 2131362024 - android.widget.TextView, 2131362027 - android.widget.ImageView, 2131362028 - android.widget.TextView, 2131362026 - android.widget.TextView, -1 - android.widget.LinearLayout, -1 - android.widget.ImageView, 2131362020 - android.widget.Button, -1 - android.view.View, 2131362019 - android.widget.FrameLayout, 2131362034 - android.widget.ImageView, 2131362021 - android.widget.ProgressBar, 2131362032 - android.widget.LinearLayout, 2131362030 - android.widget.LinearLayout, 2131361963 - android.view.View, 2131362036 - android.widget.TextView, 2131362023 - android.widget.TextView, 2131362025 - android.widget.TextView, 2131362031 - android.widget.TextView, 2131362033 - android.widget.TextView, 2131362035 - android.widget.TextView, -1 - android.widget.ScrollView], res/layout-land/fragment_location_picker.xml=[2131361982 - android.widget.SearchView, -1 - android.widget.LinearLayout, 2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361979 - android.widget.TextView, 2131361985 - android.widget.ListView, 2131361983 - android.widget.ImageButton, -1 - android.widget.FrameLayout, 2131361981 - android.widget.FrameLayout], res/layout/fragment_explore_event_list.xml=[2131361949 - se.emilsjolander.stickylistheaders.StickyListHeadersListView], res/layout/msv_content_state_my_events_not_logged_in.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.view.View], res/layout/fragment_score_inner.xml=[2131361988 - android.widget.TextView, 2131361987 - android.widget.TextView, -1 - android.widget.LinearLayout, -1 - android.widget.ImageView], res/layout/com_facebook_tooltip_bubble.xml=[2131361880 - android.widget.ImageView, 2131361879 - android.widget.RelativeLayout, -1 - android.widget.RelativeLayout, 2131361881 - android.widget.ImageView, 2131361882 - android.widget.TextView, 2131361883 - android.widget.ImageView], res/layout/event_search_header.xml=[-1 - android.widget.LinearLayout, 2131361901 - android.widget.TextView], res/layout-w600dp-port-v13/fragment_results.xml=[-1 - android.widget.LinearLayout, 2131361986 - com.seatgeek.android.ui.views.ResultHeaderView, 2131361797 - com.meetme.android.multistateview.MultiStateView, -1 - se.emilsjolander.stickylistheaders.StickyListHeadersListView], res/layout/ticket_details.xml=[2131362019 - android.widget.FrameLayout, 2131362022 - android.widget.TextView, 2131362021 - android.widget.ProgressBar, 2131362029 - android.view.View, 2131362032 - android.widget.LinearLayout, 2131362030 - android.widget.LinearLayout, 2131361963 - android.view.View, -1 - android.widget.RelativeLayout, 2131362024 - android.widget.TextView, 2131362023 - android.widget.TextView, 2131362025 - android.widget.TextView, 2131362027 - android.widget.ImageView, 2131362028 - android.widget.TextView, 2131362026 - android.widget.TextView, 2131362031 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131362033 - android.widget.TextView, -1 - android.widget.ImageView, 2131362020 - android.widget.Button, -1 - android.view.View, -1 - android.widget.ScrollView], res/layout/com_facebook_picker_search_box.xml=[-1 - android.widget.LinearLayout, -1 - android.view.View], res/layout/drawer_container_debug.xml=[2131361888 - android.widget.FrameLayout, -1 - android.widget.TextView], res/layout/com_facebook_search_bar_layout.xml=[2131361877 - android.widget.LinearLayout, 2131361878 - android.widget.EditText], res/layout/no_location.xml=[2131362016 - android.widget.Button, -1 - android.widget.TextView, 2131362015 - android.widget.LinearLayout], res/layout/event_search_item.xml=[2131361899 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361897 - android.widget.TextView, 2131361898 - android.widget.TextView, 2131361896 - android.widget.TextView, 2131361903 - android.view.View, 2131361902 - android.widget.LinearLayout, -1 - android.view.View], res/layout/com_facebook_friendpickerfragment.xml=[2131361861 - android.widget.ListView, 2131361862 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/autocomplete_recent_searches.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131361851 - android.widget.ListView], res/layout/activity_settings.xml=[2131361835 - android.widget.FrameLayout], res/layout/onboarding_page_three.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView], res/layout/event_location_item.xml=[2131361899 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361897 - android.widget.TextView, 2131361898 - android.widget.TextView, 2131361896 - android.widget.TextView, 2131361900 - android.view.View, -1 - android.view.View], res/layout/view_listing_separator.xml=[-1 - android.view.View], res/layout-land/fragment_event_with_map.xml=[2131361941 - com.seatgeek.android.ui.views.ListingFilteredHeaderView, 2131361945 - android.widget.ImageView, 2131361932 - android.widget.FrameLayout, 2131361930 - android.widget.ProgressBar, 2131361933 - com.seatgeek.android.ui.views.ListingHeaderView, 2131361934 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.widget.LinearLayout, 2131361943 - android.widget.FrameLayout, 2131361936 - android.widget.LinearLayout, 2131361929 - com.seatgeek.android.ui.views.TouchListenerMapView, -1 - android.widget.ImageView, 2131361942 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.view.View, -1 - android.widget.ProgressBar, 2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361931 - android.widget.TextView, -1 - android.widget.TextView, 2131361938 - android.widget.LinearLayout, 2131361940 - android.widget.LinearLayout, -1 - android.widget.FrameLayout, 2131361927 - android.view.View, 2131361944 - android.widget.FrameLayout, 2131361937 - android.widget.LinearLayout, 2131361935 - android.widget.LinearLayout, 2131361928 - android.widget.FrameLayout, 2131361939 - android.widget.TextView], res/layout/fragment_explore.xml=[-1 - com.seatgeek.android.ui.views.MaxWidthFrameLayout, 2131361947 - com.astuetz.PagerSlidingTabStrip, -1 - android.widget.FrameLayout, -1 - android.view.View], res/layout/activity_ticket.xml=[2131361835 - android.widget.FrameLayout], res/layout/msv_content_state_my_performers_not_logged_in.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.view.View], res/layout/com_facebook_picker_image.xml=[2131361866 - android.widget.ImageView], res/layout/activity_explore_event.xml=[2131361837 - com.meetme.android.multistateview.MultiStateView, 2131361835 - android.widget.FrameLayout], res/layout/com_facebook_placepickerfragment_list_row.xml=[2131361868 - android.widget.TextView, -1 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, 2131361876 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131361867 - android.view.ViewStub, -1 - android.view.View], res/layout/view_performer_header.xml=[2131362067 - android.widget.ImageView, -1 - android.widget.LinearLayout, 2131361958 - android.widget.ImageView, 2131361993 - android.widget.TextView, 2131361994 - android.widget.TextView, -1 - android.view.View], res/layout/com_facebook_usersettingsfragment.xml=[-1 - android.widget.LinearLayout, 2131361886 - com.facebook.widget.LoginButton, 2131361885 - android.widget.TextView, 2131361884 - android.widget.ImageView, -1 - android.widget.ScrollView], res/layout-sw720dp-v13/coaching_inner.xml=[2131361852 - android.widget.ImageView, -1 - android.widget.RelativeLayout, 2131361855 - android.widget.ImageView, 2131361853 - android.widget.ImageView, 2131361854 - android.widget.ImageView], res/layout-land/msv_location_picker_state_empty.xml=[2131362009 - android.widget.LinearLayout, 2131362010 - android.widget.ImageView, 2131362011 - android.widget.TextView, -1 - android.widget.ScrollView]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 150 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Events/com.seatgeek.android.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.2 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 42.1 seconds.
+[Spark] Solution found in 42.1 seconds.
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 37.1 seconds.
+[Spark] Solution found in 37.1 seconds.
+Callback analysis done.
+Found 1 layout controls in file res/layout/abs__activity_chooser_view.xml
+Found 2 layout controls in file res/layout/abs__activity_chooser_view_list_item.xml
+Found 3 layout controls in file res/layout/activity_auth.xml
+Found 4 layout controls in file res/layout/activity_autocomplete.xml
+Found 5 layout controls in file res/layout/activity_event.xml
+Found 6 layout controls in file res/layout/activity_explore.xml
+Found 7 layout controls in file res/layout/activity_explore_event.xml
+Found 8 layout controls in file res/layout/activity_main.xml
+Found 9 layout controls in file res/layout/activity_my_events.xml
+Found 10 layout controls in file res/layout/activity_my_performers.xml
+Found 11 layout controls in file res/layout/activity_onboarding.xml
+Found 12 layout controls in file res/layout/activity_settings.xml
+Found 13 layout controls in file res/layout/activity_ticket.xml
+Found 14 layout controls in file res/layout/activity_with_drawer_with_pseudo_actionbar.xml
+Found 15 layout controls in file res/layout/autocomplete_event.xml
+Found 16 layout controls in file res/layout/autocomplete_item.xml
+Found 17 layout controls in file res/layout/autocomplete_recent_searches.xml
+Found 18 layout controls in file res/layout/autocomplete_recent_searches_item.xml
+Found 19 layout controls in file res/layout/autocomplete_separator.xml
+Found 20 layout controls in file res/layout/coaching_inner.xml
+Found 21 layout controls in file res/layout/coaching_inner_pager.xml
+Found 22 layout controls in file res/layout/com_facebook_friendpickerfragment.xml
+Found 23 layout controls in file res/layout/com_facebook_login_activity_layout.xml
+Found 24 layout controls in file res/layout/com_facebook_picker_activity_circle_row.xml
+Found 25 layout controls in file res/layout/com_facebook_picker_checkbox.xml
+Found 26 layout controls in file res/layout/com_facebook_picker_image.xml
+Found 27 layout controls in file res/layout/com_facebook_picker_list_row.xml
+Found 28 layout controls in file res/layout/com_facebook_picker_list_section_header.xml
+Found 29 layout controls in file res/layout/com_facebook_picker_search_box.xml
+Found 30 layout controls in file res/layout/com_facebook_picker_title_bar.xml
+Found 31 layout controls in file res/layout/com_facebook_picker_title_bar_stub.xml
+Found 32 layout controls in file res/layout/com_facebook_placepickerfragment.xml
+Found 33 layout controls in file res/layout/com_facebook_placepickerfragment_list_row.xml
+Found 34 layout controls in file res/layout/com_facebook_search_bar_layout.xml
+Found 35 layout controls in file res/layout/com_facebook_tooltip_bubble.xml
+Found 36 layout controls in file res/layout/com_facebook_usersettingsfragment.xml
+Found 37 layout controls in file res/layout/custom_switch.xml
+Found 38 layout controls in file res/layout/drawer_container_debug.xml
+Found 39 layout controls in file res/layout/drawer_content.xml
+Found 40 layout controls in file res/layout/event_location_item.xml
+Found 41 layout controls in file res/layout/event_search_header.xml
+Found 42 layout controls in file res/layout/event_search_item.xml
+Found 43 layout controls in file res/layout/fragment_about.xml
+Found 44 layout controls in file res/layout/fragment_auth_landing.xml
+Found 45 layout controls in file res/layout/fragment_auth_login.xml
+Found 46 layout controls in file res/layout/fragment_auth_signup.xml
+Found 47 layout controls in file res/layout/fragment_autocomplete.xml
+Found 48 layout controls in file res/layout/fragment_event_with_map.xml
+Found 49 layout controls in file res/layout/fragment_explore.xml
+Found 50 layout controls in file res/layout/fragment_explore_event.xml
+Found 51 layout controls in file res/layout/fragment_explore_event_list.xml
+Found 52 layout controls in file res/layout/fragment_explore_list.xml
+Found 53 layout controls in file res/layout/fragment_information.xml
+Found 54 layout controls in file res/layout/fragment_listing_filters.xml
+Found 55 layout controls in file res/layout/fragment_location_picker.xml
+Found 56 layout controls in file res/layout/fragment_my_events.xml
+Found 57 layout controls in file res/layout/fragment_my_performers.xml
+Found 58 layout controls in file res/layout/fragment_results.xml
+Found 59 layout controls in file res/layout/fragment_score.xml
+Found 60 layout controls in file res/layout/fragment_score_inner.xml
+Found 61 layout controls in file res/layout/fragment_settings.xml
+Found 62 layout controls in file res/layout/fragment_ticket.xml
+Found 63 layout controls in file res/layout/location_item.xml
+Found unrecognized XML attribute:  contentDescription
+Found 64 layout controls in file res/layout/msv__error_network.xml
+Found unrecognized XML attribute:  contentDescription
+Found 65 layout controls in file res/layout/msv__error_unknown.xml
+Found 66 layout controls in file res/layout/msv__loading.xml
+Found 67 layout controls in file res/layout/msv_content_state_empty.xml
+Found 68 layout controls in file res/layout/msv_content_state_explore_announced_no_events.xml
+Found 69 layout controls in file res/layout/msv_content_state_explore_announced_not_logged_in.xml
+Found 70 layout controls in file res/layout/msv_content_state_explore_my_performers_not_logged_in.xml
+Found 71 layout controls in file res/layout/msv_content_state_my_events_no_tracked_events.xml
+Found 72 layout controls in file res/layout/msv_content_state_my_events_not_logged_in.xml
+Found 73 layout controls in file res/layout/msv_content_state_my_performers_no_tracked_performers.xml
+Found 74 layout controls in file res/layout/msv_content_state_my_performers_not_logged_in.xml
+Found 75 layout controls in file res/layout/msv_content_state_no_location.xml
+Found 76 layout controls in file res/layout/msv_location_picker_state_empty.xml
+Found 77 layout controls in file res/layout/no_location.xml
+Found 78 layout controls in file res/layout/onboarding_indicator.xml
+Found 79 layout controls in file res/layout/onboarding_page_one.xml
+Found 80 layout controls in file res/layout/onboarding_page_three.xml
+Found 81 layout controls in file res/layout/onboarding_page_two.xml
+Found 82 layout controls in file res/layout/recommendation_item.xml
+Found 83 layout controls in file res/layout/sticky_list_header.xml
+Found 84 layout controls in file res/layout/ticket_details.xml
+Found 85 layout controls in file res/layout/view_event_second_header.xml
+Found 86 layout controls in file res/layout/view_events_state_header.xml
+Found 87 layout controls in file res/layout/view_item_explore_event.xml
+Found 88 layout controls in file res/layout/view_item_explore_event_with_announced.xml
+Found 89 layout controls in file res/layout/view_item_my_events.xml
+Found 90 layout controls in file res/layout/view_item_my_performers.xml
+Found 91 layout controls in file res/layout/view_listing_deal_quality.xml
+Found 92 layout controls in file res/layout/view_listing_filtered_header.xml
+Found 93 layout controls in file res/layout/view_listing_header.xml
+Found 94 layout controls in file res/layout/view_listing_no_deal_quality.xml
+Found 95 layout controls in file res/layout/view_listing_separator.xml
+Found 96 layout controls in file res/layout/view_performer_header.xml
+Found 97 layout controls in file res/layout/view_result_header.xml
+Found 98 layout controls in file res/layout-v14/custom_switch.xml
+Found 99 layout controls in file res/layout-land/fragment_about.xml
+Found 100 layout controls in file res/layout-land/fragment_event_with_map.xml
+Found 101 layout controls in file res/layout-land/fragment_information.xml
+Found 102 layout controls in file res/layout-land/fragment_listing_filters.xml
+Found 103 layout controls in file res/layout-land/fragment_location_picker.xml
+Found 104 layout controls in file res/layout-land/fragment_ticket.xml
+Found 105 layout controls in file res/layout-land/msv_location_picker_state_empty.xml
+Found 106 layout controls in file res/layout-w600dp-v13/activity_onboarding.xml
+Found 107 layout controls in file res/layout-w600dp-v13/coaching_inner.xml
+Found 108 layout controls in file res/layout-w600dp-land-v13/fragment_explore_event.xml
+Found 109 layout controls in file res/layout-w600dp-land-v13/fragment_results.xml
+Found 110 layout controls in file res/layout-w600dp-port-v13/fragment_results.xml
+Found 111 layout controls in file res/layout-sw600dp-v13/fragment_score.xml
+Found 112 layout controls in file res/layout-sw600dp-v13/msv_location_picker_state_empty.xml
+Found 113 layout controls in file res/layout-sw600dp-v13/ticket_details.xml
+Found 113 layout controls in file res/layout-sw600dp-v13/view_item_my_events.xml
+Found 114 layout controls in file res/layout-sw600dp-land-v13/fragment_ticket.xml
+Found 115 layout controls in file res/layout-sw600dp-port-v13/fragment_event_with_map.xml
+Found 116 layout controls in file res/layout-sw600dp-port-v13/fragment_ticket.xml
+Found 117 layout controls in file res/layout-sw720dp-v13/coaching_inner.xml
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.2 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 47.3 seconds.
+[Spark] Solution found in 47.3 seconds.
+Running incremental callback analysis for 25 components...
+Incremental callback analysis done.
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.5 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 48.1 seconds.
+[Spark] Solution found in 48.1 seconds.
+Running incremental callback analysis for 0 components...
+Incremental callback analysis done.
+Found 150 callback methods for 25 components
+Found {res/layout/autocomplete_item.xml=[2131361846 - android.widget.TextView, 2131361848 - android.widget.ImageView, -1 - android.widget.LinearLayout, 2131361849 - android.widget.CheckBox, -1 - android.widget.RelativeLayout, -1 - android.widget.FrameLayout, 2131361850 - android.widget.TextView], res/layout-land/fragment_ticket.xml=[2131361929 - com.seatgeek.android.ui.views.NoInteractionMapView, -1 - android.widget.LinearLayout, 2131362002 - android.widget.FrameLayout, 2131362003 - android.widget.ImageView, -1 - android.widget.FrameLayout, -1 - android.view.View], res/layout/com_facebook_picker_checkbox.xml=[2131361865 - android.widget.CheckBox], res/layout/view_event_second_header.xml=[2131362041 - android.widget.FrameLayout, -1 - android.widget.LinearLayout, 2131362039 - android.widget.TextView, 2131362040 - android.widget.ProgressBar, 2131362042 - android.widget.TextView, 2131362037 - android.widget.LinearLayout, 2131362038 - android.widget.FrameLayout], res/layout/onboarding_page_two.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView], res/layout/activity_autocomplete.xml=[2131361835 - android.widget.FrameLayout], res/layout/com_facebook_placepickerfragment.xml=[2131361861 - android.widget.ListView, 2131361862 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/msv_content_state_no_location.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362014 - android.widget.ImageView], res/layout/view_result_header.xml=[2131361901 - android.widget.TextView, 2131362069 - android.widget.ImageView, 2131362072 - android.widget.TextView, 2131362071 - android.widget.TextView, 2131362070 - android.widget.LinearLayout, 2131362068 - android.widget.FrameLayout], res/layout/msv_location_picker_state_empty.xml=[2131362009 - android.widget.LinearLayout, 2131362010 - android.widget.ImageView, 2131362011 - android.widget.TextView, -1 - android.widget.ScrollView], res/layout-sw600dp-port-v13/fragment_ticket.xml=[2131361929 - com.seatgeek.android.ui.views.NoInteractionMapView, -1 - android.widget.LinearLayout, 2131362002 - android.widget.FrameLayout, 2131362003 - android.widget.ImageView, -1 - android.widget.FrameLayout, -1 - android.view.View], res/layout/fragment_event_with_map.xml=[2131361941 - com.seatgeek.android.ui.views.ListingFilteredHeaderView, 2131361932 - android.widget.FrameLayout, 2131361930 - android.widget.ProgressBar, -1 - android.widget.ProgressBar, 2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361931 - android.widget.TextView, -1 - android.widget.TextView, 2131361938 - android.widget.LinearLayout, 2131361933 - com.seatgeek.android.ui.views.ListingHeaderView, 2131361940 - android.widget.LinearLayout, -1 - android.widget.FrameLayout, 2131361934 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.widget.LinearLayout, 2131361927 - android.view.View, 2131361943 - android.widget.FrameLayout, 2131361936 - android.widget.LinearLayout, 2131361929 - com.seatgeek.android.ui.views.TouchListenerMapView, 2131361937 - android.widget.LinearLayout, 2131361935 - android.widget.LinearLayout, -1 - android.widget.ImageView, 2131361928 - android.widget.FrameLayout, 2131361942 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.view.View, 2131361939 - android.widget.TextView], res/layout/recommendation_item.xml=[2131361899 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361898 - android.widget.TextView, 2131361958 - android.widget.ImageView, 2131361896 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout/msv_content_state_my_events_no_tracked_events.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.widget.ImageView], res/layout/fragment_my_events.xml=[-1 - android.widget.GridView, 2131361837 - com.meetme.android.multistateview.MultiStateView, -1 - android.widget.FrameLayout], res/layout/view_listing_filtered_header.xml=[2131362063 - android.widget.TextView, 2131362062 - com.seatgeek.android.ui.views.FontFitTextView], res/layout/activity_auth.xml=[2131361835 - android.widget.FrameLayout, -1 - android.widget.FrameLayout, 2131361834 - android.widget.FrameLayout], res/layout/fragment_explore_event.xml=[-1 - android.widget.FrameLayout], res/layout/activity_with_drawer_with_pseudo_actionbar.xml=[2131361843 - android.widget.FrameLayout, 2131361842 - android.view.View, 2131361838 - android.widget.RelativeLayout], res/layout/activity_event.xml=[2131361835 - android.widget.FrameLayout], res/layout/msv_content_state_explore_my_performers_not_logged_in.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.widget.ImageView], res/layout-w600dp-land-v13/fragment_results.xml=[-1 - android.widget.LinearLayout, 2131361986 - com.seatgeek.android.ui.views.ResultHeaderView, 2131361797 - com.meetme.android.multistateview.MultiStateView, -1 - se.emilsjolander.stickylistheaders.StickyListHeadersListView], res/layout/fragment_results.xml=[-1 - android.widget.LinearLayout, 2131361986 - com.seatgeek.android.ui.views.ResultHeaderView, 2131361797 - com.meetme.android.multistateview.MultiStateView, -1 - se.emilsjolander.stickylistheaders.StickyListHeadersListView], res/layout-sw600dp-v13/msv_location_picker_state_empty.xml=[2131362009 - android.widget.LinearLayout, 2131362010 - android.widget.ImageView, 2131362011 - android.widget.TextView, -1 - android.widget.ScrollView], res/layout/sticky_list_header.xml=[2131362018 - android.widget.TextView], res/layout/com_facebook_picker_list_section_header.xml=[2131361870 - android.widget.TextView], res/layout/fragment_score.xml=[-1 - android.widget.LinearLayout], res/layout/onboarding_indicator.xml=[2131362017 - android.view.View, -1 - android.widget.FrameLayout, -1 - android.view.View], res/layout/msv__error_network.xml=[-1 - android.widget.LinearLayout, 2131362007 - android.widget.TextView, 2131362008 - android.widget.Button, -1 - android.widget.ImageView], res/layout/location_item.xml=[-1 - android.widget.LinearLayout, 2131362005 - android.widget.ImageView, 2131362006 - android.widget.TextView], res/layout/view_item_explore_event.xml=[2131362044 - android.widget.RelativeLayout, 2131361899 - android.widget.TextView, 2131361959 - android.view.View, 2131362046 - android.widget.TextView, 2131361954 - android.widget.ImageView, 2131361898 - android.widget.TextView, 2131362045 - android.widget.TextView, 2131361958 - android.widget.ImageView, 2131361896 - android.widget.TextView, 2131361849 - android.widget.ToggleButton, -1 - android.widget.RelativeLayout], res/layout/fragment_listing_filters.xml=[-1 - android.widget.TextView, 2131361974 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361968 - android.widget.LinearLayout, 2131361971 - android.widget.TextView, 2131361972 - android.widget.TextView, 2131361973 - android.widget.SeekBar, 2131361969 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131361956 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131361976 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361970 - android.widget.LinearLayout, 2131361975 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361978 - android.widget.Button, 2131361977 - android.widget.Button, -1 - android.view.View], res/layout/fragment_auth_login.xml=[2131361920 - com.dd.processbutton.iml.ActionProcessButton, 2131361917 - android.widget.Button, 2131361919 - android.widget.EditText, -1 - com.seatgeek.android.ui.views.FloatLabelLayout, 2131361921 - com.seatgeek.android.ui.views.MaxWidthLinearLayout, -1 - android.widget.RelativeLayout, 2131361924 - com.dd.processbutton.iml.ActionProcessButton, 2131361916 - android.widget.TextView, 2131361915 - com.seatgeek.android.ui.views.MaxWidthLinearLayout, 2131361922 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361923 - android.widget.AutoCompleteTextView, 2131361918 - android.widget.AutoCompleteTextView], res/layout/view_listing_deal_quality.xml=[2131362061 - android.view.View, 2131362054 - android.widget.ImageView, 2131362052 - android.widget.LinearLayout, 2131362053 - android.widget.FrameLayout, 2131362056 - android.widget.LinearLayout, 2131362060 - android.widget.TextView, 2131362057 - android.widget.TextView, 2131362058 - android.widget.TextView, -1 - android.view.View, 2131362055 - android.widget.TextView, 2131362059 - android.widget.ImageView], res/layout/autocomplete_event.xml=[2131361845 - android.widget.TextView, 2131361846 - android.widget.TextView, 2131361844 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361847 - android.widget.TextView], res/layout/coaching_inner_pager.xml=[2131361856 - android.widget.LinearLayout, 2131361860 - android.widget.Button, 2131361859 - android.widget.Button, 2131361858 - android.widget.LinearLayout, -1 - android.view.View], res/layout/com_facebook_picker_activity_circle_row.xml=[2131361864 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/coaching_inner.xml=[2131361852 - android.widget.ImageView, 2131361853 - android.widget.ImageView, 2131361854 - android.widget.ImageView], res/layout/msv_content_state_explore_announced_no_events.xml=[-1 - android.widget.LinearLayout, 2131362011 - android.widget.TextView, 2131362012 - android.widget.TextView, 2131362010 - android.view.View], res/layout/autocomplete_separator.xml=[2131361846 - android.widget.TextView], res/layout-sw600dp-port-v13/fragment_event_with_map.xml=[2131361941 - com.seatgeek.android.ui.views.ListingFilteredHeaderView, 2131361945 - android.widget.ImageView, 2131361932 - android.widget.FrameLayout, 2131361930 - android.widget.ProgressBar, 2131361933 - com.seatgeek.android.ui.views.ListingHeaderView, 2131361934 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.widget.LinearLayout, 2131361943 - android.widget.FrameLayout, 2131361936 - android.widget.LinearLayout, 2131361929 - com.seatgeek.android.ui.views.TouchListenerMapView, -1 - android.widget.ImageView, 2131361942 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.view.View, -1 - android.widget.ProgressBar, 2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361931 - android.widget.TextView, -1 - android.widget.TextView, 2131361938 - android.widget.LinearLayout, 2131361940 - android.widget.LinearLayout, -1 - android.widget.FrameLayout, 2131361927 - android.view.View, 2131361944 - android.widget.FrameLayout, 2131361937 - android.widget.LinearLayout, 2131361935 - android.widget.LinearLayout, 2131361928 - android.widget.FrameLayout, 2131361939 - android.widget.TextView], res/layout/view_listing_header.xml=[2131362066 - android.widget.ImageButton, 2131362065 - android.widget.ImageButton, 2131362064 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131362062 - android.widget.TextView], res/layout/fragment_location_picker.xml=[2131361982 - android.widget.SearchView, -1 - android.widget.LinearLayout, 2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361980 - android.widget.TextView, 2131361979 - android.widget.TextView, 2131361985 - android.widget.ListView, 2131361984 - android.widget.ProgressBar, 2131361983 - android.widget.ImageButton, 2131361981 - android.widget.FrameLayout], res/layout/msv__error_unknown.xml=[-1 - android.widget.LinearLayout, 2131362007 - android.widget.TextView, 2131362008 - android.widget.Button, -1 - android.widget.ImageView], res/layout/view_events_state_header.xml=[2131362043 - android.widget.TextView, 2131361984 - android.widget.ProgressBar], res/layout/msv__loading.xml=[-1 - android.widget.ProgressBar, -1 - android.widget.FrameLayout], res/layout/activity_my_events.xml=[-1 - android.widget.FrameLayout], res/layout-land/fragment_listing_filters.xml=[-1 - android.widget.TextView, 2131361974 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361968 - android.widget.LinearLayout, 2131361971 - android.widget.TextView, 2131361972 - android.widget.TextView, 2131361973 - android.widget.SeekBar, 2131361969 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131361956 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131361976 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361970 - android.widget.LinearLayout, 2131361975 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361978 - android.widget.Button, 2131361977 - android.widget.Button, -1 - android.view.View], res/layout/autocomplete_recent_searches_item.xml=[-1 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout/view_item_my_events.xml=[2131361899 - android.widget.TextView, 2131361954 - android.widget.ImageView, 2131361898 - android.widget.TextView, 2131362048 - android.view.View, 2131362045 - android.widget.TextView, 2131361958 - android.widget.ImageView, 2131361896 - android.widget.TextView, 2131361849 - android.widget.CheckBox, 2131361960 - android.widget.RelativeLayout, 2131362044 - android.widget.LinearLayout], res/layout/fragment_about.xml=[-1 - android.widget.LinearLayout, -1 - com.seatgeek.android.ui.views.MaxWidthFrameLayout, -1 - android.widget.RelativeLayout, 2131361906 - android.widget.TextView, 2131361904 - android.widget.LinearLayout, 2131361905 - android.widget.ImageView, 2131361908 - android.widget.Button, -1 - android.widget.ScrollView, 2131361907 - android.widget.Button, 2131361909 - android.widget.TextView], res/layout/com_facebook_login_activity_layout.xml=[2131361863 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/view_item_explore_event_with_announced.xml=[2131362047 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout/activity_my_performers.xml=[2131361835 - android.widget.FrameLayout], res/layout/fragment_auth_signup.xml=[2131361919 - android.widget.EditText, -1 - android.widget.LinearLayout, -1 - com.seatgeek.android.ui.views.FloatLabelLayout, -1 - android.widget.TextView, 2131361925 - com.seatgeek.android.ui.views.MaxWidthLinearLayout, 2131361926 - com.dd.processbutton.iml.ActionProcessButton, -1 - android.widget.FrameLayout, 2131361918 - android.widget.AutoCompleteTextView], res/layout/fragment_ticket.xml=[2131361929 - com.seatgeek.android.ui.views.NoInteractionMapView, -1 - android.widget.LinearLayout, 2131362002 - android.widget.FrameLayout, 2131362003 - android.widget.ImageView], res/layout/activity_main.xml=[2131361838 - android.widget.FrameLayout, 2131361840 - android.widget.FrameLayout], res/layout-w600dp-land-v13/fragment_explore_event.xml=[2131361842 - android.view.View, -1 - android.widget.LinearLayout, 2131361948 - android.widget.FrameLayout, -1 - android.widget.FrameLayout], res/layout/fragment_settings.xml=[2131361989 - android.widget.ImageView, 2131361990 - android.widget.ImageView, -1 - android.widget.TextView, 2131361999 - android.widget.CheckBox, 2131361996 - android.widget.LinearLayout, 2131361997 - android.widget.LinearLayout, 2131362000 - android.widget.RelativeLayout, 2131361995 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131361998 - android.widget.RelativeLayout, 2131362001 - android.widget.LinearLayout, 2131361993 - android.widget.TextView, 2131361994 - android.widget.TextView, 2131361992 - android.widget.LinearLayout, 2131361991 - android.widget.TextView, -1 - android.widget.ScrollView, -1 - android.view.View], res/layout/msv_content_state_empty.xml=[2131362009 - android.widget.LinearLayout, 2131362010 - android.widget.ImageView, 2131362011 - android.widget.TextView, 2131362012 - android.widget.TextView], res/layout-land/fragment_information.xml=[2131361965 - android.widget.LinearLayout, 2131361964 - android.widget.LinearLayout, 2131361967 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131361963 - android.view.View, 2131361957 - android.widget.FrameLayout, 2131361962 - android.widget.TextView, 2131361961 - android.widget.TextView, 2131361966 - android.widget.TextView, 2131361899 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361897 - android.widget.TextView, 2131361958 - android.widget.ImageView, -1 - android.widget.ImageView, -1 - android.view.View], res/layout/msv_content_state_explore_announced_not_logged_in.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.view.View], res/layout/activity_explore.xml=[2131361836 - android.widget.FrameLayout], res/layout/abs__activity_chooser_view.xml=[2131361827 - android.widget.LinearLayout, 2131361828 - android.widget.FrameLayout, 2131361829 - android.widget.ImageView, 2131361830 - android.widget.FrameLayout], res/layout/abs__activity_chooser_view_list_item.xml=[2131361831 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131361833 - android.widget.TextView, 2131361832 - android.widget.ImageView], res/layout/onboarding_page_one.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView], res/layout/drawer_content.xml=[2131361892 - android.widget.TextView, 2131361891 - android.widget.TextView, 2131361893 - android.widget.TextView, 2131361894 - android.widget.TextView, 2131361895 - android.widget.TextView, 2131361890 - android.widget.LinearLayout, 2131361889 - android.widget.ScrollView], res/layout/view_listing_no_deal_quality.xml=[2131362061 - android.view.View, 2131362052 - android.widget.LinearLayout, 2131362056 - android.widget.LinearLayout, 2131362060 - android.widget.TextView, 2131362057 - android.widget.TextView, 2131362058 - android.widget.TextView, -1 - android.view.View, 2131362059 - android.widget.ImageView], res/layout-w600dp-v13/activity_onboarding.xml=[-1 - android.widget.FrameLayout], res/layout-v14/custom_switch.xml=[2131361887 - android.widget.Switch], res/layout/fragment_auth_landing.xml=[-1 - android.widget.LinearLayout, 2131361911 - android.widget.LinearLayout, -1 - com.seatgeek.android.ui.views.MaxWidthFrameLayout, 2131361912 - android.widget.Button, -1 - android.widget.ImageView, 2131361913 - android.widget.Button, 2131361914 - android.widget.Button, -1 - android.widget.FrameLayout], res/layout/com_facebook_picker_title_bar_stub.xml=[2131361874 - android.view.ViewStub], res/layout/view_item_my_performers.xml=[-1 - android.widget.LinearLayout, 2131361849 - android.widget.CheckBox, -1 - android.widget.RelativeLayout, 2131362049 - android.widget.ImageView, 2131362050 - android.widget.TextView, 2131362051 - android.widget.TextView, -1 - android.view.View], res/layout-sw600dp-v13/fragment_score.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.FrameLayout], res/layout-sw600dp-land-v13/fragment_ticket.xml=[2131361929 - com.seatgeek.android.ui.views.NoInteractionMapView, -1 - android.widget.LinearLayout, 2131362002 - android.widget.FrameLayout, 2131362003 - android.widget.ImageView, -1 - android.widget.FrameLayout, -1 - android.view.View], res/layout/fragment_explore_list.xml=[2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361955 - android.widget.ImageView, 2131361953 - android.widget.TextView, 2131361950 - android.widget.RelativeLayout, 2131361951 - android.widget.GridView, 2131361954 - android.view.View, 2131361952 - android.widget.FrameLayout], res/layout/fragment_information.xml=[2131361965 - android.widget.LinearLayout, 2131361964 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131361963 - android.view.View, 2131361957 - android.widget.FrameLayout, 2131361960 - android.widget.FrameLayout, 2131361962 - android.widget.TextView, 2131361959 - android.widget.FrameLayout, 2131361961 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131361956 - android.widget.LinearLayout, 2131361966 - android.widget.TextView, 2131361899 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361897 - android.widget.TextView, 2131361958 - android.widget.ImageView, -1 - android.widget.ImageView, -1 - android.view.View], res/layout/com_facebook_picker_list_row.xml=[2131361868 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361869 - android.view.ViewStub, 2131361867 - android.view.ViewStub], res/layout-land/fragment_about.xml=[-1 - android.widget.LinearLayout, 2131361910 - android.widget.LinearLayout, -1 - com.seatgeek.android.ui.views.MaxWidthFrameLayout, -1 - android.widget.RelativeLayout, 2131361906 - android.widget.TextView, 2131361905 - android.widget.ImageView, 2131361908 - android.widget.Button, 2131361907 - android.widget.Button, 2131361909 - android.widget.TextView], res/layout/custom_switch.xml=[2131361887 - android.widget.CheckBox], res/layout/com_facebook_picker_title_bar.xml=[2131361868 - android.widget.TextView, 2131361872 - android.widget.Button, 2131361871 - android.widget.RelativeLayout, 2131361873 - android.widget.LinearLayout], res/layout/msv_content_state_my_performers_no_tracked_performers.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.widget.ImageView], res/layout/activity_onboarding.xml=[-1 - android.widget.FrameLayout], res/layout-w600dp-v13/coaching_inner.xml=[2131361852 - android.widget.ImageView, -1 - android.widget.FrameLayout, 2131361853 - android.widget.ImageView, 2131361854 - android.widget.ImageView], res/layout/fragment_autocomplete.xml=[2131361842 - android.view.View, -1 - android.widget.LinearLayout, 2131361797 - com.meetme.android.multistateview.MultiStateView, -1 - android.widget.ListView], res/layout/fragment_my_performers.xml=[-1 - android.widget.GridView, 2131361837 - com.meetme.android.multistateview.MultiStateView, -1 - android.widget.FrameLayout], res/layout-sw600dp-v13/ticket_details.xml=[2131362022 - android.widget.TextView, 2131362029 - android.view.View, 2131362004 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, 2131362024 - android.widget.TextView, 2131362027 - android.widget.ImageView, 2131362028 - android.widget.TextView, 2131362026 - android.widget.TextView, -1 - android.widget.LinearLayout, -1 - android.widget.ImageView, 2131362020 - android.widget.Button, -1 - android.view.View, 2131362019 - android.widget.FrameLayout, 2131362034 - android.widget.ImageView, 2131362021 - android.widget.ProgressBar, 2131362032 - android.widget.LinearLayout, 2131362030 - android.widget.LinearLayout, 2131361963 - android.view.View, 2131362036 - android.widget.TextView, 2131362023 - android.widget.TextView, 2131362025 - android.widget.TextView, 2131362031 - android.widget.TextView, 2131362033 - android.widget.TextView, 2131362035 - android.widget.TextView, -1 - android.widget.ScrollView], res/layout-land/fragment_location_picker.xml=[2131361982 - android.widget.SearchView, -1 - android.widget.LinearLayout, 2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361979 - android.widget.TextView, 2131361985 - android.widget.ListView, 2131361983 - android.widget.ImageButton, -1 - android.widget.FrameLayout, 2131361981 - android.widget.FrameLayout], res/layout/fragment_explore_event_list.xml=[2131361949 - se.emilsjolander.stickylistheaders.StickyListHeadersListView], res/layout/msv_content_state_my_events_not_logged_in.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.view.View], res/layout/fragment_score_inner.xml=[2131361988 - android.widget.TextView, 2131361987 - android.widget.TextView, -1 - android.widget.LinearLayout, -1 - android.widget.ImageView], res/layout/com_facebook_tooltip_bubble.xml=[2131361880 - android.widget.ImageView, 2131361879 - android.widget.RelativeLayout, -1 - android.widget.RelativeLayout, 2131361881 - android.widget.ImageView, 2131361882 - android.widget.TextView, 2131361883 - android.widget.ImageView], res/layout/event_search_header.xml=[-1 - android.widget.LinearLayout, 2131361901 - android.widget.TextView], res/layout-w600dp-port-v13/fragment_results.xml=[-1 - android.widget.LinearLayout, 2131361986 - com.seatgeek.android.ui.views.ResultHeaderView, 2131361797 - com.meetme.android.multistateview.MultiStateView, -1 - se.emilsjolander.stickylistheaders.StickyListHeadersListView], res/layout/ticket_details.xml=[2131362019 - android.widget.FrameLayout, 2131362022 - android.widget.TextView, 2131362021 - android.widget.ProgressBar, 2131362029 - android.view.View, 2131362032 - android.widget.LinearLayout, 2131362030 - android.widget.LinearLayout, 2131361963 - android.view.View, -1 - android.widget.RelativeLayout, 2131362024 - android.widget.TextView, 2131362023 - android.widget.TextView, 2131362025 - android.widget.TextView, 2131362027 - android.widget.ImageView, 2131362028 - android.widget.TextView, 2131362026 - android.widget.TextView, 2131362031 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131362033 - android.widget.TextView, -1 - android.widget.ImageView, 2131362020 - android.widget.Button, -1 - android.view.View, -1 - android.widget.ScrollView], res/layout/com_facebook_picker_search_box.xml=[-1 - android.widget.LinearLayout, -1 - android.view.View], res/layout/drawer_container_debug.xml=[2131361888 - android.widget.FrameLayout, -1 - android.widget.TextView], res/layout/com_facebook_search_bar_layout.xml=[2131361877 - android.widget.LinearLayout, 2131361878 - android.widget.EditText], res/layout/no_location.xml=[2131362016 - android.widget.Button, -1 - android.widget.TextView, 2131362015 - android.widget.LinearLayout], res/layout/event_search_item.xml=[2131361899 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361897 - android.widget.TextView, 2131361898 - android.widget.TextView, 2131361896 - android.widget.TextView, 2131361903 - android.view.View, 2131361902 - android.widget.LinearLayout, -1 - android.view.View], res/layout/com_facebook_friendpickerfragment.xml=[2131361861 - android.widget.ListView, 2131361862 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/autocomplete_recent_searches.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131361851 - android.widget.ListView], res/layout/activity_settings.xml=[2131361835 - android.widget.FrameLayout], res/layout/onboarding_page_three.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView], res/layout/event_location_item.xml=[2131361899 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361897 - android.widget.TextView, 2131361898 - android.widget.TextView, 2131361896 - android.widget.TextView, 2131361900 - android.view.View, -1 - android.view.View], res/layout/view_listing_separator.xml=[-1 - android.view.View], res/layout-land/fragment_event_with_map.xml=[2131361941 - com.seatgeek.android.ui.views.ListingFilteredHeaderView, 2131361945 - android.widget.ImageView, 2131361932 - android.widget.FrameLayout, 2131361930 - android.widget.ProgressBar, 2131361933 - com.seatgeek.android.ui.views.ListingHeaderView, 2131361934 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.widget.LinearLayout, 2131361943 - android.widget.FrameLayout, 2131361936 - android.widget.LinearLayout, 2131361929 - com.seatgeek.android.ui.views.TouchListenerMapView, -1 - android.widget.ImageView, 2131361942 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.view.View, -1 - android.widget.ProgressBar, 2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361931 - android.widget.TextView, -1 - android.widget.TextView, 2131361938 - android.widget.LinearLayout, 2131361940 - android.widget.LinearLayout, -1 - android.widget.FrameLayout, 2131361927 - android.view.View, 2131361944 - android.widget.FrameLayout, 2131361937 - android.widget.LinearLayout, 2131361935 - android.widget.LinearLayout, 2131361928 - android.widget.FrameLayout, 2131361939 - android.widget.TextView], res/layout/fragment_explore.xml=[-1 - com.seatgeek.android.ui.views.MaxWidthFrameLayout, 2131361947 - com.astuetz.PagerSlidingTabStrip, -1 - android.widget.FrameLayout, -1 - android.view.View], res/layout/activity_ticket.xml=[2131361835 - android.widget.FrameLayout], res/layout/msv_content_state_my_performers_not_logged_in.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.view.View], res/layout/com_facebook_picker_image.xml=[2131361866 - android.widget.ImageView], res/layout/activity_explore_event.xml=[2131361837 - com.meetme.android.multistateview.MultiStateView, 2131361835 - android.widget.FrameLayout], res/layout/com_facebook_placepickerfragment_list_row.xml=[2131361868 - android.widget.TextView, -1 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, 2131361876 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131361867 - android.view.ViewStub, -1 - android.view.View], res/layout/view_performer_header.xml=[2131362067 - android.widget.ImageView, -1 - android.widget.LinearLayout, 2131361958 - android.widget.ImageView, 2131361993 - android.widget.TextView, 2131361994 - android.widget.TextView, -1 - android.view.View], res/layout/com_facebook_usersettingsfragment.xml=[-1 - android.widget.LinearLayout, 2131361886 - com.facebook.widget.LoginButton, 2131361885 - android.widget.TextView, 2131361884 - android.widget.ImageView, -1 - android.widget.ScrollView], res/layout-sw720dp-v13/coaching_inner.xml=[2131361852 - android.widget.ImageView, -1 - android.widget.RelativeLayout, 2131361855 - android.widget.ImageView, 2131361853 - android.widget.ImageView, 2131361854 - android.widget.ImageView], res/layout-land/msv_location_picker_state_empty.xml=[2131362009 - android.widget.LinearLayout, 2131362010 - android.widget.ImageView, 2131362011 - android.widget.TextView, -1 - android.widget.ScrollView]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 150 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Events/com.seatgeek.android.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.2 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 45.8 seconds.
+[Spark] Solution found in 45.8 seconds.
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.1 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 36.4 seconds.
+[Spark] Solution found in 36.4 seconds.
+Callback analysis done.
+Found 1 layout controls in file res/layout/abs__activity_chooser_view.xml
+Found 2 layout controls in file res/layout/abs__activity_chooser_view_list_item.xml
+Found 3 layout controls in file res/layout/activity_auth.xml
+Found 4 layout controls in file res/layout/activity_autocomplete.xml
+Found 5 layout controls in file res/layout/activity_event.xml
+Found 6 layout controls in file res/layout/activity_explore.xml
+Found 7 layout controls in file res/layout/activity_explore_event.xml
+Found 8 layout controls in file res/layout/activity_main.xml
+Found 9 layout controls in file res/layout/activity_my_events.xml
+Found 10 layout controls in file res/layout/activity_my_performers.xml
+Found 11 layout controls in file res/layout/activity_onboarding.xml
+Found 12 layout controls in file res/layout/activity_settings.xml
+Found 13 layout controls in file res/layout/activity_ticket.xml
+Found 14 layout controls in file res/layout/activity_with_drawer_with_pseudo_actionbar.xml
+Found 15 layout controls in file res/layout/autocomplete_event.xml
+Found 16 layout controls in file res/layout/autocomplete_item.xml
+Found 17 layout controls in file res/layout/autocomplete_recent_searches.xml
+Found 18 layout controls in file res/layout/autocomplete_recent_searches_item.xml
+Found 19 layout controls in file res/layout/autocomplete_separator.xml
+Found 20 layout controls in file res/layout/coaching_inner.xml
+Found 21 layout controls in file res/layout/coaching_inner_pager.xml
+Found 22 layout controls in file res/layout/com_facebook_friendpickerfragment.xml
+Found 23 layout controls in file res/layout/com_facebook_login_activity_layout.xml
+Found 24 layout controls in file res/layout/com_facebook_picker_activity_circle_row.xml
+Found 25 layout controls in file res/layout/com_facebook_picker_checkbox.xml
+Found 26 layout controls in file res/layout/com_facebook_picker_image.xml
+Found 27 layout controls in file res/layout/com_facebook_picker_list_row.xml
+Found 28 layout controls in file res/layout/com_facebook_picker_list_section_header.xml
+Found 29 layout controls in file res/layout/com_facebook_picker_search_box.xml
+Found 30 layout controls in file res/layout/com_facebook_picker_title_bar.xml
+Found 31 layout controls in file res/layout/com_facebook_picker_title_bar_stub.xml
+Found 32 layout controls in file res/layout/com_facebook_placepickerfragment.xml
+Found 33 layout controls in file res/layout/com_facebook_placepickerfragment_list_row.xml
+Found 34 layout controls in file res/layout/com_facebook_search_bar_layout.xml
+Found 35 layout controls in file res/layout/com_facebook_tooltip_bubble.xml
+Found 36 layout controls in file res/layout/com_facebook_usersettingsfragment.xml
+Found 37 layout controls in file res/layout/custom_switch.xml
+Found 38 layout controls in file res/layout/drawer_container_debug.xml
+Found 39 layout controls in file res/layout/drawer_content.xml
+Found 40 layout controls in file res/layout/event_location_item.xml
+Found 41 layout controls in file res/layout/event_search_header.xml
+Found 42 layout controls in file res/layout/event_search_item.xml
+Found 43 layout controls in file res/layout/fragment_about.xml
+Found 44 layout controls in file res/layout/fragment_auth_landing.xml
+Found 45 layout controls in file res/layout/fragment_auth_login.xml
+Found 46 layout controls in file res/layout/fragment_auth_signup.xml
+Found 47 layout controls in file res/layout/fragment_autocomplete.xml
+Found 48 layout controls in file res/layout/fragment_event_with_map.xml
+Found 49 layout controls in file res/layout/fragment_explore.xml
+Found 50 layout controls in file res/layout/fragment_explore_event.xml
+Found 51 layout controls in file res/layout/fragment_explore_event_list.xml
+Found 52 layout controls in file res/layout/fragment_explore_list.xml
+Found 53 layout controls in file res/layout/fragment_information.xml
+Found 54 layout controls in file res/layout/fragment_listing_filters.xml
+Found 55 layout controls in file res/layout/fragment_location_picker.xml
+Found 56 layout controls in file res/layout/fragment_my_events.xml
+Found 57 layout controls in file res/layout/fragment_my_performers.xml
+Found 58 layout controls in file res/layout/fragment_results.xml
+Found 59 layout controls in file res/layout/fragment_score.xml
+Found 60 layout controls in file res/layout/fragment_score_inner.xml
+Found 61 layout controls in file res/layout/fragment_settings.xml
+Found 62 layout controls in file res/layout/fragment_ticket.xml
+Found 63 layout controls in file res/layout/location_item.xml
+Found unrecognized XML attribute:  contentDescription
+Found 64 layout controls in file res/layout/msv__error_network.xml
+Found unrecognized XML attribute:  contentDescription
+Found 65 layout controls in file res/layout/msv__error_unknown.xml
+Found 66 layout controls in file res/layout/msv__loading.xml
+Found 67 layout controls in file res/layout/msv_content_state_empty.xml
+Found 68 layout controls in file res/layout/msv_content_state_explore_announced_no_events.xml
+Found 69 layout controls in file res/layout/msv_content_state_explore_announced_not_logged_in.xml
+Found 70 layout controls in file res/layout/msv_content_state_explore_my_performers_not_logged_in.xml
+Found 71 layout controls in file res/layout/msv_content_state_my_events_no_tracked_events.xml
+Found 72 layout controls in file res/layout/msv_content_state_my_events_not_logged_in.xml
+Found 73 layout controls in file res/layout/msv_content_state_my_performers_no_tracked_performers.xml
+Found 74 layout controls in file res/layout/msv_content_state_my_performers_not_logged_in.xml
+Found 75 layout controls in file res/layout/msv_content_state_no_location.xml
+Found 76 layout controls in file res/layout/msv_location_picker_state_empty.xml
+Found 77 layout controls in file res/layout/no_location.xml
+Found 78 layout controls in file res/layout/onboarding_indicator.xml
+Found 79 layout controls in file res/layout/onboarding_page_one.xml
+Found 80 layout controls in file res/layout/onboarding_page_three.xml
+Found 81 layout controls in file res/layout/onboarding_page_two.xml
+Found 82 layout controls in file res/layout/recommendation_item.xml
+Found 83 layout controls in file res/layout/sticky_list_header.xml
+Found 84 layout controls in file res/layout/ticket_details.xml
+Found 85 layout controls in file res/layout/view_event_second_header.xml
+Found 86 layout controls in file res/layout/view_events_state_header.xml
+Found 87 layout controls in file res/layout/view_item_explore_event.xml
+Found 88 layout controls in file res/layout/view_item_explore_event_with_announced.xml
+Found 89 layout controls in file res/layout/view_item_my_events.xml
+Found 90 layout controls in file res/layout/view_item_my_performers.xml
+Found 91 layout controls in file res/layout/view_listing_deal_quality.xml
+Found 92 layout controls in file res/layout/view_listing_filtered_header.xml
+Found 93 layout controls in file res/layout/view_listing_header.xml
+Found 94 layout controls in file res/layout/view_listing_no_deal_quality.xml
+Found 95 layout controls in file res/layout/view_listing_separator.xml
+Found 96 layout controls in file res/layout/view_performer_header.xml
+Found 97 layout controls in file res/layout/view_result_header.xml
+Found 98 layout controls in file res/layout-v14/custom_switch.xml
+Found 99 layout controls in file res/layout-land/fragment_about.xml
+Found 100 layout controls in file res/layout-land/fragment_event_with_map.xml
+Found 101 layout controls in file res/layout-land/fragment_information.xml
+Found 102 layout controls in file res/layout-land/fragment_listing_filters.xml
+Found 103 layout controls in file res/layout-land/fragment_location_picker.xml
+Found 104 layout controls in file res/layout-land/fragment_ticket.xml
+Found 105 layout controls in file res/layout-land/msv_location_picker_state_empty.xml
+Found 106 layout controls in file res/layout-w600dp-v13/activity_onboarding.xml
+Found 107 layout controls in file res/layout-w600dp-v13/coaching_inner.xml
+Found 108 layout controls in file res/layout-w600dp-land-v13/fragment_explore_event.xml
+Found 109 layout controls in file res/layout-w600dp-land-v13/fragment_results.xml
+Found 110 layout controls in file res/layout-w600dp-port-v13/fragment_results.xml
+Found 111 layout controls in file res/layout-sw600dp-v13/fragment_score.xml
+Found 112 layout controls in file res/layout-sw600dp-v13/msv_location_picker_state_empty.xml
+Found 113 layout controls in file res/layout-sw600dp-v13/ticket_details.xml
+Found 113 layout controls in file res/layout-sw600dp-v13/view_item_my_events.xml
+Found 114 layout controls in file res/layout-sw600dp-land-v13/fragment_ticket.xml
+Found 115 layout controls in file res/layout-sw600dp-port-v13/fragment_event_with_map.xml
+Found 116 layout controls in file res/layout-sw600dp-port-v13/fragment_ticket.xml
+Found 117 layout controls in file res/layout-sw720dp-v13/coaching_inner.xml
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.2 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 51.7 seconds.
+[Spark] Solution found in 51.7 seconds.
+Running incremental callback analysis for 25 components...
+Incremental callback analysis done.
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.5 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 43.2 seconds.
+[Spark] Solution found in 43.2 seconds.
+Running incremental callback analysis for 0 components...
+Incremental callback analysis done.
+Found 150 callback methods for 25 components
+Found {res/layout/autocomplete_item.xml=[2131361846 - android.widget.TextView, 2131361848 - android.widget.ImageView, -1 - android.widget.LinearLayout, 2131361849 - android.widget.CheckBox, -1 - android.widget.RelativeLayout, -1 - android.widget.FrameLayout, 2131361850 - android.widget.TextView], res/layout-land/fragment_ticket.xml=[2131361929 - com.seatgeek.android.ui.views.NoInteractionMapView, -1 - android.widget.LinearLayout, 2131362002 - android.widget.FrameLayout, 2131362003 - android.widget.ImageView, -1 - android.widget.FrameLayout, -1 - android.view.View], res/layout/com_facebook_picker_checkbox.xml=[2131361865 - android.widget.CheckBox], res/layout/view_event_second_header.xml=[2131362041 - android.widget.FrameLayout, -1 - android.widget.LinearLayout, 2131362039 - android.widget.TextView, 2131362040 - android.widget.ProgressBar, 2131362042 - android.widget.TextView, 2131362037 - android.widget.LinearLayout, 2131362038 - android.widget.FrameLayout], res/layout/onboarding_page_two.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView], res/layout/activity_autocomplete.xml=[2131361835 - android.widget.FrameLayout], res/layout/com_facebook_placepickerfragment.xml=[2131361861 - android.widget.ListView, 2131361862 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/msv_content_state_no_location.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362014 - android.widget.ImageView], res/layout/view_result_header.xml=[2131361901 - android.widget.TextView, 2131362069 - android.widget.ImageView, 2131362072 - android.widget.TextView, 2131362071 - android.widget.TextView, 2131362070 - android.widget.LinearLayout, 2131362068 - android.widget.FrameLayout], res/layout/msv_location_picker_state_empty.xml=[2131362009 - android.widget.LinearLayout, 2131362010 - android.widget.ImageView, 2131362011 - android.widget.TextView, -1 - android.widget.ScrollView], res/layout-sw600dp-port-v13/fragment_ticket.xml=[2131361929 - com.seatgeek.android.ui.views.NoInteractionMapView, -1 - android.widget.LinearLayout, 2131362002 - android.widget.FrameLayout, 2131362003 - android.widget.ImageView, -1 - android.widget.FrameLayout, -1 - android.view.View], res/layout/fragment_event_with_map.xml=[2131361941 - com.seatgeek.android.ui.views.ListingFilteredHeaderView, 2131361932 - android.widget.FrameLayout, 2131361930 - android.widget.ProgressBar, -1 - android.widget.ProgressBar, 2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361931 - android.widget.TextView, -1 - android.widget.TextView, 2131361938 - android.widget.LinearLayout, 2131361933 - com.seatgeek.android.ui.views.ListingHeaderView, 2131361940 - android.widget.LinearLayout, -1 - android.widget.FrameLayout, 2131361934 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.widget.LinearLayout, 2131361927 - android.view.View, 2131361943 - android.widget.FrameLayout, 2131361936 - android.widget.LinearLayout, 2131361929 - com.seatgeek.android.ui.views.TouchListenerMapView, 2131361937 - android.widget.LinearLayout, 2131361935 - android.widget.LinearLayout, -1 - android.widget.ImageView, 2131361928 - android.widget.FrameLayout, 2131361942 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.view.View, 2131361939 - android.widget.TextView], res/layout/recommendation_item.xml=[2131361899 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361898 - android.widget.TextView, 2131361958 - android.widget.ImageView, 2131361896 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout/msv_content_state_my_events_no_tracked_events.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.widget.ImageView], res/layout/fragment_my_events.xml=[-1 - android.widget.GridView, 2131361837 - com.meetme.android.multistateview.MultiStateView, -1 - android.widget.FrameLayout], res/layout/view_listing_filtered_header.xml=[2131362063 - android.widget.TextView, 2131362062 - com.seatgeek.android.ui.views.FontFitTextView], res/layout/activity_auth.xml=[2131361835 - android.widget.FrameLayout, -1 - android.widget.FrameLayout, 2131361834 - android.widget.FrameLayout], res/layout/fragment_explore_event.xml=[-1 - android.widget.FrameLayout], res/layout/activity_with_drawer_with_pseudo_actionbar.xml=[2131361843 - android.widget.FrameLayout, 2131361842 - android.view.View, 2131361838 - android.widget.RelativeLayout], res/layout/activity_event.xml=[2131361835 - android.widget.FrameLayout], res/layout/msv_content_state_explore_my_performers_not_logged_in.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.widget.ImageView], res/layout-w600dp-land-v13/fragment_results.xml=[-1 - android.widget.LinearLayout, 2131361986 - com.seatgeek.android.ui.views.ResultHeaderView, 2131361797 - com.meetme.android.multistateview.MultiStateView, -1 - se.emilsjolander.stickylistheaders.StickyListHeadersListView], res/layout/fragment_results.xml=[-1 - android.widget.LinearLayout, 2131361986 - com.seatgeek.android.ui.views.ResultHeaderView, 2131361797 - com.meetme.android.multistateview.MultiStateView, -1 - se.emilsjolander.stickylistheaders.StickyListHeadersListView], res/layout-sw600dp-v13/msv_location_picker_state_empty.xml=[2131362009 - android.widget.LinearLayout, 2131362010 - android.widget.ImageView, 2131362011 - android.widget.TextView, -1 - android.widget.ScrollView], res/layout/sticky_list_header.xml=[2131362018 - android.widget.TextView], res/layout/com_facebook_picker_list_section_header.xml=[2131361870 - android.widget.TextView], res/layout/fragment_score.xml=[-1 - android.widget.LinearLayout], res/layout/onboarding_indicator.xml=[2131362017 - android.view.View, -1 - android.widget.FrameLayout, -1 - android.view.View], res/layout/msv__error_network.xml=[-1 - android.widget.LinearLayout, 2131362007 - android.widget.TextView, 2131362008 - android.widget.Button, -1 - android.widget.ImageView], res/layout/location_item.xml=[-1 - android.widget.LinearLayout, 2131362005 - android.widget.ImageView, 2131362006 - android.widget.TextView], res/layout/view_item_explore_event.xml=[2131362044 - android.widget.RelativeLayout, 2131361899 - android.widget.TextView, 2131361959 - android.view.View, 2131362046 - android.widget.TextView, 2131361954 - android.widget.ImageView, 2131361898 - android.widget.TextView, 2131362045 - android.widget.TextView, 2131361958 - android.widget.ImageView, 2131361896 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131361849 - android.widget.ToggleButton], res/layout/fragment_listing_filters.xml=[-1 - android.widget.TextView, 2131361974 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361968 - android.widget.LinearLayout, 2131361971 - android.widget.TextView, 2131361972 - android.widget.TextView, 2131361973 - android.widget.SeekBar, 2131361969 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131361956 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131361976 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361970 - android.widget.LinearLayout, 2131361975 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361978 - android.widget.Button, 2131361977 - android.widget.Button, -1 - android.view.View], res/layout/fragment_auth_login.xml=[2131361920 - com.dd.processbutton.iml.ActionProcessButton, 2131361917 - android.widget.Button, 2131361919 - android.widget.EditText, -1 - com.seatgeek.android.ui.views.FloatLabelLayout, 2131361921 - com.seatgeek.android.ui.views.MaxWidthLinearLayout, -1 - android.widget.RelativeLayout, 2131361924 - com.dd.processbutton.iml.ActionProcessButton, 2131361916 - android.widget.TextView, 2131361915 - com.seatgeek.android.ui.views.MaxWidthLinearLayout, 2131361922 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361923 - android.widget.AutoCompleteTextView, 2131361918 - android.widget.AutoCompleteTextView], res/layout/view_listing_deal_quality.xml=[2131362061 - android.view.View, 2131362054 - android.widget.ImageView, 2131362052 - android.widget.LinearLayout, 2131362053 - android.widget.FrameLayout, 2131362056 - android.widget.LinearLayout, 2131362060 - android.widget.TextView, 2131362057 - android.widget.TextView, 2131362058 - android.widget.TextView, -1 - android.view.View, 2131362055 - android.widget.TextView, 2131362059 - android.widget.ImageView], res/layout/autocomplete_event.xml=[2131361845 - android.widget.TextView, 2131361846 - android.widget.TextView, 2131361844 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361847 - android.widget.TextView], res/layout/coaching_inner_pager.xml=[2131361856 - android.widget.LinearLayout, 2131361860 - android.widget.Button, 2131361859 - android.widget.Button, 2131361858 - android.widget.LinearLayout, -1 - android.view.View], res/layout/com_facebook_picker_activity_circle_row.xml=[2131361864 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/coaching_inner.xml=[2131361852 - android.widget.ImageView, 2131361853 - android.widget.ImageView, 2131361854 - android.widget.ImageView], res/layout/msv_content_state_explore_announced_no_events.xml=[-1 - android.widget.LinearLayout, 2131362011 - android.widget.TextView, 2131362012 - android.widget.TextView, 2131362010 - android.view.View], res/layout/autocomplete_separator.xml=[2131361846 - android.widget.TextView], res/layout-sw600dp-port-v13/fragment_event_with_map.xml=[2131361941 - com.seatgeek.android.ui.views.ListingFilteredHeaderView, 2131361945 - android.widget.ImageView, 2131361932 - android.widget.FrameLayout, 2131361930 - android.widget.ProgressBar, 2131361933 - com.seatgeek.android.ui.views.ListingHeaderView, 2131361934 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.widget.LinearLayout, 2131361943 - android.widget.FrameLayout, 2131361936 - android.widget.LinearLayout, 2131361929 - com.seatgeek.android.ui.views.TouchListenerMapView, -1 - android.widget.ImageView, 2131361942 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.view.View, -1 - android.widget.ProgressBar, 2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361931 - android.widget.TextView, -1 - android.widget.TextView, 2131361938 - android.widget.LinearLayout, 2131361940 - android.widget.LinearLayout, -1 - android.widget.FrameLayout, 2131361927 - android.view.View, 2131361944 - android.widget.FrameLayout, 2131361937 - android.widget.LinearLayout, 2131361935 - android.widget.LinearLayout, 2131361928 - android.widget.FrameLayout, 2131361939 - android.widget.TextView], res/layout/view_listing_header.xml=[2131362066 - android.widget.ImageButton, 2131362065 - android.widget.ImageButton, 2131362064 - android.widget.TextView, -1 - android.widget.RelativeLayout, 2131362062 - android.widget.TextView], res/layout/fragment_location_picker.xml=[2131361982 - android.widget.SearchView, -1 - android.widget.LinearLayout, 2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361980 - android.widget.TextView, 2131361979 - android.widget.TextView, 2131361985 - android.widget.ListView, 2131361984 - android.widget.ProgressBar, 2131361983 - android.widget.ImageButton, 2131361981 - android.widget.FrameLayout], res/layout/msv__error_unknown.xml=[-1 - android.widget.LinearLayout, 2131362007 - android.widget.TextView, 2131362008 - android.widget.Button, -1 - android.widget.ImageView], res/layout/view_events_state_header.xml=[2131362043 - android.widget.TextView, 2131361984 - android.widget.ProgressBar], res/layout/msv__loading.xml=[-1 - android.widget.ProgressBar, -1 - android.widget.FrameLayout], res/layout/activity_my_events.xml=[-1 - android.widget.FrameLayout], res/layout-land/fragment_listing_filters.xml=[-1 - android.widget.TextView, 2131361974 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361968 - android.widget.LinearLayout, 2131361971 - android.widget.TextView, 2131361972 - android.widget.TextView, 2131361973 - android.widget.SeekBar, 2131361969 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131361956 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131361976 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361970 - android.widget.LinearLayout, 2131361975 - com.seatgeek.android.ui.views.CustomSwitchView, 2131361978 - android.widget.Button, 2131361977 - android.widget.Button, -1 - android.view.View], res/layout/autocomplete_recent_searches_item.xml=[-1 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout/view_item_my_events.xml=[2131361899 - android.widget.TextView, 2131361954 - android.widget.ImageView, 2131361898 - android.widget.TextView, 2131362048 - android.view.View, 2131362045 - android.widget.TextView, 2131361958 - android.widget.ImageView, 2131361896 - android.widget.TextView, 2131361849 - android.widget.CheckBox, 2131361960 - android.widget.RelativeLayout, 2131362044 - android.widget.LinearLayout], res/layout/fragment_about.xml=[-1 - android.widget.LinearLayout, -1 - com.seatgeek.android.ui.views.MaxWidthFrameLayout, -1 - android.widget.RelativeLayout, 2131361906 - android.widget.TextView, 2131361904 - android.widget.LinearLayout, 2131361905 - android.widget.ImageView, 2131361908 - android.widget.Button, -1 - android.widget.ScrollView, 2131361907 - android.widget.Button, 2131361909 - android.widget.TextView], res/layout/com_facebook_login_activity_layout.xml=[2131361863 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/view_item_explore_event_with_announced.xml=[2131362047 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout/activity_my_performers.xml=[2131361835 - android.widget.FrameLayout], res/layout/fragment_auth_signup.xml=[2131361919 - android.widget.EditText, -1 - android.widget.LinearLayout, -1 - com.seatgeek.android.ui.views.FloatLabelLayout, -1 - android.widget.TextView, 2131361925 - com.seatgeek.android.ui.views.MaxWidthLinearLayout, 2131361926 - com.dd.processbutton.iml.ActionProcessButton, -1 - android.widget.FrameLayout, 2131361918 - android.widget.AutoCompleteTextView], res/layout/fragment_ticket.xml=[2131361929 - com.seatgeek.android.ui.views.NoInteractionMapView, -1 - android.widget.LinearLayout, 2131362002 - android.widget.FrameLayout, 2131362003 - android.widget.ImageView], res/layout/activity_main.xml=[2131361838 - android.widget.FrameLayout, 2131361840 - android.widget.FrameLayout], res/layout-w600dp-land-v13/fragment_explore_event.xml=[2131361842 - android.view.View, -1 - android.widget.LinearLayout, 2131361948 - android.widget.FrameLayout, -1 - android.widget.FrameLayout], res/layout/fragment_settings.xml=[2131361989 - android.widget.ImageView, 2131361990 - android.widget.ImageView, -1 - android.widget.TextView, 2131361999 - android.widget.CheckBox, 2131361996 - android.widget.LinearLayout, 2131361997 - android.widget.LinearLayout, 2131362000 - android.widget.RelativeLayout, 2131361995 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131361998 - android.widget.RelativeLayout, 2131362001 - android.widget.LinearLayout, 2131361993 - android.widget.TextView, 2131361994 - android.widget.TextView, 2131361992 - android.widget.LinearLayout, 2131361991 - android.widget.TextView, -1 - android.widget.ScrollView, -1 - android.view.View], res/layout/msv_content_state_empty.xml=[2131362009 - android.widget.LinearLayout, 2131362010 - android.widget.ImageView, 2131362011 - android.widget.TextView, 2131362012 - android.widget.TextView], res/layout-land/fragment_information.xml=[2131361965 - android.widget.LinearLayout, 2131361964 - android.widget.LinearLayout, 2131361967 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131361963 - android.view.View, 2131361957 - android.widget.FrameLayout, 2131361962 - android.widget.TextView, 2131361961 - android.widget.TextView, 2131361966 - android.widget.TextView, 2131361899 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361897 - android.widget.TextView, 2131361958 - android.widget.ImageView, -1 - android.widget.ImageView, -1 - android.view.View], res/layout/msv_content_state_explore_announced_not_logged_in.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.view.View], res/layout/activity_explore.xml=[2131361836 - android.widget.FrameLayout], res/layout/abs__activity_chooser_view.xml=[2131361827 - android.widget.LinearLayout, 2131361828 - android.widget.FrameLayout, 2131361829 - android.widget.ImageView, 2131361830 - android.widget.FrameLayout], res/layout/abs__activity_chooser_view_list_item.xml=[2131361831 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131361833 - android.widget.TextView, 2131361832 - android.widget.ImageView], res/layout/onboarding_page_one.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView], res/layout/drawer_content.xml=[2131361892 - android.widget.TextView, 2131361891 - android.widget.TextView, 2131361893 - android.widget.TextView, 2131361894 - android.widget.TextView, 2131361895 - android.widget.TextView, 2131361890 - android.widget.LinearLayout, 2131361889 - android.widget.ScrollView], res/layout/view_listing_no_deal_quality.xml=[2131362061 - android.view.View, 2131362052 - android.widget.LinearLayout, 2131362056 - android.widget.LinearLayout, 2131362060 - android.widget.TextView, 2131362057 - android.widget.TextView, 2131362058 - android.widget.TextView, -1 - android.view.View, 2131362059 - android.widget.ImageView], res/layout-w600dp-v13/activity_onboarding.xml=[-1 - android.widget.FrameLayout], res/layout-v14/custom_switch.xml=[2131361887 - android.widget.Switch], res/layout/fragment_auth_landing.xml=[-1 - android.widget.LinearLayout, 2131361911 - android.widget.LinearLayout, -1 - com.seatgeek.android.ui.views.MaxWidthFrameLayout, 2131361912 - android.widget.Button, -1 - android.widget.ImageView, 2131361913 - android.widget.Button, 2131361914 - android.widget.Button, -1 - android.widget.FrameLayout], res/layout/com_facebook_picker_title_bar_stub.xml=[2131361874 - android.view.ViewStub], res/layout/view_item_my_performers.xml=[-1 - android.widget.LinearLayout, 2131361849 - android.widget.CheckBox, -1 - android.widget.RelativeLayout, 2131362049 - android.widget.ImageView, 2131362050 - android.widget.TextView, 2131362051 - android.widget.TextView, -1 - android.view.View], res/layout-sw600dp-v13/fragment_score.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.FrameLayout], res/layout-sw600dp-land-v13/fragment_ticket.xml=[2131361929 - com.seatgeek.android.ui.views.NoInteractionMapView, -1 - android.widget.LinearLayout, 2131362002 - android.widget.FrameLayout, 2131362003 - android.widget.ImageView, -1 - android.widget.FrameLayout, -1 - android.view.View], res/layout/fragment_explore_list.xml=[2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361955 - android.widget.ImageView, 2131361953 - android.widget.TextView, 2131361950 - android.widget.RelativeLayout, 2131361951 - android.widget.GridView, 2131361954 - android.view.View, 2131361952 - android.widget.FrameLayout], res/layout/fragment_information.xml=[2131361965 - android.widget.LinearLayout, 2131361964 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131361963 - android.view.View, 2131361957 - android.widget.FrameLayout, 2131361960 - android.widget.FrameLayout, 2131361962 - android.widget.TextView, 2131361959 - android.widget.FrameLayout, 2131361961 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131361956 - android.widget.LinearLayout, 2131361966 - android.widget.TextView, 2131361899 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361897 - android.widget.TextView, 2131361958 - android.widget.ImageView, -1 - android.widget.ImageView, -1 - android.view.View], res/layout/com_facebook_picker_list_row.xml=[2131361868 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361869 - android.view.ViewStub, 2131361867 - android.view.ViewStub], res/layout-land/fragment_about.xml=[-1 - android.widget.LinearLayout, 2131361910 - android.widget.LinearLayout, -1 - com.seatgeek.android.ui.views.MaxWidthFrameLayout, -1 - android.widget.RelativeLayout, 2131361906 - android.widget.TextView, 2131361905 - android.widget.ImageView, 2131361908 - android.widget.Button, 2131361907 - android.widget.Button, 2131361909 - android.widget.TextView], res/layout/custom_switch.xml=[2131361887 - android.widget.CheckBox], res/layout/com_facebook_picker_title_bar.xml=[2131361868 - android.widget.TextView, 2131361872 - android.widget.Button, 2131361871 - android.widget.RelativeLayout, 2131361873 - android.widget.LinearLayout], res/layout/msv_content_state_my_performers_no_tracked_performers.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.widget.ImageView], res/layout/activity_onboarding.xml=[-1 - android.widget.FrameLayout], res/layout-w600dp-v13/coaching_inner.xml=[2131361852 - android.widget.ImageView, -1 - android.widget.FrameLayout, 2131361853 - android.widget.ImageView, 2131361854 - android.widget.ImageView], res/layout/fragment_autocomplete.xml=[2131361842 - android.view.View, -1 - android.widget.LinearLayout, 2131361797 - com.meetme.android.multistateview.MultiStateView, -1 - android.widget.ListView], res/layout/fragment_my_performers.xml=[-1 - android.widget.GridView, 2131361837 - com.meetme.android.multistateview.MultiStateView, -1 - android.widget.FrameLayout], res/layout-sw600dp-v13/ticket_details.xml=[2131362022 - android.widget.TextView, 2131362029 - android.view.View, 2131362004 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, 2131362024 - android.widget.TextView, 2131362027 - android.widget.ImageView, 2131362028 - android.widget.TextView, 2131362026 - android.widget.TextView, -1 - android.widget.LinearLayout, -1 - android.widget.ImageView, 2131362020 - android.widget.Button, -1 - android.view.View, 2131362019 - android.widget.FrameLayout, 2131362034 - android.widget.ImageView, 2131362021 - android.widget.ProgressBar, 2131362032 - android.widget.LinearLayout, 2131362030 - android.widget.LinearLayout, 2131361963 - android.view.View, 2131362036 - android.widget.TextView, 2131362023 - android.widget.TextView, 2131362025 - android.widget.TextView, 2131362031 - android.widget.TextView, 2131362033 - android.widget.TextView, 2131362035 - android.widget.TextView, -1 - android.widget.ScrollView], res/layout-land/fragment_location_picker.xml=[2131361982 - android.widget.SearchView, -1 - android.widget.LinearLayout, 2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361979 - android.widget.TextView, 2131361985 - android.widget.ListView, 2131361983 - android.widget.ImageButton, -1 - android.widget.FrameLayout, 2131361981 - android.widget.FrameLayout], res/layout/fragment_explore_event_list.xml=[2131361949 - se.emilsjolander.stickylistheaders.StickyListHeadersListView], res/layout/msv_content_state_my_events_not_logged_in.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.view.View], res/layout/fragment_score_inner.xml=[2131361988 - android.widget.TextView, 2131361987 - android.widget.TextView, -1 - android.widget.LinearLayout, -1 - android.widget.ImageView], res/layout/com_facebook_tooltip_bubble.xml=[2131361880 - android.widget.ImageView, 2131361879 - android.widget.RelativeLayout, -1 - android.widget.RelativeLayout, 2131361881 - android.widget.ImageView, 2131361882 - android.widget.TextView, 2131361883 - android.widget.ImageView], res/layout/event_search_header.xml=[-1 - android.widget.LinearLayout, 2131361901 - android.widget.TextView], res/layout-w600dp-port-v13/fragment_results.xml=[-1 - android.widget.LinearLayout, 2131361986 - com.seatgeek.android.ui.views.ResultHeaderView, 2131361797 - com.meetme.android.multistateview.MultiStateView, -1 - se.emilsjolander.stickylistheaders.StickyListHeadersListView], res/layout/ticket_details.xml=[2131362019 - android.widget.FrameLayout, 2131362022 - android.widget.TextView, 2131362021 - android.widget.ProgressBar, 2131362029 - android.view.View, 2131362032 - android.widget.LinearLayout, 2131362030 - android.widget.LinearLayout, 2131361963 - android.view.View, -1 - android.widget.RelativeLayout, 2131362024 - android.widget.TextView, 2131362023 - android.widget.TextView, 2131362025 - android.widget.TextView, 2131362027 - android.widget.ImageView, 2131362028 - android.widget.TextView, 2131362026 - android.widget.TextView, 2131362031 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131362033 - android.widget.TextView, -1 - android.widget.ImageView, 2131362020 - android.widget.Button, -1 - android.view.View, -1 - android.widget.ScrollView], res/layout/com_facebook_picker_search_box.xml=[-1 - android.widget.LinearLayout, -1 - android.view.View], res/layout/drawer_container_debug.xml=[2131361888 - android.widget.FrameLayout, -1 - android.widget.TextView], res/layout/com_facebook_search_bar_layout.xml=[2131361877 - android.widget.LinearLayout, 2131361878 - android.widget.EditText], res/layout/no_location.xml=[2131362016 - android.widget.Button, -1 - android.widget.TextView, 2131362015 - android.widget.LinearLayout], res/layout/event_search_item.xml=[2131361899 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361897 - android.widget.TextView, 2131361898 - android.widget.TextView, 2131361896 - android.widget.TextView, 2131361903 - android.view.View, 2131361902 - android.widget.LinearLayout, -1 - android.view.View], res/layout/com_facebook_friendpickerfragment.xml=[2131361861 - android.widget.ListView, 2131361862 - android.widget.ProgressBar, -1 - android.widget.RelativeLayout], res/layout/autocomplete_recent_searches.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131361851 - android.widget.ListView], res/layout/activity_settings.xml=[2131361835 - android.widget.FrameLayout], res/layout/onboarding_page_three.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView], res/layout/event_location_item.xml=[2131361899 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131361897 - android.widget.TextView, 2131361898 - android.widget.TextView, 2131361896 - android.widget.TextView, 2131361900 - android.view.View, -1 - android.view.View], res/layout/view_listing_separator.xml=[-1 - android.view.View], res/layout-land/fragment_event_with_map.xml=[2131361941 - com.seatgeek.android.ui.views.ListingFilteredHeaderView, 2131361945 - android.widget.ImageView, 2131361932 - android.widget.FrameLayout, 2131361930 - android.widget.ProgressBar, 2131361933 - com.seatgeek.android.ui.views.ListingHeaderView, 2131361934 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.widget.LinearLayout, 2131361943 - android.widget.FrameLayout, 2131361936 - android.widget.LinearLayout, 2131361929 - com.seatgeek.android.ui.views.TouchListenerMapView, -1 - android.widget.ImageView, 2131361942 - se.emilsjolander.stickylistheaders.StickyListHeadersListView, -1 - android.view.View, -1 - android.widget.ProgressBar, 2131361797 - com.meetme.android.multistateview.MultiStateView, 2131361931 - android.widget.TextView, -1 - android.widget.TextView, 2131361938 - android.widget.LinearLayout, 2131361940 - android.widget.LinearLayout, -1 - android.widget.FrameLayout, 2131361927 - android.view.View, 2131361944 - android.widget.FrameLayout, 2131361937 - android.widget.LinearLayout, 2131361935 - android.widget.LinearLayout, 2131361928 - android.widget.FrameLayout, 2131361939 - android.widget.TextView], res/layout/fragment_explore.xml=[-1 - com.seatgeek.android.ui.views.MaxWidthFrameLayout, 2131361947 - com.astuetz.PagerSlidingTabStrip, -1 - android.widget.FrameLayout, -1 - android.view.View], res/layout/activity_ticket.xml=[2131361835 - android.widget.FrameLayout], res/layout/msv_content_state_my_performers_not_logged_in.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, 2131362013 - android.view.View], res/layout/com_facebook_picker_image.xml=[2131361866 - android.widget.ImageView], res/layout/activity_explore_event.xml=[2131361837 - com.meetme.android.multistateview.MultiStateView, 2131361835 - android.widget.FrameLayout], res/layout/com_facebook_placepickerfragment_list_row.xml=[2131361868 - android.widget.TextView, -1 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, 2131361876 - android.widget.TextView, -1 - android.widget.FrameLayout, 2131361867 - android.view.ViewStub, -1 - android.view.View], res/layout/view_performer_header.xml=[2131362067 - android.widget.ImageView, -1 - android.widget.LinearLayout, 2131361958 - android.widget.ImageView, 2131361993 - android.widget.TextView, 2131361994 - android.widget.TextView, -1 - android.view.View], res/layout/com_facebook_usersettingsfragment.xml=[-1 - android.widget.LinearLayout, 2131361886 - com.facebook.widget.LoginButton, 2131361885 - android.widget.TextView, 2131361884 - android.widget.ImageView, -1 - android.widget.ScrollView], res/layout-sw720dp-v13/coaching_inner.xml=[2131361852 - android.widget.ImageView, -1 - android.widget.RelativeLayout, 2131361855 - android.widget.ImageView, 2131361853 - android.widget.ImageView, 2131361854 - android.widget.ImageView], res/layout-land/msv_location_picker_state_empty.xml=[2131362009 - android.widget.LinearLayout, 2131362010 - android.widget.ImageView, 2131362011 - android.widget.TextView, -1 - android.widget.ScrollView]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 150 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Events/com.seatgeek.android.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.6 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 35.6 seconds.
+[Spark] Solution found in 35.6 seconds.
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Events/com.seatgeek.android.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 103702528 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/anikralhan2011/Flowroid/hs_err_pid10375.log
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Events/com.seatgeek.android.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.4 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 101638144 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/anikralhan2011/Flowroid/hs_err_pid10395.log
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Events/com.seatgeek.android.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 102469632 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/anikralhan2011/Flowroid/hs_err_pid10416.log
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Events/com.seatgeek.android.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 101277696 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/anikralhan2011/Flowroid/hs_err_pid10432.log
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Events/com.seatgeek.android.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 196608 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/anikralhan2011/Flowroid/hs_err_pid10467.log
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Events/com.seatgeek.android.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.5 seconds.
+[Spark] Type masks in 0.1 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 53.5 seconds.
+[Spark] Solution found in 53.6 seconds.
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r4.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(2, $r1) (in <com.squareup.picasso.Dispatcher: void dispatchCancel(com.squareup.picasso.Action)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Handler: boolean sendMessage(android.os.Message)>($r7), from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(3, $r1) (in <com.squareup.picasso.Picasso$CleanupThread: void run()>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[],int,int)>($r3, $i0, $i1), from the following sources:
+	- $r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>)
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink interfaceinvoke $r6.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r3, $r10), from the following sources:
+	- $r7 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.apsalar.sdk.ApsalarEvent: boolean resolveHelper()>)
+	- $r7 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.apsalar.sdk.Apsalar: java.lang.String getFacebookAttributionId()>)
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r4.<java.io.OutputStream: void write(byte[],int,int)>($r5, $i4, $i0), from the following sources:
+	- $r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>)
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r4.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(1, $r1) (in <com.squareup.picasso.Dispatcher: void dispatchSubmit(com.squareup.picasso.Action)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r4), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.os.Handler: android.os.Message obtainMessage(int,int,int)>($i0, $i1, 0) (in <com.squareup.picasso.Stats: void processBitmap(android.graphics.Bitmap,int)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>($r6, $r2), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<android.content.Intent: android.content.Intent setClassName(android.content.Context,java.lang.String)>($r1, $r13), from the following sources:
+	- $r8 = virtualinvoke $r7.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r2, 0) (in <com.apsalar.sdk.ApsalarReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Maximum memory consumption: 369.955704 MB
+Analysis has run for 139.364855114 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Events/com.seatgeek.android.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 54.3 seconds.
+[Spark] Solution found in 54.3 seconds.
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r4.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(2, $r1) (in <com.squareup.picasso.Dispatcher: void dispatchCancel(com.squareup.picasso.Action)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Handler: boolean sendMessage(android.os.Message)>($r7), from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(3, $r1) (in <com.squareup.picasso.Picasso$CleanupThread: void run()>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>($r6, $r2), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r4), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.os.Handler: android.os.Message obtainMessage(int,int,int)>($i0, $i1, 0) (in <com.squareup.picasso.Stats: void processBitmap(android.graphics.Bitmap,int)>)
+Found a flow to sink virtualinvoke $r4.<java.io.OutputStream: void write(byte[],int,int)>($r5, $i4, $i0), from the following sources:
+	- $r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>)
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink interfaceinvoke $r6.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r3, $r10), from the following sources:
+	- $r7 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.apsalar.sdk.Apsalar: java.lang.String getFacebookAttributionId()>)
+	- $r7 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.apsalar.sdk.ApsalarEvent: boolean resolveHelper()>)
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r4.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(1, $r1) (in <com.squareup.picasso.Dispatcher: void dispatchSubmit(com.squareup.picasso.Action)>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[],int,int)>($r3, $i0, $i1), from the following sources:
+	- $r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>)
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<android.content.Intent: android.content.Intent setClassName(android.content.Context,java.lang.String)>($r1, $r13), from the following sources:
+	- $r8 = virtualinvoke $r7.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r2, 0) (in <com.apsalar.sdk.ApsalarReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Maximum memory consumption: 390.762608 MB
+Analysis has run for 124.534986351 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Events/com.seatgeek.android.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.1 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 50.4 seconds.
+[Spark] Solution found in 50.4 seconds.
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r4.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(2, $r1) (in <com.squareup.picasso.Dispatcher: void dispatchCancel(com.squareup.picasso.Action)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Handler: boolean sendMessage(android.os.Message)>($r7), from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(3, $r1) (in <com.squareup.picasso.Picasso$CleanupThread: void run()>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[],int,int)>($r3, $i0, $i1), from the following sources:
+	- $r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>)
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r4.<java.io.OutputStream: void write(byte[],int,int)>($r5, $i4, $i0), from the following sources:
+	- $r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>)
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink interfaceinvoke $r6.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r3, $r10), from the following sources:
+	- $r7 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.apsalar.sdk.Apsalar: java.lang.String getFacebookAttributionId()>)
+	- $r7 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.apsalar.sdk.ApsalarEvent: boolean resolveHelper()>)
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r4.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(1, $r1) (in <com.squareup.picasso.Dispatcher: void dispatchSubmit(com.squareup.picasso.Action)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r4), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.os.Handler: android.os.Message obtainMessage(int,int,int)>($i0, $i1, 0) (in <com.squareup.picasso.Stats: void processBitmap(android.graphics.Bitmap,int)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>($r6, $r2), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<android.content.Intent: android.content.Intent setClassName(android.content.Context,java.lang.String)>($r1, $r13), from the following sources:
+	- $r8 = virtualinvoke $r7.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r2, 0) (in <com.apsalar.sdk.ApsalarReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Maximum memory consumption: 378.92264 MB
+Analysis has run for 114.663653879 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Events/com.seatgeek.android.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.1 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 56.8 seconds.
+[Spark] Solution found in 56.8 seconds.
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r4.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(2, $r1) (in <com.squareup.picasso.Dispatcher: void dispatchCancel(com.squareup.picasso.Action)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Handler: boolean sendMessage(android.os.Message)>($r7), from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(3, $r1) (in <com.squareup.picasso.Picasso$CleanupThread: void run()>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>($r6, $r2), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r4), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.os.Handler: android.os.Message obtainMessage(int,int,int)>($i0, $i1, 0) (in <com.squareup.picasso.Stats: void processBitmap(android.graphics.Bitmap,int)>)
+Found a flow to sink virtualinvoke $r4.<java.io.OutputStream: void write(byte[],int,int)>($r5, $i4, $i0), from the following sources:
+	- $r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>)
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink interfaceinvoke $r6.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r3, $r10), from the following sources:
+	- $r7 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.apsalar.sdk.Apsalar: java.lang.String getFacebookAttributionId()>)
+	- $r7 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.apsalar.sdk.ApsalarEvent: boolean resolveHelper()>)
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r4.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(1, $r1) (in <com.squareup.picasso.Dispatcher: void dispatchSubmit(com.squareup.picasso.Action)>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[],int,int)>($r3, $i0, $i1), from the following sources:
+	- $r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>)
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<android.content.Intent: android.content.Intent setClassName(android.content.Context,java.lang.String)>($r1, $r13), from the following sources:
+	- $r8 = virtualinvoke $r7.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r2, 0) (in <com.apsalar.sdk.ApsalarReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Maximum memory consumption: 350.353992 MB
+Analysis has run for 125.008199248 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Events/com.seatgeek.android.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 7535 classes in '/home/anikralhan2011/Flowroid/Benign/Events/com.seatgeek.android.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.1 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 50.8 seconds.
+[Spark] Solution found in 50.8 seconds.
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r4.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(2, $r1) (in <com.squareup.picasso.Dispatcher: void dispatchCancel(com.squareup.picasso.Action)>)
+Found a flow to sink virtualinvoke $r5.<android.os.Handler: boolean sendMessage(android.os.Message)>($r7), from the following sources:
+	- $r7 = virtualinvoke $r6.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(3, $r1) (in <com.squareup.picasso.Picasso$CleanupThread: void run()>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[],int,int)>($r3, $i0, $i1), from the following sources:
+	- $r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>)
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink interfaceinvoke $r6.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r3, $r10), from the following sources:
+	- $r7 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.apsalar.sdk.ApsalarEvent: boolean resolveHelper()>)
+	- $r7 = interfaceinvoke $r6.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.apsalar.sdk.Apsalar: java.lang.String getFacebookAttributionId()>)
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r4.<java.io.OutputStream: void write(byte[],int,int)>($r5, $i4, $i0), from the following sources:
+	- $r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>)
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r4.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(1, $r1) (in <com.squareup.picasso.Dispatcher: void dispatchSubmit(com.squareup.picasso.Action)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r4), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.os.Handler: android.os.Message obtainMessage(int,int,int)>($i0, $i1, 0) (in <com.squareup.picasso.Stats: void processBitmap(android.graphics.Bitmap,int)>)
+Found a flow to sink virtualinvoke $r0.<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>($r6, $r2), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<java.io.Writer: void write(java.lang.String)>($r7), from the following sources:
+	- $r0 = virtualinvoke $r12.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.apsalar.sdk.MobileDevice: java.lang.String getDeviceId(java.lang.String,boolean)>)
+Found a flow to sink virtualinvoke $r2.<android.content.Intent: android.content.Intent setClassName(android.content.Context,java.lang.String)>($r1, $r13), from the following sources:
+	- $r8 = virtualinvoke $r7.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r2, 0) (in <com.apsalar.sdk.ApsalarReceiver: void onReceive(android.content.Context,android.content.Intent)>)
+Maximum memory consumption: 417.734928 MB
+Analysis has run for 118.383269785 seconds

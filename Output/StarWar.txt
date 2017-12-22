@@ -1,0 +1,183 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Simulation/com.ea.game.starwarscapital_row.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 9429 classes in '/home/anikralhan2011/Flowroid/Benign/Simulation/com.ea.game.starwarscapital_row.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 28.8 seconds.
+[Spark] Solution found in 28.8 seconds.
+Found a flow to sink virtualinvoke $r5.<android.content.Context: android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)>($r2, $r1), from the following sources:
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink virtualinvoke $r4.<java.io.OutputStream: void write(byte[],int,int)>($r1, 0, $i0), from the following sources:
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink $r11 = virtualinvoke $r4.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r10, null, null, null, null), from the following sources:
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("Nimble", $r7), from the following sources:
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[],int,int)>($r2, 0, $i0), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>("Nimble", $r4), from the following sources:
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink virtualinvoke $r4.<java.io.FileOutputStream: void write(byte[])>($r9), from the following sources:
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink interfaceinvoke $r6.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("InitialDeepLinkLocation", $r9), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("Nimble", $r4), from the following sources:
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>($r7, $r8), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+Found a flow to sink virtualinvoke $r5.<java.io.OutputStream: void write(byte[])>($r6), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putInt(java.lang.String,int)>($r7, $i0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("Nimble", $r4), from the following sources:
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink $r3 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>(), from the following sources:
+	- $r3 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <net.hockeyapp.android.tasks.DownloadFileTask: java.net.URLConnection createConnection(java.net.URL,int)>)
+Found a flow to sink virtualinvoke $r4.<java.io.FileOutputStream: void write(byte[],int,int)>($r2, 0, $i0), from the following sources:
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r1), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("Nimble", $r4), from the following sources:
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink staticinvoke <android.util.Log: int wtf(java.lang.String,java.lang.String)>("Nimble", $r4), from the following sources:
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("Nimble", $r8), from the following sources:
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("Nimble", $r4), from the following sources:
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>("Nimble", $r4), from the following sources:
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("Nimble", $r7), from the following sources:
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("Nimble", $r7), from the following sources:
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putFloat(java.lang.String,float)>($r7, $f0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink staticinvoke <android.util.Log: int wtf(java.lang.String,java.lang.String)>("Nimble", $r4), from the following sources:
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>(), from the following sources:
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink virtualinvoke $r15.<java.io.OutputStream: void write(byte[])>($r13), from the following sources:
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putBoolean(java.lang.String,boolean)>($r7, $z0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("Nimble", $r4), from the following sources:
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r2), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+Found a flow to sink $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("Unity", $r0), from the following sources:
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>("Unity", $r0), from the following sources:
+	- $r13 = virtualinvoke $r10.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.ea.nimble.NetworkConnection: void run()>)
+	- $r5 = interfaceinvoke $r11.<android.database.Cursor: java.lang.String getString(int)>(0) (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+	- $r5 = virtualinvoke $r6.<java.util.Locale: java.lang.String getCountry()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+	- $r5 = virtualinvoke $r9.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <com.ea.nimble.ApplicationEnvironmentImpl: java.util.Map generateParameterDictionary()>)
+Maximum memory consumption: 262.330888 MB
+Analysis has run for 79.977556206 seconds

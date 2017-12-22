@@ -1,0 +1,99 @@
+Found dex file 'classes.dex' with 7272 classes in '/home/anikralhan2011/Flowroid/Benign/Beauty/com.zelihazisanapp.makyajegitimi.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 11.8 seconds.
+[Spark] Solution found in 11.8 seconds.
+Callback analysis done.
+Found 1 layout controls in file res/layout-v17/abc_alert_dialog_material.xml
+Found 2 layout controls in file res/layout-v17/abc_dialog_title_material.xml
+Found 3 layout controls in file res/layout-v17/abc_search_view.xml
+Found 4 layout controls in file res/layout-v17/activity_main.xml
+Found 5 layout controls in file res/layout-v17/mr_media_route_list_item.xml
+Found 6 layout controls in file res/layout-v17/notification_template_big_media.xml
+Found 7 layout controls in file res/layout-v17/notification_template_big_media_narrow.xml
+Found 8 layout controls in file res/layout-v17/notification_template_lines.xml
+Found 9 layout controls in file res/layout-v17/notification_template_media.xml
+Found 10 layout controls in file res/layout-v17/notification_template_part_chronometer.xml
+Found 10 layout controls in file res/layout-v17/notification_template_part_time.xml
+Found 10 layout controls in file res/layout-v21/abc_screen_toolbar.xml
+Found 11 layout controls in file res/layout/abc_action_bar_title_item.xml
+Found 12 layout controls in file res/layout/abc_action_bar_up_container.xml
+Found 13 layout controls in file res/layout/abc_action_bar_view_list_nav_layout.xml
+Found 13 layout controls in file res/layout/abc_action_menu_item_layout.xml
+Found 13 layout controls in file res/layout/abc_action_menu_layout.xml
+Found 13 layout controls in file res/layout/abc_action_mode_bar.xml
+Found 13 layout controls in file res/layout/abc_action_mode_close_item_material.xml
+Found 14 layout controls in file res/layout/abc_activity_chooser_view.xml
+Found 15 layout controls in file res/layout/abc_activity_chooser_view_list_item.xml
+Found 16 layout controls in file res/layout/abc_alert_dialog_material.xml
+Found 17 layout controls in file res/layout/abc_dialog_title_material.xml
+Found 17 layout controls in file res/layout/abc_expanded_menu_layout.xml
+Found 18 layout controls in file res/layout/abc_list_menu_item_checkbox.xml
+Found 19 layout controls in file res/layout/abc_list_menu_item_icon.xml
+Found 20 layout controls in file res/layout/abc_list_menu_item_layout.xml
+Found 21 layout controls in file res/layout/abc_list_menu_item_radio.xml
+Found 22 layout controls in file res/layout/abc_popup_menu_item_layout.xml
+Found 22 layout controls in file res/layout/abc_screen_content_include.xml
+Found 22 layout controls in file res/layout/abc_screen_simple.xml
+Found 22 layout controls in file res/layout/abc_screen_simple_overlay_action_mode.xml
+Found 22 layout controls in file res/layout/abc_screen_toolbar.xml
+Found 23 layout controls in file res/layout/abc_search_dropdown_item_icons_2line.xml
+Found 24 layout controls in file res/layout/abc_search_view.xml
+Found 25 layout controls in file res/layout/abc_select_dialog_material.xml
+Found 26 layout controls in file res/layout/abc_simple_dropdown_hint.xml
+Found 27 layout controls in file res/layout/activity_main.xml
+Found 28 layout controls in file res/layout/mr_media_route_chooser_dialog.xml
+Found 29 layout controls in file res/layout/mr_media_route_controller_material_dialog_b.xml
+Found 30 layout controls in file res/layout/mr_media_route_list_item.xml
+Found 31 layout controls in file res/layout/notification_media_action.xml
+Found 32 layout controls in file res/layout/notification_media_cancel_action.xml
+Found 33 layout controls in file res/layout/notification_template_big_media.xml
+Found 34 layout controls in file res/layout/notification_template_big_media_narrow.xml
+Found 35 layout controls in file res/layout/notification_template_lines.xml
+Found 36 layout controls in file res/layout/notification_template_media.xml
+Found 37 layout controls in file res/layout/notification_template_part_chronometer.xml
+Found 37 layout controls in file res/layout/notification_template_part_time.xml
+Found 38 layout controls in file res/layout/select_dialog_item_material.xml
+Found 39 layout controls in file res/layout/select_dialog_multichoice_material.xml
+Found 40 layout controls in file res/layout/select_dialog_singlechoice_material.xml
+Found 41 layout controls in file res/layout/support_simple_spinner_dropdown_item.xml
+Found dex file 'classes.dex' with 7272 classes in '/home/anikralhan2011/Flowroid/Benign/Beauty/com.zelihazisanapp.makyajegitimi.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 11.0 seconds.
+[Spark] Solution found in 11.0 seconds.
+Running incremental callback analysis for 5 components...
+Incremental callback analysis done.
+Found dex file 'classes.dex' with 7272 classes in '/home/anikralhan2011/Flowroid/Benign/Beauty/com.zelihazisanapp.makyajegitimi.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 11.9 seconds.
+[Spark] Solution found in 11.9 seconds.
+Running incremental callback analysis for 0 components...
+Incremental callback analysis done.
+Found 31 callback methods for 5 components
+Found {res/layout/abc_alert_dialog_material.xml=[16908313 - android.widget.Button, 16908315 - android.widget.Button, 16908314 - android.widget.Button, -1 - android.widget.LinearLayout, 2131558493 - android.widget.LinearLayout, 2131558488 - android.widget.FrameLayout, 16908299 - android.widget.TextView, 16908294 - android.widget.ImageView, 2131558490 - android.view.View, 2131558491 - android.widget.FrameLayout, 2131558492 - android.widget.FrameLayout, 2131558486 - android.widget.LinearLayout, 2131558485 - android.widget.LinearLayout, 2131558484 - android.widget.LinearLayout, 2131558489 - android.widget.ScrollView], res/layout-v17/notification_template_media.xml=[2131558553 - android.widget.ImageView, 2131558544 - android.widget.LinearLayout, 2131558482 - android.widget.ImageView, 2131558543 - android.widget.LinearLayout], res/layout/abc_select_dialog_material.xml=[2131558517 - android.widget.ListView], res/layout/notification_media_action.xml=[2131558541 - android.widget.ImageButton], res/layout-v17/notification_template_lines.xml=[2131558546 - android.widget.LinearLayout, 2131558483 - android.widget.TextView, 2131558549 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131558550 - android.widget.LinearLayout, 2131558551 - android.widget.TextView, 2131558552 - android.widget.TextView], res/layout/abc_search_dropdown_item_icons_2line.xml=[16908309 - android.widget.TextView, 16908308 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout-v17/mr_media_route_list_item.xml=[-1 - android.widget.LinearLayout, 16908309 - android.widget.TextView, 16908308 - android.widget.TextView], res/layout-v17/activity_main.xml=[2131558522 - android.widget.Button, 2131558521 - android.widget.ImageView, 2131558523 - android.widget.Button, 2131558518 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131558520 - android.widget.LinearLayout, 2131558519 - android.widget.LinearLayout, 2131558525 - android.widget.Button, 2131558524 - android.widget.Button, -1 - android.widget.RelativeLayout], res/layout-v17/abc_search_view.xml=[2131558514 - android.widget.LinearLayout, 2131558507 - android.widget.TextView, 2131558509 - android.widget.LinearLayout, 2131558511 - android.widget.LinearLayout, 2131558506 - android.widget.LinearLayout], res/layout-v17/notification_template_big_media.xml=[2131558544 - android.widget.LinearLayout, 2131558482 - android.widget.ImageView, 2131558545 - android.widget.ImageView, 2131558543 - android.widget.RelativeLayout], res/layout/mr_media_route_controller_material_dialog_b.xml=[2131558536 - android.widget.LinearLayout, -1 - android.widget.ImageView, 2131558529 - android.widget.ImageButton, 2131558483 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131558531 - android.widget.RelativeLayout, 2131558533 - android.widget.ImageButton, 2131558537 - android.widget.SeekBar, 2131558535 - android.widget.TextView, 2131558527 - android.widget.LinearLayout, 2131558528 - android.widget.TextView, 2131558539 - android.widget.Button, 2131558530 - android.widget.FrameLayout, 2131558540 - android.widget.Button, 2131558532 - android.widget.ImageView, 2131558538 - android.widget.LinearLayout, 2131558534 - android.widget.LinearLayout], res/layout/abc_simple_dropdown_hint.xml=[16908308 - android.widget.TextView], res/layout-v17/abc_alert_dialog_material.xml=[16908313 - android.widget.Button, 16908315 - android.widget.Button, 16908314 - android.widget.Button, -1 - android.widget.LinearLayout, 2131558493 - android.widget.LinearLayout, 2131558488 - android.widget.FrameLayout, 16908299 - android.widget.TextView, 16908294 - android.widget.ImageView, 2131558490 - android.view.View, 2131558491 - android.widget.FrameLayout, 2131558492 - android.widget.FrameLayout, 2131558486 - android.widget.LinearLayout, 2131558485 - android.widget.LinearLayout, 2131558484 - android.widget.LinearLayout, 2131558489 - android.widget.ScrollView], res/layout/notification_template_big_media.xml=[2131558544 - android.widget.LinearLayout, 2131558482 - android.widget.ImageView, 2131558545 - android.widget.ImageView, 2131558543 - android.widget.RelativeLayout], res/layout/abc_list_menu_item_layout.xml=[2131558483 - android.widget.TextView, 2131558496 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/mr_media_route_list_item.xml=[-1 - android.widget.LinearLayout, 16908309 - android.widget.TextView, 16908308 - android.widget.TextView], res/layout/abc_list_menu_item_checkbox.xml=[2131558495 - android.widget.CheckBox], res/layout-v17/notification_template_part_chronometer.xml=[2131558548 - android.widget.Chronometer], res/layout-v17/notification_template_big_media_narrow.xml=[2131558544 - android.widget.LinearLayout, 2131558482 - android.widget.ImageView, 2131558545 - android.widget.ImageView, 2131558543 - android.widget.RelativeLayout], res/layout/abc_list_menu_item_radio.xml=[2131558497 - android.widget.RadioButton], res/layout-v17/abc_dialog_title_material.xml=[2131558483 - android.widget.TextView], res/layout/abc_activity_chooser_view.xml=[2131558478 - android.widget.FrameLayout, 2131558479 - android.widget.ImageView, 2131558480 - android.widget.FrameLayout], res/layout/abc_action_bar_view_list_nav_layout.xml=[-1 - android.widget.LinearLayout], res/layout/abc_action_bar_up_container.xml=[-1 - android.widget.LinearLayout], res/layout/activity_main.xml=[2131558522 - android.widget.Button, 2131558521 - android.widget.ImageView, 2131558523 - android.widget.Button, 2131558518 - android.widget.LinearLayout, -1 - android.widget.LinearLayout, 2131558520 - android.widget.LinearLayout, 2131558519 - android.widget.LinearLayout, 2131558525 - android.widget.Button, 2131558524 - android.widget.Button, -1 - android.widget.RelativeLayout], res/layout/abc_popup_menu_item_layout.xml=[2131558483 - android.widget.TextView, 2131558496 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/abc_search_view.xml=[2131558514 - android.widget.LinearLayout, 2131558507 - android.widget.TextView, 2131558509 - android.widget.LinearLayout, 2131558511 - android.widget.LinearLayout, 2131558506 - android.widget.LinearLayout], res/layout/abc_activity_chooser_view_list_item.xml=[2131558481 - android.widget.LinearLayout, 2131558483 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131558482 - android.widget.ImageView], res/layout/notification_template_part_chronometer.xml=[2131558548 - android.widget.Chronometer], res/layout/abc_dialog_title_material.xml=[2131558483 - android.widget.TextView], res/layout/mr_media_route_chooser_dialog.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.ProgressBar, 2131558526 - android.widget.ListView, -1 - android.widget.TextView, 16908292 - android.widget.LinearLayout], res/layout/notification_template_media.xml=[2131558553 - android.widget.ImageView, 2131558544 - android.widget.LinearLayout, 2131558482 - android.widget.ImageView, 2131558543 - android.widget.LinearLayout], res/layout/notification_template_big_media_narrow.xml=[2131558544 - android.widget.LinearLayout, 2131558482 - android.widget.ImageView, 2131558545 - android.widget.ImageView, 2131558543 - android.widget.RelativeLayout], res/layout/abc_action_bar_title_item.xml=[-1 - android.widget.LinearLayout, 2131558474 - android.widget.TextView, 2131558475 - android.widget.TextView], res/layout/notification_template_lines.xml=[2131558546 - android.widget.LinearLayout, 2131558483 - android.widget.TextView, 2131558549 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131558550 - android.widget.LinearLayout, 2131558551 - android.widget.TextView, 2131558552 - android.widget.TextView], res/layout/notification_media_cancel_action.xml=[2131558542 - android.widget.ImageButton], res/layout/select_dialog_singlechoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout/support_simple_spinner_dropdown_item.xml=[16908308 - android.widget.TextView], res/layout/abc_list_menu_item_icon.xml=[2131558482 - android.widget.ImageView], res/layout/select_dialog_item_material.xml=[16908308 - android.widget.TextView], res/layout/select_dialog_multichoice_material.xml=[16908308 - android.widget.CheckedTextView]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 31 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Beauty/com.zelihazisanapp.makyajegitimi.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 7272 classes in '/home/anikralhan2011/Flowroid/Benign/Beauty/com.zelihazisanapp.makyajegitimi.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 15.8 seconds.
+[Spark] Solution found in 15.8 seconds.
+Maximum memory consumption: 189.474216 MB
+Analysis has run for 140.075851165 seconds

@@ -1,0 +1,54 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Strategy/com.hasbro.riskbigscreen.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 5795 classes in '/home/anikralhan2011/Flowroid/Benign/Strategy/com.hasbro.riskbigscreen.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 7.7 seconds.
+[Spark] Solution found in 7.7 seconds.
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r2), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r5.<java.io.OutputStream: void write(byte[])>($r6), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r1), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[],int,int)>($r2, 0, $i0), from the following sources:
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Maximum memory consumption: 147.987824 MB
+Analysis has run for 28.788666498 seconds

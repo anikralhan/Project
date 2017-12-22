@@ -1,0 +1,133 @@
+Found dex file 'classes.dex' with 4558 classes in '/home/anikralhan2011/Flowroid/Benign/Beauty/com.infokombinat.hairstyle2.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 6.8 seconds.
+[Spark] Solution found in 6.8 seconds.
+Callback analysis done.
+Found 1 layout controls in file res/layout-v11/notification_media_action.xml
+Found 2 layout controls in file res/layout-v11/notification_media_cancel_action.xml
+Found 3 layout controls in file res/layout-v11/notification_template_big_media.xml
+Found 4 layout controls in file res/layout-v11/notification_template_big_media_custom.xml
+Found 5 layout controls in file res/layout-v11/notification_template_big_media_narrow.xml
+Found 6 layout controls in file res/layout-v11/notification_template_big_media_narrow_custom.xml
+Found 7 layout controls in file res/layout-v13/select_dialog_multichoice_material.xml
+Found 8 layout controls in file res/layout-v13/select_dialog_singlechoice_material.xml
+Found 9 layout controls in file res/layout-v16/notification_template_custom_big.xml
+Found 10 layout controls in file res/layout-v17/abc_action_mode_close_item_material.xml
+Found 11 layout controls in file res/layout-v17/abc_alert_dialog_button_bar_material.xml
+Found 12 layout controls in file res/layout-v17/abc_alert_dialog_title_material.xml
+Found 13 layout controls in file res/layout-v17/abc_dialog_title_material.xml
+Found 14 layout controls in file res/layout-v17/abc_popup_menu_header_item_layout.xml
+Found 15 layout controls in file res/layout-v17/abc_popup_menu_item_layout.xml
+Found 16 layout controls in file res/layout-v17/abc_search_view.xml
+Found 16 layout controls in file res/layout-v17/abc_select_dialog_material.xml
+Found 17 layout controls in file res/layout-v17/notification_action.xml
+Found 18 layout controls in file res/layout-v17/notification_action_tombstone.xml
+Found 19 layout controls in file res/layout-v17/notification_template_big_media.xml
+Found 20 layout controls in file res/layout-v17/notification_template_big_media_custom.xml
+Found 21 layout controls in file res/layout-v17/notification_template_big_media_narrow.xml
+Found 22 layout controls in file res/layout-v17/notification_template_big_media_narrow_custom.xml
+Found 23 layout controls in file res/layout-v17/notification_template_custom_big.xml
+Found 24 layout controls in file res/layout-v17/notification_template_lines_media.xml
+Found 25 layout controls in file res/layout-v17/notification_template_media.xml
+Found 26 layout controls in file res/layout-v17/notification_template_media_custom.xml
+Found 27 layout controls in file res/layout-v17/select_dialog_multichoice_material.xml
+Found 28 layout controls in file res/layout-v17/select_dialog_singlechoice_material.xml
+Found 28 layout controls in file res/layout-v21/abc_screen_toolbar.xml
+Found 29 layout controls in file res/layout-v21/notification_action.xml
+Found 30 layout controls in file res/layout-v21/notification_action_tombstone.xml
+Found 31 layout controls in file res/layout-v21/notification_template_custom_big.xml
+Found 32 layout controls in file res/layout-v21/notification_template_icon_group.xml
+Found 33 layout controls in file res/layout-v22/abc_alert_dialog_button_bar_material.xml
+Found 34 layout controls in file res/layout/abc_action_bar_title_item.xml
+Found 35 layout controls in file res/layout/abc_action_bar_up_container.xml
+Found 36 layout controls in file res/layout/abc_action_bar_view_list_nav_layout.xml
+Found 36 layout controls in file res/layout/abc_action_menu_item_layout.xml
+Found 36 layout controls in file res/layout/abc_action_menu_layout.xml
+Found 36 layout controls in file res/layout/abc_action_mode_bar.xml
+Found 37 layout controls in file res/layout/abc_action_mode_close_item_material.xml
+Found 38 layout controls in file res/layout/abc_activity_chooser_view.xml
+Found 39 layout controls in file res/layout/abc_activity_chooser_view_list_item.xml
+Found 40 layout controls in file res/layout/abc_alert_dialog_button_bar_material.xml
+Found 41 layout controls in file res/layout/abc_alert_dialog_material.xml
+Found 42 layout controls in file res/layout/abc_alert_dialog_title_material.xml
+Found 43 layout controls in file res/layout/abc_dialog_title_material.xml
+Found 43 layout controls in file res/layout/abc_expanded_menu_layout.xml
+Found 44 layout controls in file res/layout/abc_list_menu_item_checkbox.xml
+Found 45 layout controls in file res/layout/abc_list_menu_item_icon.xml
+Found 46 layout controls in file res/layout/abc_list_menu_item_layout.xml
+Found 47 layout controls in file res/layout/abc_list_menu_item_radio.xml
+Found 48 layout controls in file res/layout/abc_popup_menu_header_item_layout.xml
+Found 49 layout controls in file res/layout/abc_popup_menu_item_layout.xml
+Found 49 layout controls in file res/layout/abc_screen_content_include.xml
+Found 49 layout controls in file res/layout/abc_screen_simple.xml
+Found 49 layout controls in file res/layout/abc_screen_simple_overlay_action_mode.xml
+Found 49 layout controls in file res/layout/abc_screen_toolbar.xml
+Found 50 layout controls in file res/layout/abc_search_dropdown_item_icons_2line.xml
+Found 51 layout controls in file res/layout/abc_search_view.xml
+Found 51 layout controls in file res/layout/abc_select_dialog_material.xml
+Found 52 layout controls in file res/layout/activity_main.xml
+Found 53 layout controls in file res/layout/activity_selection.xml
+Found 54 layout controls in file res/layout/activity_tutorial.xml
+Found 55 layout controls in file res/layout/notification_action.xml
+Found 56 layout controls in file res/layout/notification_action_tombstone.xml
+Found 57 layout controls in file res/layout/notification_template_custom_big.xml
+Found 58 layout controls in file res/layout/notification_template_icon_group.xml
+Found 59 layout controls in file res/layout/notification_template_lines_media.xml
+Found 60 layout controls in file res/layout/notification_template_media.xml
+Found 61 layout controls in file res/layout/notification_template_media_custom.xml
+Found 62 layout controls in file res/layout/notification_template_part_chronometer.xml
+Found 62 layout controls in file res/layout/notification_template_part_time.xml
+Found 63 layout controls in file res/layout/select_dialog_item_material.xml
+Found 64 layout controls in file res/layout/select_dialog_multichoice_material.xml
+Found 65 layout controls in file res/layout/select_dialog_singlechoice_material.xml
+Found 66 layout controls in file res/layout/selection_fragment.xml
+Found 67 layout controls in file res/layout/support_simple_spinner_dropdown_item.xml
+Found 68 layout controls in file res/layout/tutorial_fragment.xml
+Found dex file 'classes.dex' with 4558 classes in '/home/anikralhan2011/Flowroid/Benign/Beauty/com.infokombinat.hairstyle2.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 5.9 seconds.
+[Spark] Solution found in 5.9 seconds.
+Running incremental callback analysis for 7 components...
+Incremental callback analysis done.
+Found dex file 'classes.dex' with 4558 classes in '/home/anikralhan2011/Flowroid/Benign/Beauty/com.infokombinat.hairstyle2.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 5.6 seconds.
+[Spark] Solution found in 5.6 seconds.
+Running incremental callback analysis for 0 components...
+Incremental callback analysis done.
+Found 28 callback methods for 7 components
+Found {res/layout/notification_action.xml=[2131427440 - android.widget.LinearLayout, 2131427442 - android.widget.TextView, 2131427441 - android.widget.ImageView], res/layout/notification_template_icon_group.xml=[2131427389 - android.widget.ImageView], res/layout/notification_template_custom_big.xml=[2131427454 - android.widget.ImageView, 2131427453 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131427389 - android.widget.ImageView, 2131427450 - android.widget.FrameLayout, 2131427448 - android.widget.LinearLayout, 2131427449 - android.widget.FrameLayout], res/layout-v17/notification_template_media_custom.xml=[2131427462 - android.widget.ImageView, 2131427452 - android.widget.Chronometer, 2131427453 - android.widget.TextView, 2131427450 - android.widget.FrameLayout, 2131427448 - android.widget.LinearLayout, 2131427449 - android.widget.FrameLayout, 2131427446 - android.widget.LinearLayout, 2131427445 - android.widget.LinearLayout], res/layout/activity_tutorial.xml=[2131427439 - android.widget.ImageButton, -1 - android.widget.RelativeLayout, 2131427437 - com.google.android.gms.ads.AdView, 2131427438 - android.widget.ImageButton, 2131427436 - android.widget.ImageButton, 2131427434 - android.widget.ImageButton, 2131427433 - android.widget.LinearLayout, 2131427435 - android.widget.TextView], res/layout-v17/select_dialog_singlechoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout-v11/notification_media_cancel_action.xml=[2131427444 - android.widget.ImageButton], res/layout-v17/notification_template_big_media_narrow_custom.xml=[2131427452 - android.widget.Chronometer, 2131427445 - android.widget.RelativeLayout, 2131427453 - android.widget.TextView, 2131427447 - android.widget.ImageView, 2131427389 - android.widget.ImageView, 2131427450 - android.widget.FrameLayout, 2131427448 - android.widget.LinearLayout, 2131427449 - android.widget.FrameLayout, 2131427446 - android.widget.LinearLayout], res/layout-v17/notification_action.xml=[2131427440 - android.widget.LinearLayout, 2131427442 - android.widget.TextView, 2131427441 - android.widget.ImageView], res/layout-v13/select_dialog_singlechoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout-v17/notification_template_custom_big.xml=[2131427454 - android.widget.ImageView, 2131427453 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131427447 - android.widget.ImageView, 2131427451 - android.view.ViewStub, 2131427452 - android.view.ViewStub, 2131427456 - android.widget.LinearLayout, 2131427455 - android.widget.FrameLayout, 2131427389 - android.widget.ImageView, 2131427450 - android.widget.FrameLayout, 2131427448 - android.widget.LinearLayout, 2131427449 - android.widget.FrameLayout], res/layout-v21/notification_action_tombstone.xml=[2131427440 - android.widget.LinearLayout, 2131427442 - android.widget.TextView, 2131427441 - android.widget.ImageView], res/layout/abc_action_bar_view_list_nav_layout.xml=[-1 - android.widget.LinearLayout], res/layout/abc_popup_menu_item_layout.xml=[-1 - android.widget.RelativeLayout, 2131427390 - android.widget.TextView, 2131427410 - android.widget.ImageView, 2131427408 - android.widget.TextView], res/layout-v11/notification_media_action.xml=[2131427443 - android.widget.ImageButton], res/layout-v16/notification_template_custom_big.xml=[2131427454 - android.widget.ImageView, 2131427453 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131427447 - android.widget.ImageView, 2131427451 - android.view.ViewStub, 2131427452 - android.view.ViewStub, 2131427456 - android.widget.LinearLayout, 2131427455 - android.widget.FrameLayout, 2131427389 - android.widget.ImageView, 2131427450 - android.widget.FrameLayout, 2131427448 - android.widget.LinearLayout, 2131427449 - android.widget.FrameLayout], res/layout-v21/notification_action.xml=[2131427440 - android.widget.LinearLayout, 2131427442 - android.widget.TextView, 2131427441 - android.widget.ImageView], res/layout/notification_template_part_chronometer.xml=[2131427452 - android.widget.Chronometer], res/layout/abc_alert_dialog_button_bar_material.xml=[2131427391 - android.widget.ScrollView, 16908313 - android.widget.Button, 16908315 - android.widget.Button, 16908314 - android.widget.Button], res/layout/abc_dialog_title_material.xml=[2131427390 - android.widget.TextView], res/layout/abc_alert_dialog_title_material.xml=[16908294 - android.widget.ImageView, 2131427403 - android.widget.LinearLayout, 2131427402 - android.widget.LinearLayout], res/layout-v17/notification_template_big_media_custom.xml=[2131427452 - android.widget.Chronometer, 2131427445 - android.widget.RelativeLayout, 2131427453 - android.widget.TextView, 2131427447 - android.widget.ImageView, 2131427450 - android.widget.FrameLayout, 2131427448 - android.widget.LinearLayout, 2131427449 - android.widget.FrameLayout, 2131427446 - android.widget.LinearLayout], res/layout/notification_template_media_custom.xml=[2131427462 - android.widget.ImageView, 2131427452 - android.widget.Chronometer, 2131427453 - android.widget.TextView, 2131427450 - android.widget.FrameLayout, 2131427448 - android.widget.LinearLayout, 2131427449 - android.widget.FrameLayout, 2131427446 - android.widget.LinearLayout, 2131427445 - android.widget.LinearLayout], res/layout-v17/abc_alert_dialog_button_bar_material.xml=[2131427391 - android.widget.ScrollView, 16908313 - android.widget.Button, 16908315 - android.widget.Button, 16908314 - android.widget.Button], res/layout/select_dialog_singlechoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout/select_dialog_item_material.xml=[16908308 - android.widget.TextView], res/layout-v17/abc_action_mode_close_item_material.xml=[2131427383 - android.widget.ImageView], res/layout/select_dialog_multichoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout/abc_alert_dialog_material.xml=[2131427394 - android.widget.FrameLayout, 2131427400 - android.widget.FrameLayout, 2131427401 - android.widget.FrameLayout, -1 - android.widget.LinearLayout, 2131427399 - android.view.View, 2131427395 - android.view.View, 16908299 - android.widget.TextView], res/layout-v17/notification_template_media.xml=[2131427462 - android.widget.ImageView, 2131427446 - android.widget.LinearLayout, 2131427445 - android.widget.LinearLayout], res/layout-v17/abc_popup_menu_header_item_layout.xml=[16908310 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout/abc_action_mode_close_item_material.xml=[2131427383 - android.widget.ImageView], res/layout/abc_search_dropdown_item_icons_2line.xml=[16908309 - android.widget.TextView, 16908296 - android.widget.ImageView, 16908308 - android.widget.TextView, 16908295 - android.widget.ImageView, 2131427418 - android.widget.ImageView, -1 - android.widget.RelativeLayout], res/layout-v17/notification_action_tombstone.xml=[2131427440 - android.widget.LinearLayout, 2131427442 - android.widget.TextView, 2131427441 - android.widget.ImageView], res/layout-v17/abc_search_view.xml=[2131427420 - android.widget.TextView, 2131427427 - android.widget.LinearLayout, 2131427421 - android.widget.ImageView, 2131427428 - android.widget.ImageView, 2131427423 - android.widget.ImageView, 2131427429 - android.widget.ImageView, 2131427426 - android.widget.ImageView, 2131427424 - android.widget.LinearLayout, 2131427422 - android.widget.LinearLayout, 2131427419 - android.widget.LinearLayout], res/layout-v17/notification_template_big_media.xml=[2131427445 - android.widget.RelativeLayout, 2131427447 - android.widget.ImageView, 2131427446 - android.widget.LinearLayout], res/layout-v17/abc_popup_menu_item_layout.xml=[-1 - android.widget.RelativeLayout, 2131427390 - android.widget.TextView, 2131427410 - android.widget.ImageView, 2131427408 - android.widget.TextView], res/layout-v22/abc_alert_dialog_button_bar_material.xml=[2131427391 - android.widget.ScrollView, 16908313 - android.widget.Button, 16908315 - android.widget.Button, 16908314 - android.widget.Button], res/layout-v11/notification_template_big_media_narrow_custom.xml=[2131427452 - android.widget.Chronometer, 2131427445 - android.widget.RelativeLayout, 2131427453 - android.widget.TextView, 2131427447 - android.widget.ImageView, 2131427389 - android.widget.ImageView, 2131427450 - android.widget.FrameLayout, 2131427448 - android.widget.LinearLayout, 2131427449 - android.widget.FrameLayout, 2131427446 - android.widget.LinearLayout], res/layout-v17/abc_alert_dialog_title_material.xml=[16908294 - android.widget.ImageView, 2131427403 - android.widget.LinearLayout, 2131427402 - android.widget.LinearLayout], res/layout/abc_list_menu_item_layout.xml=[-1 - android.widget.RelativeLayout, 2131427390 - android.widget.TextView, 2131427408 - android.widget.TextView], res/layout-v21/notification_template_custom_big.xml=[2131427453 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131427447 - android.widget.ImageView, 2131427451 - android.view.ViewStub, 2131427452 - android.view.ViewStub, 2131427456 - android.widget.LinearLayout, 2131427455 - android.widget.FrameLayout, 2131427450 - android.widget.FrameLayout, 2131427448 - android.widget.LinearLayout, 2131427449 - android.widget.FrameLayout], res/layout/abc_list_menu_item_checkbox.xml=[2131427407 - android.widget.CheckBox], res/layout/abc_popup_menu_header_item_layout.xml=[16908310 - android.widget.TextView, -1 - android.widget.FrameLayout], res/layout-v17/notification_template_big_media_narrow.xml=[2131427445 - android.widget.RelativeLayout, 2131427447 - android.widget.ImageView, 2131427389 - android.widget.ImageView, 2131427446 - android.widget.LinearLayout], res/layout-v17/notification_template_lines_media.xml=[2131427458 - android.widget.LinearLayout, 2131427390 - android.widget.TextView, 2131427452 - android.widget.Chronometer, 2131427460 - android.widget.LinearLayout, 2131427453 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131427461 - android.widget.TextView, 2131427459 - android.widget.TextView], res/layout/abc_list_menu_item_radio.xml=[2131427409 - android.widget.RadioButton], res/layout/tutorial_fragment.xml=[2131427463 - android.widget.RelativeLayout, 2131427386 - com.facebook.drawee.view.SimpleDraweeView], res/layout-v11/notification_template_big_media_narrow.xml=[2131427445 - android.widget.RelativeLayout, 2131427447 - android.widget.ImageView, 2131427389 - android.widget.ImageView, 2131427446 - android.widget.LinearLayout], res/layout-v17/abc_dialog_title_material.xml=[2131427390 - android.widget.TextView], res/layout/abc_activity_chooser_view.xml=[2131427386 - android.widget.ImageView, 2131427387 - android.widget.FrameLayout, 2131427385 - android.widget.FrameLayout], res/layout/notification_action_tombstone.xml=[2131427440 - android.widget.LinearLayout, 2131427442 - android.widget.TextView, 2131427441 - android.widget.ImageView], res/layout-v17/select_dialog_multichoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout/abc_action_bar_up_container.xml=[-1 - android.widget.LinearLayout], res/layout/activity_main.xml=[-1 - android.widget.Button, -1 - android.widget.RelativeLayout, -1 - android.widget.ImageView, 2131427431 - android.widget.Button, -1 - android.widget.LinearLayout], res/layout-v13/select_dialog_multichoice_material.xml=[16908308 - android.widget.CheckedTextView], res/layout-v21/notification_template_icon_group.xml=[2131427457 - android.widget.FrameLayout, 2131427454 - android.widget.ImageView, 2131427389 - android.widget.ImageView], res/layout/selection_fragment.xml=[2131427464 - android.widget.TableLayout, -1 - android.widget.Button, -1 - android.widget.ImageView, 2131427468 - android.widget.ImageButton, -1 - android.widget.TableRow, 2131427465 - android.widget.ImageButton, 2131427466 - android.widget.ImageButton, 2131427467 - android.widget.ImageButton, 2131427469 - android.widget.LinearLayout, 2131427463 - android.widget.RelativeLayout], res/layout/abc_search_view.xml=[2131427420 - android.widget.TextView, 2131427427 - android.widget.LinearLayout, 2131427421 - android.widget.ImageView, 2131427428 - android.widget.ImageView, 2131427423 - android.widget.ImageView, 2131427429 - android.widget.ImageView, 2131427426 - android.widget.ImageView, 2131427424 - android.widget.LinearLayout, 2131427422 - android.widget.LinearLayout, 2131427419 - android.widget.LinearLayout], res/layout/abc_activity_chooser_view_list_item.xml=[2131427390 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131427389 - android.widget.ImageView, 2131427388 - android.widget.LinearLayout], res/layout/activity_selection.xml=[-1 - android.widget.RelativeLayout, 2131427437 - com.google.android.gms.ads.AdView, 2131427436 - android.widget.ImageButton, 2131427434 - android.widget.ImageButton, 2131427433 - android.widget.LinearLayout, 2131427435 - android.widget.TextView], res/layout/notification_template_media.xml=[2131427462 - android.widget.ImageView, 2131427446 - android.widget.LinearLayout, 2131427445 - android.widget.LinearLayout], res/layout/notification_template_lines_media.xml=[2131427458 - android.widget.LinearLayout, 2131427390 - android.widget.TextView, 2131427452 - android.widget.Chronometer, 2131427460 - android.widget.LinearLayout, 2131427453 - android.widget.TextView, -1 - android.widget.LinearLayout, 2131427461 - android.widget.TextView, 2131427459 - android.widget.TextView], res/layout-v11/notification_template_big_media.xml=[2131427445 - android.widget.RelativeLayout, 2131427447 - android.widget.ImageView, 2131427446 - android.widget.LinearLayout], res/layout/abc_action_bar_title_item.xml=[-1 - android.widget.LinearLayout, 2131427382 - android.widget.TextView, 2131427381 - android.widget.TextView], res/layout/support_simple_spinner_dropdown_item.xml=[16908308 - android.widget.TextView], res/layout-v11/notification_template_big_media_custom.xml=[2131427452 - android.widget.Chronometer, 2131427445 - android.widget.RelativeLayout, 2131427453 - android.widget.TextView, 2131427447 - android.widget.ImageView, 2131427450 - android.widget.FrameLayout, 2131427448 - android.widget.LinearLayout, 2131427449 - android.widget.FrameLayout, 2131427446 - android.widget.LinearLayout], res/layout/abc_list_menu_item_icon.xml=[2131427389 - android.widget.ImageView]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 28 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Beauty/com.infokombinat.hairstyle2.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 4558 classes in '/home/anikralhan2011/Flowroid/Benign/Beauty/com.infokombinat.hairstyle2.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 6.8 seconds.
+[Spark] Solution found in 6.8 seconds.
+Found a flow to sink virtualinvoke $r3.<android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>($r4, $r2, 1), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.infokombinat.hairstyle2.MainActivity: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("iabv3", $r6), from the following sources:
+	- $i1 := @parameter1: int (in <com.infokombinat.hairstyle2.MainActivity: void onActivityResult(int,int,android.content.Intent)>)
+	- $r1 := @parameter2: android.content.Intent (in <com.infokombinat.hairstyle2.MainActivity: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r1, $r2), from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <com.infokombinat.hairstyle2.MainActivity: void onActivityResult(int,int,android.content.Intent)>)
+Maximum memory consumption: 155.861296 MB
+Analysis has run for 80.490723952 seconds

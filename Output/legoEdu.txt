@@ -1,0 +1,27 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Creativity/com.lego.common.legolife.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 7110 classes in '/home/anikralhan2011/Flowroid/Benign/Creativity/com.lego.common.legolife.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.3 seconds.
+[Spark] Type masks in 0.1 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 18.4 seconds.
+[Spark] Solution found in 18.5 seconds.
+Found a flow to sink $r15 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>(), from the following sources:
+	- $r15 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: byte[] retrieveData(java.lang.String,int,java.lang.String,java.util.concurrent.Callable,com.adobe.mobile.RequestHandler$HeaderCallback)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("ADBMobile", $r0), from the following sources:
+	- $r15 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: byte[] retrieveData(java.lang.String,int,java.lang.String,java.util.concurrent.Callable,com.adobe.mobile.RequestHandler$HeaderCallback)>)
+Found a flow to sink virtualinvoke $r4.<android.os.Handler: boolean sendMessage(android.os.Message)>($r5), from the following sources:
+	- $r5 = virtualinvoke $r4.<android.os.Handler: android.os.Message obtainMessage()>() (in <com.squareup.picasso.Picasso$CleanupThread: void run()>)
+Found a flow to sink interfaceinvoke $r13.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("ADMS_Referrer_ContextData_Json_String", $r3), from the following sources:
+	- $r15 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: byte[] retrieveData(java.lang.String,int,java.lang.String,java.util.concurrent.Callable,com.adobe.mobile.RequestHandler$HeaderCallback)>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r3), from the following sources:
+	- $r3 = virtualinvoke $r4.<android.os.Handler: android.os.Message obtainMessage(int,java.lang.Object)>(2, $r1) (in <com.squareup.picasso.Dispatcher: void dispatchCancel(com.squareup.picasso.Action)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("LEGAL_LANGUAGE_IDENTIFIER", $r2), from the following sources:
+	- $r1 = virtualinvoke $r2.<java.util.Locale: java.lang.String getCountry()>() (in <com.lego.sdk.core.util._LEGOLocale: java.lang.String getDefaultLanguageIdentifier()>)
+Maximum memory consumption: 560.426992 MB
+Analysis has run for 48.321582232 seconds

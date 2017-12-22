@@ -1,0 +1,125 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Action/com.fungames.sniper3d.apk with 46 sources and 122 sinks...
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Action/com.fungames.sniper3d.apk with 46 sources and 122 sinks...
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Action/com.fungames.sniper3d.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 9084 classes in '/home/anikralhan2011/Flowroid/Benign/Action/com.fungames.sniper3d.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Action/com.fungames.sniper3d.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 9084 classes in '/home/anikralhan2011/Flowroid/Benign/Action/com.fungames.sniper3d.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 32.2 seconds.
+[Spark] Solution found in 32.2 seconds.
+Found a flow to sink $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r2), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink $r6 = interfaceinvoke $r5.<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r3), from the following sources:
+	- $r16 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.android.volley.toolbox.BasicNetwork: com.android.volley.NetworkResponse performRequest(com.android.volley.Request)>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putFloat(java.lang.String,float)>($r7, $f0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+Found a flow to sink virtualinvoke $r8.<android.os.Handler: boolean sendMessage(android.os.Message)>($r9), from the following sources:
+	- $r9 = virtualinvoke $r8.<android.os.Handler: android.os.Message obtainMessage(int)>(8) (in <com.immersion.hapticmediasdk.controllers.HapticDownloadThread: boolean writeToFile(java.io.InputStream,int)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r1), from the following sources:
+	- $r4 = virtualinvoke $r7.<java.util.Locale: java.lang.String getCountry()>() (in <com.chartboost.sdk.impl.ay$e: void <init>(com.chartboost.sdk.impl.ay)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r2, $r0), from the following sources:
+	- $r16 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.android.volley.toolbox.BasicNetwork: com.android.volley.NetworkResponse performRequest(com.android.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r3, $r1), from the following sources:
+	- $r8 = virtualinvoke $r16.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.tfg.libs.secnet.client.HttpClient: com.tfg.libs.secnet.client.HttpResponse execute(android.content.Context,com.tfg.libs.secnet.client.HttpRequest)>)
+	- $r4 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.tfg.libs.secnet.TFGSecureUrlConnection: java.net.URLConnection getSecureURLConnection(android.content.Context,java.net.URL,boolean)>)
+	- $r4 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.tfg.libs.secnet.TFGSecureUrlConnection: java.net.URLConnection getSecureURLConnection(android.content.Context,java.net.URL,boolean)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r2, $r0), from the following sources:
+	- $r9 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.android.volley.toolbox.BasicNetwork: com.android.volley.NetworkResponse performRequest(com.android.volley.Request)>)
+	- $r16 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.android.volley.toolbox.BasicNetwork: com.android.volley.NetworkResponse performRequest(com.android.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r3, $r1), from the following sources:
+	- $r4 = virtualinvoke $r7.<java.util.Locale: java.lang.String getCountry()>() (in <com.chartboost.sdk.impl.ay$e: void <init>(com.chartboost.sdk.impl.ay)>)
+Found a flow to sink virtualinvoke $r1.<java.io.OutputStream: void write(byte[],int,int)>($r2, 0, $i0), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r2, $r0), from the following sources:
+	- $r9 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.android.volley.toolbox.BasicNetwork: com.android.volley.NetworkResponse performRequest(com.android.volley.Request)>)
+	- $r16 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.android.volley.toolbox.BasicNetwork: com.android.volley.NetworkResponse performRequest(com.android.volley.Request)>)
+	- $r9 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.android.volley.toolbox.BasicNetwork: com.android.volley.NetworkResponse performRequest(com.android.volley.Request)>)
+	- $r16 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.android.volley.toolbox.BasicNetwork: com.android.volley.NetworkResponse performRequest(com.android.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>($r4, $r1, $r2), from the following sources:
+	- $r4 = virtualinvoke $r7.<java.util.Locale: java.lang.String getCountry()>() (in <com.chartboost.sdk.impl.ay$e: void <init>(com.chartboost.sdk.impl.ay)>)
+Found a flow to sink virtualinvoke $r8.<android.os.Handler: boolean sendMessage(android.os.Message)>($r9), from the following sources:
+	- $r9 = virtualinvoke $r8.<android.os.Handler: android.os.Message obtainMessage(int)>(8) (in <com.immersion.hapticmediasdk.controllers.HapticDownloadThread: boolean writeToFile(java.io.InputStream,int)>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>($r7, $r8), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r8.<android.os.Handler: boolean sendMessage(android.os.Message)>($r9), from the following sources:
+	- $r9 = virtualinvoke $r8.<android.os.Handler: android.os.Message obtainMessage(int)>(8) (in <com.immersion.hapticmediasdk.controllers.HapticDownloadThread: boolean writeToFile(java.io.InputStream,int)>)
+Found a flow to sink virtualinvoke $r8.<android.os.Handler: boolean sendMessage(android.os.Message)>($r9), from the following sources:
+	- $r9 = virtualinvoke $r8.<android.os.Handler: android.os.Message obtainMessage(int)>(8) (in <com.immersion.hapticmediasdk.controllers.HapticDownloadThread: boolean writeToFile(java.io.InputStream,int)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r1), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r8.<android.os.Handler: boolean sendMessage(android.os.Message)>($r9), from the following sources:
+	- $r9 = virtualinvoke $r13.<android.os.Handler: android.os.Message obtainMessage(int,int,int)>(3, $i0, 0) (in <com.immersion.hapticmediasdk.controllers.HapticDownloadThread: boolean writeToFile(java.io.InputStream,int)>)
+Found a flow to sink virtualinvoke $r8.<android.os.Handler: boolean sendMessage(android.os.Message)>($r9), from the following sources:
+	- $r9 = virtualinvoke $r8.<android.os.Handler: android.os.Message obtainMessage(int,int,int)>(3, $i1, 0) (in <com.immersion.hapticmediasdk.controllers.HapticDownloadThread: boolean writeToFile(java.io.InputStream,int)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r11.<android.os.Handler: boolean sendMessage(android.os.Message)>($r12), from the following sources:
+	- $r12 = virtualinvoke $r11.<android.os.Handler: android.os.Message obtainMessage(int)>(8) (in <com.immersion.hapticmediasdk.controllers.HapticDownloadThread: void run()>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>($r3, $r1, $r0), from the following sources:
+	- $r16 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.android.volley.toolbox.BasicNetwork: com.android.volley.NetworkResponse performRequest(com.android.volley.Request)>)
+	- $r16 = interfaceinvoke $r8.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <com.android.volley.toolbox.BasicNetwork: com.android.volley.NetworkResponse performRequest(com.android.volley.Request)>)
+	- $r9 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.android.volley.toolbox.BasicNetwork: com.android.volley.NetworkResponse performRequest(com.android.volley.Request)>)
+Found a flow to sink virtualinvoke $r8.<android.os.Handler: boolean sendMessage(android.os.Message)>($r9), from the following sources:
+	- $r9 = virtualinvoke $r8.<android.os.Handler: android.os.Message obtainMessage(int)>(8) (in <com.immersion.hapticmediasdk.controllers.HapticDownloadThread: boolean writeToFile(java.io.InputStream,int)>)
+Found a flow to sink virtualinvoke $r5.<java.io.OutputStream: void write(byte[])>($r6), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[])>($r5), from the following sources:
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+	- $r4 = virtualinvoke $r3.<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>($r0, null, null, null, null) (in <com.facebook.internal.Utility: long getContentSize(android.net.Uri)>)
+	- $r8 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i4) (in <com.facebook.internal.AttributionIdentifiers: com.facebook.internal.AttributionIdentifiers getAttributionIdentifiers(android.content.Context)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r3, $r1), from the following sources:
+	- $r8 = virtualinvoke $r16.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.tfg.libs.secnet.client.HttpClient: com.tfg.libs.secnet.client.HttpResponse execute(android.content.Context,com.tfg.libs.secnet.client.HttpRequest)>)
+	- $r4 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.tfg.libs.secnet.TFGSecureUrlConnection: java.net.URLConnection getSecureURLConnection(android.content.Context,java.net.URL,boolean)>)
+	- $r4 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.tfg.libs.secnet.TFGSecureUrlConnection: java.net.URLConnection getSecureURLConnection(android.content.Context,java.net.URL,boolean)>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putInt(java.lang.String,int)>($r7, $i0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+Found a flow to sink virtualinvoke $r11.<android.os.Bundle: void putBoolean(java.lang.String,boolean)>($r7, $z0), from the following sources:
+	- $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) (in <com.unity3d.player.r: void b()>)
+Found a flow to sink virtualinvoke $r2.<android.os.Handler: boolean sendMessage(android.os.Message)>($r1), from the following sources:
+	- $r1 = virtualinvoke $r3.<android.os.Handler: android.os.Message obtainMessage(int,int,int)>(1, $i0, $i1) (in <com.immersion.hapticmediasdk.controllers.HapticPlaybackThread: void prepareHapticPlayback(int,int)>)
+Maximum memory consumption: 230.7124 MB
+Analysis has run for 71.071160835 seconds

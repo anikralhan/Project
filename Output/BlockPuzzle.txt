@@ -1,0 +1,63 @@
+Found dex file 'classes.dex' with 6231 classes in '/home/anikralhan2011/Flowroid/Benign/Puzzle/blockpuzzle.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 4.4 seconds.
+[Spark] Solution found in 4.4 seconds.
+Callback analysis done.
+Found 1 layout controls in file res/layout-v17/place_autocomplete_item_powered_by_google.xml
+Found 2 layout controls in file res/layout-v17/place_autocomplete_item_prediction.xml
+Found 3 layout controls in file res/layout-v21/place_autocomplete_fragment.xml
+Found 4 layout controls in file res/layout-v21/place_autocomplete_progress.xml
+Found 5 layout controls in file res/layout/place_autocomplete_fragment.xml
+Found 6 layout controls in file res/layout/place_autocomplete_item_powered_by_google.xml
+Found 7 layout controls in file res/layout/place_autocomplete_item_prediction.xml
+Found 8 layout controls in file res/layout/place_autocomplete_progress.xml
+Found dex file 'classes.dex' with 6231 classes in '/home/anikralhan2011/Flowroid/Benign/Puzzle/blockpuzzle.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 4.0 seconds.
+[Spark] Solution found in 4.0 seconds.
+Running incremental callback analysis for 1 components...
+Incremental callback analysis done.
+Found dex file 'classes.dex' with 6231 classes in '/home/anikralhan2011/Flowroid/Benign/Puzzle/blockpuzzle.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 3.6 seconds.
+[Spark] Solution found in 3.6 seconds.
+Running incremental callback analysis for 0 components...
+Incremental callback analysis done.
+Found 18 callback methods for 1 components
+Found {res/layout-v17/place_autocomplete_item_powered_by_google.xml=[2131230765 - android.view.View, -1 - android.widget.RelativeLayout, 2131230766 - android.widget.ImageView], res/layout-v21/place_autocomplete_fragment.xml=[-1 - android.widget.LinearLayout, 2131230763 - android.widget.EditText, 2131230762 - android.widget.ImageButton, 2131230764 - android.widget.ImageButton], res/layout-v21/place_autocomplete_progress.xml=[2131230767 - android.widget.ProgressBar], res/layout-v17/place_autocomplete_item_prediction.xml=[2131230769 - android.widget.TextView, 2131230765 - android.view.View, 2131230768 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/place_autocomplete_item_prediction.xml=[2131230769 - android.widget.TextView, 2131230765 - android.view.View, 2131230768 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/place_autocomplete_item_powered_by_google.xml=[2131230765 - android.view.View, -1 - android.widget.RelativeLayout, 2131230766 - android.widget.ImageView], res/layout/place_autocomplete_fragment.xml=[-1 - android.widget.LinearLayout, 2131230763 - android.widget.EditText, 2131230762 - android.widget.ImageButton, 2131230764 - android.widget.ImageButton], res/layout/place_autocomplete_progress.xml=[2131230767 - android.widget.ProgressBar]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 18 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Puzzle/blockpuzzle.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes.dex' with 6231 classes in '/home/anikralhan2011/Flowroid/Benign/Puzzle/blockpuzzle.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 4.6 seconds.
+[Spark] Solution found in 4.6 seconds.
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>("GameHelper", $r2), from the following sources:
+	- $i1 := @parameter1: int (in <org.cocos2dx.cpp.AppActivity: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("GameHelper", $r1), from the following sources:
+	- $i0 := @parameter0: int (in <org.cocos2dx.cpp.AppActivity: void onActivityResult(int,int,android.content.Intent)>)
+	- $i1 := @parameter1: int (in <org.cocos2dx.cpp.AppActivity: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>("GameHelper", $r2), from the following sources:
+	- $i1 := @parameter1: int (in <org.cocos2dx.cpp.AppActivity: void onActivityResult(int,int,android.content.Intent)>)
+Found a flow to sink interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("KEY_SIGN_IN_CANCELLATIONS", $i1), from the following sources:
+	- $i1 := @parameter1: int (in <org.cocos2dx.cpp.AppActivity: void onActivityResult(int,int,android.content.Intent)>)
+Maximum memory consumption: 173.28136 MB
+Analysis has run for 89.588088828 seconds
