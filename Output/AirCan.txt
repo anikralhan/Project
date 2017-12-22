@@ -1,0 +1,388 @@
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Travel/com.aircanada.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes3.dex' with 9176 classes in '/home/anikralhan2011/Flowroid/Benign/Travel/com.aircanada.apk'
+Found dex file 'classes4.dex' with 1110 classes in '/home/anikralhan2011/Flowroid/Benign/Travel/com.aircanada.apk'
+Found dex file 'classes2.dex' with 3 classes in '/home/anikralhan2011/Flowroid/Benign/Travel/com.aircanada.apk'
+Found dex file 'classes.dex' with 6728 classes in '/home/anikralhan2011/Flowroid/Benign/Travel/com.aircanada.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Travel/com.aircanada.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes3.dex' with 9176 classes in '/home/anikralhan2011/Flowroid/Benign/Travel/com.aircanada.apk'
+Found dex file 'classes4.dex' with 1110 classes in '/home/anikralhan2011/Flowroid/Benign/Travel/com.aircanada.apk'
+Found dex file 'classes2.dex' with 3 classes in '/home/anikralhan2011/Flowroid/Benign/Travel/com.aircanada.apk'
+Found dex file 'classes.dex' with 6728 classes in '/home/anikralhan2011/Flowroid/Benign/Travel/com.aircanada.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.6 seconds.
+[Spark] Type masks in 0.1 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 64.1 seconds.
+[Spark] Solution found in 64.1 seconds.
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("ADBMobile", $r0), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r5 = virtualinvoke $r3.<java.util.Calendar: java.util.TimeZone getTimeZone()>() (in <com.adobe.mobile.StaticMethods: java.lang.String getTimestampString()>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r2, $r0), from the following sources:
+	- $r10 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String,java.lang.Throwable)>($r0, $r1, $r2), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r9 = interfaceinvoke $r7.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.agent.AdkSettings$1: void run()>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r7 = virtualinvoke $r6.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r3, 0) (in <aero.panasonic.inflight.services.utils.ServiceUtil: void bindLatestService(java.lang.String,android.content.ServiceConnection,int)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r7 = virtualinvoke $r6.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r3, 0) (in <aero.panasonic.inflight.services.utils.ServiceUtil: void bindLatestService(java.lang.String,android.content.ServiceConnection,int)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink $z0 = virtualinvoke $r5.<android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>($r3, $r2, 73), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>("ADBMobile", $r0), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+Found a flow to sink $r19 = virtualinvoke $r14.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>(r43), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[],int,int)>($r1, 0, $i0), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+Found a flow to sink virtualinvoke $r4.<java.io.OutputStream: void write(byte[])>($r3), from the following sources:
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.adobe.mobile.AnalyticsWorker: com.adobe.mobile.AnalyticsWorker$Hit getFirstHitInQueue()>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r2, $r0), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>(), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+Found a flow to sink $r7 = interfaceinvoke $r0.<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r1), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r7 = virtualinvoke $r6.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r3, 0) (in <aero.panasonic.inflight.services.utils.ServiceUtil: void bindLatestService(java.lang.String,android.content.ServiceConnection,int)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("fragment_id", $r2), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>($r3, $r1, $r0), from the following sources:
+	- $r10 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r1, $r2), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("ButterKnife", $r5), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink $z0 = virtualinvoke $r4.<android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>($r3, $r2, 73), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r7 = virtualinvoke $r6.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r3, 0) (in <aero.panasonic.inflight.services.utils.ServiceUtil: void bindLatestService(java.lang.String,android.content.ServiceConnection,int)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r7 = virtualinvoke $r6.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r3, 0) (in <aero.panasonic.inflight.services.utils.ServiceUtil: void bindLatestService(java.lang.String,android.content.ServiceConnection,int)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r20 = interfaceinvoke $r19.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.agent.comm.ApacheCommHandler: java.lang.String executeRequest(java.lang.String,java.lang.String,com.dynatrace.android.agent.comm.TimeSyncInfo,int)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+	- $r12 = interfaceinvoke $r8.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.dynatrace.android.agent.db.DataAccessObject: void sendOutboundEvents(java.util.Vector,com.dynatrace.android.agent.AdkSettings,java.util.Map,java.util.concurrent.atomic.AtomicLong,com.dynatrace.android.agent.comm.RequestExecutor)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r11 = interfaceinvoke $r8.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.dynatrace.android.agent.db.DataAccessObject: void sendOutboundEvents(java.util.Vector,com.dynatrace.android.agent.AdkSettings,java.util.Map,java.util.concurrent.atomic.AtomicLong,com.dynatrace.android.agent.comm.RequestExecutor)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r9 = interfaceinvoke $r8.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.dynatrace.android.agent.db.DataAccessObject: void sendOutboundEvents(java.util.Vector,com.dynatrace.android.agent.AdkSettings,java.util.Map,java.util.concurrent.atomic.AtomicLong,com.dynatrace.android.agent.comm.RequestExecutor)>)
+Found a flow to sink $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>(), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r0, $r3), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r20 = interfaceinvoke $r19.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.agent.comm.ApacheCommHandler: java.lang.String executeRequest(java.lang.String,java.lang.String,com.dynatrace.android.agent.comm.TimeSyncInfo,int)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+	- $r12 = interfaceinvoke $r8.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.dynatrace.android.agent.db.DataAccessObject: void sendOutboundEvents(java.util.Vector,com.dynatrace.android.agent.AdkSettings,java.util.Map,java.util.concurrent.atomic.AtomicLong,com.dynatrace.android.agent.comm.RequestExecutor)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r11 = interfaceinvoke $r8.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.dynatrace.android.agent.db.DataAccessObject: void sendOutboundEvents(java.util.Vector,com.dynatrace.android.agent.AdkSettings,java.util.Map,java.util.concurrent.atomic.AtomicLong,com.dynatrace.android.agent.comm.RequestExecutor)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r9 = interfaceinvoke $r8.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.dynatrace.android.agent.db.DataAccessObject: void sendOutboundEvents(java.util.Vector,com.dynatrace.android.agent.AdkSettings,java.util.Map,java.util.concurrent.atomic.AtomicLong,com.dynatrace.android.agent.comm.RequestExecutor)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("ADBMobile", $r0), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.adobe.mobile.AnalyticsWorker: com.adobe.mobile.AnalyticsWorker$Hit getFirstHitInQueue()>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r5 = virtualinvoke $r3.<java.util.Calendar: java.util.TimeZone getTimeZone()>() (in <com.adobe.mobile.StaticMethods: java.lang.String getTimestampString()>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r2, $r0), from the following sources:
+	- $r10 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r10 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Maximum memory consumption: 394.756008 MB
+Analysis has run for 138.399596352 seconds
+Entry point calculation done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 0 callback methods.
+Running data flow analysis...
+Running data flow analysis on Benign/Travel/com.aircanada.apk with 46 sources and 122 sinks...
+Starting infoflow computation...
+Found dex file 'classes3.dex' with 9176 classes in '/home/anikralhan2011/Flowroid/Benign/Travel/com.aircanada.apk'
+Found dex file 'classes4.dex' with 1110 classes in '/home/anikralhan2011/Flowroid/Benign/Travel/com.aircanada.apk'
+Found dex file 'classes2.dex' with 3 classes in '/home/anikralhan2011/Flowroid/Benign/Travel/com.aircanada.apk'
+Found dex file 'classes.dex' with 6728 classes in '/home/anikralhan2011/Flowroid/Benign/Travel/com.aircanada.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.5 seconds.
+[Spark] Type masks in 0.1 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 61.3 seconds.
+[Spark] Solution found in 61.3 seconds.
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r7 = virtualinvoke $r6.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r3, 0) (in <aero.panasonic.inflight.services.utils.ServiceUtil: void bindLatestService(java.lang.String,android.content.ServiceConnection,int)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+Found a flow to sink $r7 = interfaceinvoke $r0.<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r1), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>(), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+Found a flow to sink virtualinvoke $r4.<java.io.OutputStream: void write(byte[])>($r3), from the following sources:
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.adobe.mobile.AnalyticsWorker: com.adobe.mobile.AnalyticsWorker$Hit getFirstHitInQueue()>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>($r3, $r1, $r0), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r10 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r2, $r0), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+Found a flow to sink $z0 = virtualinvoke $r4.<android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>($r3, $r2, 73), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink virtualinvoke $r3.<java.io.OutputStream: void write(byte[],int,int)>($r1, 0, $i0), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+Found a flow to sink $z0 = virtualinvoke $r5.<android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>($r3, $r2, 73), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink $r19 = virtualinvoke $r14.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>(r43), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r9 = interfaceinvoke $r7.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.agent.AdkSettings$1: void run()>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r2, $r0), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r10 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r7 = virtualinvoke $r6.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r3, 0) (in <aero.panasonic.inflight.services.utils.ServiceUtil: void bindLatestService(java.lang.String,android.content.ServiceConnection,int)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r7 = virtualinvoke $r6.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r3, 0) (in <aero.panasonic.inflight.services.utils.ServiceUtil: void bindLatestService(java.lang.String,android.content.ServiceConnection,int)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String,java.lang.Throwable)>($r0, $r1, $r2), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+Found a flow to sink staticinvoke <android.util.Log: int v(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r7 = virtualinvoke $r6.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r3, 0) (in <aero.panasonic.inflight.services.utils.ServiceUtil: void bindLatestService(java.lang.String,android.content.ServiceConnection,int)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r2, $r0), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r10 = interfaceinvoke $r3.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r10 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("ADBMobile", $r0), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r5 = virtualinvoke $r3.<java.util.Calendar: java.util.TimeZone getTimeZone()>() (in <com.adobe.mobile.StaticMethods: java.lang.String getTimestampString()>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r0, $r3), from the following sources:
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+	- $r20 = interfaceinvoke $r19.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.agent.comm.ApacheCommHandler: java.lang.String executeRequest(java.lang.String,java.lang.String,com.dynatrace.android.agent.comm.TimeSyncInfo,int)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+	- $r9 = interfaceinvoke $r8.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.dynatrace.android.agent.db.DataAccessObject: void sendOutboundEvents(java.util.Vector,com.dynatrace.android.agent.AdkSettings,java.util.Map,java.util.concurrent.atomic.AtomicLong,com.dynatrace.android.agent.comm.RequestExecutor)>)
+	- $r12 = interfaceinvoke $r8.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.dynatrace.android.agent.db.DataAccessObject: void sendOutboundEvents(java.util.Vector,com.dynatrace.android.agent.AdkSettings,java.util.Map,java.util.concurrent.atomic.AtomicLong,com.dynatrace.android.agent.comm.RequestExecutor)>)
+	- $r11 = interfaceinvoke $r8.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.dynatrace.android.agent.db.DataAccessObject: void sendOutboundEvents(java.util.Vector,com.dynatrace.android.agent.AdkSettings,java.util.Map,java.util.concurrent.atomic.AtomicLong,com.dynatrace.android.agent.comm.RequestExecutor)>)
+Found a flow to sink $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>(), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("ButterKnife", $r5), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r7 = virtualinvoke $r6.<android.content.pm.PackageManager: java.util.List queryIntentServices(android.content.Intent,int)>($r3, 0) (in <aero.panasonic.inflight.services.utils.ServiceUtil: void bindLatestService(java.lang.String,android.content.ServiceConnection,int)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+Found a flow to sink virtualinvoke $r1.<android.os.Bundle: void putString(java.lang.String,java.lang.String)>("fragment_id", $r2), from the following sources:
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r0, $r1), from the following sources:
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+	- $r20 = interfaceinvoke $r19.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.agent.comm.ApacheCommHandler: java.lang.String executeRequest(java.lang.String,java.lang.String,com.dynatrace.android.agent.comm.TimeSyncInfo,int)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+	- $r9 = interfaceinvoke $r8.<android.database.Cursor: java.lang.String getString(int)>($i2) (in <com.dynatrace.android.agent.db.DataAccessObject: void sendOutboundEvents(java.util.Vector,com.dynatrace.android.agent.AdkSettings,java.util.Map,java.util.concurrent.atomic.AtomicLong,com.dynatrace.android.agent.comm.RequestExecutor)>)
+	- $r12 = interfaceinvoke $r8.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.dynatrace.android.agent.db.DataAccessObject: void sendOutboundEvents(java.util.Vector,com.dynatrace.android.agent.AdkSettings,java.util.Map,java.util.concurrent.atomic.AtomicLong,com.dynatrace.android.agent.comm.RequestExecutor)>)
+	- $r11 = interfaceinvoke $r8.<android.database.Cursor: java.lang.String getString(int)>($i3) (in <com.dynatrace.android.agent.db.DataAccessObject: void sendOutboundEvents(java.util.Vector,com.dynatrace.android.agent.AdkSettings,java.util.Map,java.util.concurrent.atomic.AtomicLong,com.dynatrace.android.agent.comm.RequestExecutor)>)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("ADBMobile", $r0), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r5 = virtualinvoke $r3.<java.util.Calendar: java.util.TimeZone getTimeZone()>() (in <com.adobe.mobile.StaticMethods: java.lang.String getTimestampString()>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>(1) (in <com.adobe.mobile.AnalyticsWorker: com.adobe.mobile.AnalyticsWorker$Hit getFirstHitInQueue()>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+Found a flow to sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>("ADBMobile", $r0), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+Found a flow to sink interfaceinvoke $r4.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r1, $r2), from the following sources:
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r15 = interfaceinvoke $r9.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() (in <aero.panasonic.volley.toolbox.BasicNetwork: aero.panasonic.volley.NetworkResponse performRequest(aero.panasonic.volley.Request)>)
+	- $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RemoteDownload$DownloadFileTask: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <com.adobe.mobile.RequestHandler: java.net.HttpURLConnection requestConnect(java.lang.String)>)
+	- $r5 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() (in <aero.panasonic.inflight.services.utils.ServerHostManager: boolean checkHost(java.lang.String)>)
+	- $r3 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.Callback: int getRespCodeFromResp(org.apache.http.HttpResponse,com.dynatrace.android.callback.UriReqStateParms)>)
+	- $r2 = interfaceinvoke $r0.<org.apache.http.HttpResponse: org.apache.http.StatusLine getStatusLine()>() (in <com.dynatrace.android.callback.UriReqStateParms: long calcHttpResponseLength(org.apache.http.HttpResponse)>)
+Maximum memory consumption: 414.58804 MB
+Analysis has run for 137.222458751 seconds
